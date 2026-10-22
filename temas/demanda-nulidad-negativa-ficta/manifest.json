@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.2",
+  "id": "demanda-nulidad-negativa-ficta",
+  "titulo": "Demanda de nulidad por negativa ficta",
+  "version": "1.0.0",
+  "version_skill": "1.2.0",
+  "fecha_revision": "2026-10-22",
+  "estado": "revisado",
+  "alcance": "Estudio de licenciatura en Derecho mexicano: derecho de petición, comparación federal/CDMX y desarrollo de la demanda local por silencio fiscal. No certifica el expediente real ni sustituye la revisión de sus constancias. Vías ordinarias; no desarrolla procedimientos especiales.",
+  "entradas": [
+    {
+      "id": "E01",
+      "nombre": "Apuntes escritos aportados en esta solicitud",
+      "alcance_leido": "Texto completo; 12 núcleos identificados.",
+      "estado_lectura": "completo",
+      "dudas": []
+    },
+    {
+      "id": "E02",
+      "nombre": "Estudio y auditoría previa aportado por el usuario",
+      "alcance_leido": "PDF de 29 páginas: texto completo y revisión visual de todas sus páginas; diagrama de p.17 comprobado como imagen.",
+      "estado_lectura": "completo",
+      "dudas": [
+        "No se aportaron demanda y constancias originales; no se certifica el caso real."
+      ]
+    }
+  ],
+  "archivos": [
+    {
+      "ruta": "AUDITORIA.md",
+      "funcion": "documentacion",
+      "sha256": "f0915f8dc890bb67897e7693910624e925167fd194d5216137dfce124f284d0e"
+    },
+    {
+      "ruta": "CAMBIOS.md",
+      "funcion": "documentacion",
+      "sha256": "60fc96744c4dc793e35cbb234a2f73ebd65fc8cb04aaf2f7db423169eb2346e1"
+    },
+    {
+      "ruta": "LEEME.md",
+      "funcion": "documentacion",
+      "sha256": "0cff368e3dd128f8dd10abe92ab9efd6c1bc5e95d472e68a0ce50a6c3dd908d4"
+    },
+    {
+      "ruta": "auditoria/continuidad.json",
+      "funcion": "documentacion",
+      "sha256": "ad1b6b6dce1a238532caae29c1207982ecccc86e16baabc0dcd112dbf2bedbfb"
+    },
+    {
+      "ruta": "auditoria/correspondencia.json",
+      "funcion": "documentacion",
+      "sha256": "311d166513332cc2eab9dd924d63e21af26230c5b02cb011f5b801ea60b889a4"
+    },
+    {
+      "ruta": "auditoria/cuaderno_visual.json",
+      "funcion": "documentacion",
+      "sha256": "31908edd4b13000bb9b8d1b09974acb1d8e1cac714493d3acf44617b4ef168b7"
+    },
+    {
+      "ruta": "auditoria/pizarra_visual.json",
+      "funcion": "documentacion",
+      "sha256": "b21eb4a42c0df3c09e8f42ea716a92b56c2f9fa31d41d99c161365743d2a6e8d"
+    },
+    {
+      "ruta": "cobertura.json",
+      "funcion": "fuente_editable",
+      "sha256": "a6fb7c6cbcfb839cd4d5cd62283b7871ae1df86174667b629a585be3ced30777"
+    },
+    {
+      "ruta": "contenido.json",
+      "funcion": "fuente_editable",
+      "sha256": "4b99934492fffa08d18fc5fc464655793bc647f96597e4845bd8b1ef9290851c"
+    },
+    {
+      "ruta": "contenido.md",
+      "funcion": "salida",
+      "sha256": "92c4f1f56bcbfb40bb00730384468d0b3ede7438a527b2391ffa24c06a572ee4"
+    },
+    {
+      "ruta": "editables/README.md",
+      "funcion": "fuente_editable",
+      "sha256": "0834a64e9ebdb58f86d3ff2d17a2b1355f59c40ed7ed192d5c05ad2e0f346ba3"
+    },
+    {
+      "ruta": "editables/generar.py",
+      "funcion": "fuente_editable",
+      "sha256": "96b17d43ff07711d52f894b9a8596dc19228fd7433150e9d8fb95239234af403"
+    },
+    {
+      "ruta": "fuentes.json",
+      "funcion": "fuente_editable",
+      "sha256": "9fc3d3a4e5ad619ac15a82e73c803e2437da2c55d12f8e79ad4a8ea3be3b6fd3"
+    },
+    {
+      "ruta": "mapa.json",
+      "funcion": "fuente_editable",
+      "sha256": "b10ac440b5c0652f3466978a989a3a01945a505be1d468462934ce254c9fbfa9"
+    },
+    {
+      "ruta": "salidas/cuaderno.pdf",
+      "funcion": "salida",
+      "sha256": "ccae1998eb6e4a10ff7e67df9a16acbf2ad9927f82cf453eae98d7b812d5dfdd"
+    },
+    {
+      "ruta": "salidas/pizarra.pdf",
+      "funcion": "salida",
+      "sha256": "44f4cd53067c06fe72a33cc39209a58df5389a6a254343376064330af41e748a"
+    }
+  ],
+  "reproduccion": {
+    "comando": "python3 editables/generar.py .",
+    "dependencias": [
+      "Python >=3.9",
+      "reportlab ==5.0.0"
+    ]
+  },
+  "auditoria": {
+    "generacion_verificada": {
+      "entradas": [
+        {
+          "ruta": "contenido.json",
+          "sha256": "4b99934492fffa08d18fc5fc464655793bc647f96597e4845bd8b1ef9290851c"
+        },
+        {
+          "ruta": "fuentes.json",
+          "sha256": "9fc3d3a4e5ad619ac15a82e73c803e2437da2c55d12f8e79ad4a8ea3be3b6fd3"
+        },
+        {
+          "ruta": "mapa.json",
+          "sha256": "b10ac440b5c0652f3466978a989a3a01945a505be1d468462934ce254c9fbfa9"
+        },
+        {
+          "ruta": "cobertura.json",
+          "sha256": "a6fb7c6cbcfb839cd4d5cd62283b7871ae1df86174667b629a585be3ced30777"
+        },
+        {
+          "ruta": "editables/README.md",
+          "sha256": "0834a64e9ebdb58f86d3ff2d17a2b1355f59c40ed7ed192d5c05ad2e0f346ba3"
+        },
+        {
+          "ruta": "editables/generar.py",
+          "sha256": "96b17d43ff07711d52f894b9a8596dc19228fd7433150e9d8fb95239234af403"
+        }
+      ],
+      "salidas": [
+        {
+          "ruta": "salidas/pizarra.pdf",
+          "sha256": "44f4cd53067c06fe72a33cc39209a58df5389a6a254343376064330af41e748a"
+        },
+        {
+          "ruta": "salidas/cuaderno.pdf",
+          "sha256": "ccae1998eb6e4a10ff7e67df9a16acbf2ad9927f82cf453eae98d7b812d5dfdd"
+        },
+        {
+          "ruta": "contenido.md",
+          "sha256": "92c4f1f56bcbfb40bb00730384468d0b3ede7438a527b2391ffa24c06a572ee4"
+        }
+      ],
+      "entorno": {
+        "python": "3.9.6",
+        "reportlab": "5.0.0",
+        "tipografia": "Helvetica, fuentes estándar PDF"
+      }
+    },
+    "contenido": {
+      "estado": "aprobada",
+      "fecha": "2026-10-22",
+      "evidencia": "Apuntes y 29 páginas del insumo cotejados; 29 puntos cerrados y diez fuentes oficiales revisadas con localizadores. Alcance y exclusiones en AUDITORIA.md y cobertura.json."
+    },
+    "visual": {
+      "estado": "aprobada",
+      "fecha": "2026-10-22",
+      "evidencia": "Un lienzo A1 completo y sus seis zonas; dieciséis páginas Carta abiertas; contraste en grises comprobado. Evidencia y hashes en auditoria/pizarra_visual.json y auditoria/cuaderno_visual.json."
+    },
+    "correspondencia": {
+      "estado": "aprobada",
+      "fecha": "2026-10-22",
+      "evidencia": "Doce conceptos completos y doce síntesis cotejados tras la regeneración final; variables y remisiones comprobadas. Evidencia con hashes en auditoria/correspondencia.json."
+    }
+  },
+  "pendientes": [],
+  "goodnotes": {
+    "estado": "no_importado",
+    "evidencia": "Herramientas consultadas: salida de texto, SVG y Mermaid; no hay operación de importación PDF a cuenta. PDFs para importación manual."
+  },
+  "contenido_canonico": "contenido.json",
+  "vista_contenido": "contenido.md",
+  "generacion": {
+    "entradas": [
+      {
+        "ruta": "contenido.json",
+        "sha256": "4b99934492fffa08d18fc5fc464655793bc647f96597e4845bd8b1ef9290851c"
+      },
+      {
+        "ruta": "fuentes.json",
+        "sha256": "9fc3d3a4e5ad619ac15a82e73c803e2437da2c55d12f8e79ad4a8ea3be3b6fd3"
+      },
+      {
+        "ruta": "mapa.json",
+        "sha256": "b10ac440b5c0652f3466978a989a3a01945a505be1d468462934ce254c9fbfa9"
+      },
+      {
+        "ruta": "cobertura.json",
+        "sha256": "a6fb7c6cbcfb839cd4d5cd62283b7871ae1df86174667b629a585be3ced30777"
+      },
+      {
+        "ruta": "editables/README.md",
+        "sha256": "0834a64e9ebdb58f86d3ff2d17a2b1355f59c40ed7ed192d5c05ad2e0f346ba3"
+      },
+      {
+        "ruta": "editables/generar.py",
+        "sha256": "96b17d43ff07711d52f894b9a8596dc19228fd7433150e9d8fb95239234af403"
+      }
+    ],
+    "salidas": [
+      {
+        "ruta": "salidas/pizarra.pdf",
+        "sha256": "44f4cd53067c06fe72a33cc39209a58df5389a6a254343376064330af41e748a"
+      },
+      {
+        "ruta": "salidas/cuaderno.pdf",
+        "sha256": "ccae1998eb6e4a10ff7e67df9a16acbf2ad9927f82cf453eae98d7b812d5dfdd"
+      },
+      {
+        "ruta": "contenido.md",
+        "sha256": "92c4f1f56bcbfb40bb00730384468d0b3ede7438a527b2391ffa24c06a572ee4"
+      }
+    ],
+    "entorno": {
+      "python": "3.9.6",
+      "reportlab": "5.0.0",
+      "tipografia": "Helvetica, fuentes estándar PDF"
+    }
+  }
+}

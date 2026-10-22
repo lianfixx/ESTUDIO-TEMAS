@@ -2,10 +2,9 @@
 
 ## Temas con doble formato
 
-Todavía no se ha publicado un tema nuevo con el estándar de doble salida.
-Al agregarlo, enlazar carpeta, pizarra y cuaderno e indicar versión, fecha de
-revisión y estado real. No incorporar ejercicios internos de validación como
-si fueran apuntes solicitados por Emi.
+| Tema | Salidas | Versión | Revisión | Estado |
+| --- | --- | --- | --- | --- |
+| [Demanda de nulidad por negativa ficta](temas/demanda-nulidad-negativa-ficta/) | [Pizarra A1](temas/demanda-nulidad-negativa-ficta/salidas/pizarra.pdf) · [Cuaderno Carta](temas/demanda-nulidad-negativa-ficta/salidas/cuaderno.pdf) | 1.0.0 | 2026-10-22 | Revisado para estudio; alcance y límites en su auditoría |
 
 ## Referencias anteriores
 
@@ -21,3 +20,4 @@ si fueran apuntes solicitados por Emi.
 - [Auditoría anterior 1.1.0](AUDITORIA_2026-10-22.md).
 - [Piloto interno con ambos formatos](validacion/piloto-media-mediana/INDICE.md),
   versión 1.2.0. Ejemplo reproducible de validación, separado de los temas del usuario.
+

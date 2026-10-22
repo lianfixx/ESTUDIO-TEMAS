@@ -1,0 +1,132 @@
+{
+  "auditoria": "Correspondencia textual final entre contenido canónico, pizarra y páginas Carta",
+  "fecha": "2026-10-22",
+  "archivos": [
+    {
+      "ruta": "contenido.json",
+      "sha256": "4b99934492fffa08d18fc5fc464655793bc647f96597e4845bd8b1ef9290851c",
+      "bytes": 47915
+    },
+    {
+      "ruta": "salidas/cuaderno.pdf",
+      "sha256": "ccae1998eb6e4a10ff7e67df9a16acbf2ad9927f82cf453eae98d7b812d5dfdd",
+      "bytes": 37926
+    },
+    {
+      "ruta": "salidas/pizarra.pdf",
+      "sha256": "44f4cd53067c06fe72a33cc39209a58df5389a6a254343376064330af41e748a",
+      "bytes": 6000
+    }
+  ],
+  "metodo": "Extracción pypdf; normalización de espacios y resolución de variables desde reglas_criticas. Cotejo literal de entradillas, todos los bloques y doce síntesis.",
+  "paginas_carta": 16,
+  "lienzos_pizarra": 1,
+  "conceptos_verificados": 12,
+  "resultados_por_concepto": [
+    {
+      "concepto": "C01",
+      "pagina_carta": 1,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 4,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C02",
+      "pagina_carta": 2,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 4,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C03",
+      "pagina_carta": 3,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 5,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C04",
+      "pagina_carta": 4,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 4,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C05",
+      "pagina_carta": 5,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 4,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C06",
+      "pagina_carta": 6,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 4,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C07",
+      "pagina_carta": 7,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 4,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C08",
+      "pagina_carta": 8,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 5,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C09",
+      "pagina_carta": 9,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 5,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C10",
+      "pagina_carta": 10,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 5,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C11",
+      "pagina_carta": 11,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 5,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    },
+    {
+      "concepto": "C12",
+      "pagina_carta": 12,
+      "entradilla_y_bloques_completos": true,
+      "numero_bloques": 5,
+      "sintesis_completa_en_pizarra": true,
+      "faltantes": []
+    }
+  ],
+  "ajustes_sintesis_verificados": {
+    "C02_defensa": true,
+    "C03_actualizacion_catastral": true,
+    "C05_dias_naturales": true,
+    "C08_siguientes": true
+  },
+  "resultado": "aprobado",
+  "limite": "Auditoría de correspondencia textual; no sustituye auditoría visual ni revisión jurídica de fuentes.",
+  "verificacion_semantica_C02": "La fórmula final no suspende ni interrumpe los plazos de defensa es más precisa y equivalente a la recomendación no detiene los plazos de defensa."
+}

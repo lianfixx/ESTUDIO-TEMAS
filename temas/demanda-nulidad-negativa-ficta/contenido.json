@@ -1,0 +1,903 @@
+{
+  "id": "demanda-nulidad-negativa-ficta",
+  "titulo": "Demanda de nulidad por negativa ficta",
+  "version": "1.0.0",
+  "fecha_revision": "2026-10-22",
+  "pregunta": "¿Cuándo el silencio permite demandar y qué debes demostrar para obtener una sentencia favorable?",
+  "alcance": "Estudio de licenciatura en Derecho mexicano: derecho de petición, comparación federal/CDMX y desarrollo de la demanda local por silencio fiscal. No certifica el expediente real ni sustituye la revisión de sus constancias. Vías ordinarias; no desarrolla procedimientos especiales.",
+  "conceptos": [
+    {
+      "id": "C01",
+      "titulo": "El derecho a obtener respuesta",
+      "apartado": "C01 · El derecho a obtener respuesta",
+      "pagina": 1,
+      "entradilla": "El artículo 8 constitucional protege la petición formulada por escrito, de manera pacífica y respetuosa. La autoridad debe emitir un acuerdo escrito y hacerlo conocer en breve término. Obtener respuesta no significa obtener una decisión favorable. [F01, art. 8]",
+      "bloques": [
+        {
+          "subtitulo": "Por qué existe la obligación",
+          "texto": "La fuente inmediata del deber es la Constitución. No depende de que la persona titular del órgano haya sido elegida por voto: también vincula a autoridades designadas, dentro de sus competencias. La soberanía popular explica la organización democrática, pero no sustituye el fundamento del derecho de petición. [F01, arts. 1 y 8]",
+          "fuentes": [
+            "F01"
+          ]
+        },
+        {
+          "subtitulo": "Quién pide y qué pide",
+          "texto": "La petición expresa qué actuación o pronunciamiento solicita la persona y a qué autoridad lo dirige. En materia política, el artículo 8 reserva este derecho a los ciudadanos de la República. La respuesta debe atender lo planteado; un oficio ajeno al problema no satisface por sí mismo la petición. Esto no obliga a conceder un beneficio sin requisitos. [F01, art. 8]",
+          "fuentes": [
+            "F01"
+          ]
+        },
+        {
+          "subtitulo": "Breve término no es un plazo universal",
+          "texto": "El artículo 8 no fija tres meses para todas las autoridades. Para saber cuánto dura un procedimiento y qué efecto tiene el silencio, hay que identificar la ley aplicable, la materia, la autoridad y el tipo de solicitud. Los plazos fiscales y administrativos se estudian en C03. [F01, art. 8; F02, art. 37; F03, art. 17]",
+          "fuentes": [
+            "F01",
+            "F02",
+            "F03"
+          ]
+        },
+        {
+          "subtitulo": "Una forma útil de formular la pregunta",
+          "texto": "Primero: ¿quiero que se conteste mi petición? Después: ¿quiero que un tribunal examine la negativa presunta y reconozca el derecho que solicité? Son objetivos distintos. La ruta se elige después de revisar su procedencia, no por llamar a toda omisión \"negativa ficta\". [F07, art. 31, IV y V; F08, art. 102]",
+          "fuentes": [
+            "F07",
+            "F08"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "El derecho a obtener respuesta",
+        "texto": "Petición escrita, pacífica y respetuosa → acuerdo escrito comunicado en breve término. La obligación nace de la Constitución; no de que cada funcionario sea electo. El artículo 8 no fija tres meses universales. Responder no obliga a conceder.",
+        "fuentes": [
+          "F01"
+        ]
+      },
+      "notas_prompt": "Escribe qué pedirías y qué respuesta concreta esperas recibir."
+    },
+    {
+      "id": "C02",
+      "titulo": "Qué transforma el silencio en una ficta",
+      "apartado": "C02 · Qué transforma el silencio en una ficta",
+      "pagina": 2,
+      "entradilla": "El silencio administrativo es la falta de resolución o de notificación en el plazo jurídicamente relevante. Sus consecuencias no las elige el particular: las determina la norma del procedimiento. [F02, art. 37; F03, art. 17; F06, arts. 54 y 55]",
+      "bloques": [
+        {
+          "subtitulo": "Negativa ficta",
+          "texto": "Es la consecuencia legal que permite tener por negada una petición ante el silencio en las condiciones previstas. Abre la posibilidad de defensa contra una negativa presunta. No demuestra que la autoridad haya estudiado el fondo, que lo solicitado sea improcedente ni que el particular vaya a ganar. [F02, art. 37; F06, art. 55; F08, art. 102]",
+          "fuentes": [
+            "F02",
+            "F06",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Afirmativa ficta",
+          "texto": "La norma atribuye al silencio un efecto favorable cuando el supuesto lo permite. Deben revisarse exclusiones, requisitos y la constancia o certificación correspondiente. No basta decidir que \"si no responden, aceptan\" ni sustituir por silencio los requisitos legales del beneficio. [F03, art. 17; F06, arts. 54 y 55]",
+          "fuentes": [
+            "F03",
+            "F06"
+          ]
+        },
+        {
+          "subtitulo": "Petición, instancia y procedimiento",
+          "texto": "Petición: planteamiento concreto dirigido a una autoridad. Instancia: en este contexto, solicitud o promoción con la que se pide su intervención; no es sinónimo del conjunto de pasos. Procedimiento: secuencia regulada de actuaciones para llegar a una decisión. Son explicaciones docentes del uso de estos términos en las normas. [F02, arts. 18 y 37; F03, arts. 16 y 17]",
+          "fuentes": [
+            "F02",
+            "F03"
+          ]
+        },
+        {
+          "subtitulo": "La aclaración administrativa es otra figura",
+          "texto": "La aclaración del artículo 33-A del CFF se limita a ciertas resoluciones y supuestos. Prevé seis días siguientes a aquel en que surta efectos la notificación para presentarla, y seis para resolver desde la debida integración del expediente. No constituye instancia y no suspende ni interrumpe los plazos de defensa. No se reduce a explicar dónde, cuándo o cómo se notificó. [F02, art. 33-A]",
+          "fuentes": [
+            "F02"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Qué transforma el silencio en una ficta",
+        "texto": "La ley determina el sentido: negativo o positivo. La negativa permite defenderse; la afirmativa exige una regla que la admita y cumplir sus condiciones. Instancia es una promoción; procedimiento es la secuencia de actuaciones. La aclaración del CFF 33-A no suspende ni interrumpe los plazos de defensa.",
+        "fuentes": [
+          "F02",
+          "F03",
+          "F06"
+        ]
+      },
+      "notas_prompt": "Distingue con tus palabras: omisión, negativa ficta y respuesta expresa negativa."
+    },
+    {
+      "id": "C03",
+      "titulo": "El plazo depende del régimen",
+      "apartado": "C03 · El plazo depende del régimen",
+      "pagina": 3,
+      "entradilla": "Antes de contar, ubica la solicitud. No traslades automáticamente el CFF federal a un trámite de predial o catastro de la Ciudad de México. [F02, art. 37; F06, arts. 54 y 55]",
+      "bloques": [
+        {
+          "subtitulo": "Fiscal federal · CFF",
+          "texto": "Regla del artículo 37: {{plazo_cff_general}} para resolver instancias o peticiones a autoridades fiscales. Si no se notifica resolución en ese plazo, opera la opción de considerar una negativa en los términos legales. La excepción de {{plazo_cff_34a}} corresponde únicamente a consultas del artículo 34-A sobre metodología de precios o contraprestaciones entre partes relacionadas. No es una excepción genérica para cualquier consulta. [F02, arts. 34-A y 37]",
+          "fuentes": [
+            "F02"
+          ]
+        },
+        {
+          "subtitulo": "Administrativo federal · LFPA",
+          "texto": "Dentro de su ámbito, el artículo 17 prevé un máximo ordinario de tres meses, salvo otro plazo legal o general aplicable. El silencio es negativo salvo disposición contraria. La LFPA excluye, entre otras materias, las contribuciones y accesorios fiscales: no reemplaza automáticamente el régimen del CFF. [F03, arts. 1, 2 y 17]",
+          "fuentes": [
+            "F03"
+          ]
+        },
+        {
+          "subtitulo": "Fiscal CDMX · Código Fiscal local",
+          "texto": "El artículo 54 establece hasta {{plazo_fiscal_cdmx}} y una regla de afirmativa ficta, condicionada a que no exista resolución o acto de autoridad debidamente fundado. Debe leerse junto con el 55: éste excluye, entre otros supuestos, actualización de datos catastrales, consultas, devoluciones, prescripción y condonación de créditos. También contiene exclusiones por incompetencia y falta de requisitos. En los supuestos correspondientes permite considerar una negativa e impugnarla. [F06, arts. 54 y 55]",
+          "fuentes": [
+            "F06"
+          ]
+        },
+        {
+          "subtitulo": "Administrativo CDMX · regla general",
+          "texto": "La Ley de Procedimiento Administrativo local contempla cuarenta días hábiles, a falta de plazo específico en la ley o el manual, y negativa ficta, con las excepciones de afirmativa expresamente previstas en la ley o el manual. Esta regla no sustituye la fiscal de cuatro meses. Primero debe verificarse que el procedimiento esté dentro de su ámbito. [F09, arts. 1 y 89; F07, art. 3, XV]",
+          "fuentes": [
+            "F09",
+            "F07"
+          ]
+        },
+        {
+          "subtitulo": "Plazo e impugnabilidad",
+          "texto": "En las consultas del CFF 34, la respuesta no obliga al particular: puede impugnarse la resolución definitiva que aplique su criterio. No toda consulta permite demandar directamente su respuesta o silencio; revisar también definitividad y competencia. [F02, art. 34; F05, art. 3]",
+          "fuentes": [
+            "F02",
+            "F05"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "El plazo depende del régimen",
+        "texto": "Fiscal federal: {{plazo_cff_general}}; {{plazo_cff_34a}} sólo para consultas CFF 34-A. LFPA federal: 3 meses salvo otro plazo, dentro de su ámbito. Fiscal CDMX: hasta {{plazo_fiscal_cdmx}}; actualización catastral está excluida de afirmativa. Administrativo CDMX: 40 días hábiles salvo regla especial. Consulta: revisar también impugnabilidad.",
+        "fuentes": [
+          "F02",
+          "F03",
+          "F06",
+          "F09"
+        ]
+      },
+      "notas_prompt": "Autoridad: __________ Materia: __________ Norma y artículo: __________"
+    },
+    {
+      "id": "C04",
+      "titulo": "Cómo revisar el cómputo",
+      "apartado": "C04 · Cómo revisar el cómputo",
+      "pagina": 4,
+      "entradilla": "Meses y días hábiles son unidades distintas: tres meses no son automáticamente noventa días; cuatro meses no son ciento veinte días hábiles. El cómputo exige la regla legal y las constancias. [F02, art. 12; F06, art. 433]",
+      "bloques": [
+        {
+          "subtitulo": "Los documentos que fijan el inicio",
+          "texto": "Ubica el acuse de recepción, el texto completo de la solicitud, la autoridad receptora, cualquier prevención o requerimiento y la fecha en que se atendió. Revisa promociones posteriores y notificaciones. La fecha de firma de una solicitud no demuestra cuándo la recibió la autoridad. [F02, art. 37; F06, art. 54; F07, art. 31, V]",
+          "fuentes": [
+            "F02",
+            "F06",
+            "F07"
+          ]
+        },
+        {
+          "subtitulo": "Un requerimiento no tiene el mismo efecto en todas las leyes",
+          "texto": "En el CFF, si faltan requisitos o elementos necesarios y se requieren, el término comienza al cumplir el requerimiento. El Código Fiscal local también vincula el inicio al cumplimiento del requerimiento. En la LFPA, la prevención oportuna del artículo 17-A suspende el plazo y éste se reanuda el día hábil siguiente a la respuesta. No confundas iniciar el cómputo con reanudar lo que faltaba. [F02, art. 37; F06, art. 54; F03, arts. 17-A y 17-B]",
+          "fuentes": [
+            "F02",
+            "F06",
+            "F03"
+          ]
+        },
+        {
+          "subtitulo": "Promociones posteriores",
+          "texto": "La LOTJA CDMX alude a la última promoción en su artículo 31, fracción V. Para el asunto fiscal debe coordinarse con la regla especial del Código Fiscal. No deduzcas que cualquier escrito irrelevante reinicia siempre el plazo: hay que examinar su contenido, el trámite y la norma aplicable. [F07, art. 31, V; F06, art. 54]",
+          "fuentes": [
+            "F07",
+            "F06"
+          ]
+        },
+        {
+          "subtitulo": "Antes de cerrar una fecha",
+          "texto": "Comprueba días inhábiles, cierre de oficinas, suspensión oficial de plazos y existencia de resolución expresa. Este cuaderno no certifica una fecha de vencimiento del expediente aportado: no se recibió el expediente administrativo completo ni sus notificaciones. El PDF anterior contiene conclusiones que dependen de esas constancias.",
+          "fuentes": [
+            "F02",
+            "F06"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Cómo revisar el cómputo",
+        "texto": "Acuse + norma de cómputo + requerimientos + promociones + notificaciones. CFF/CF CDMX: revisar inicio al cumplir requerimiento. LFPA: prevención oportuna suspende y luego reanuda. No fijes una fecha real sin constancias ni supongas que cualquier escrito reinicia.",
+        "fuentes": [
+          "F02",
+          "F03",
+          "F06",
+          "F07"
+        ]
+      },
+      "notas_prompt": "Traza la cronología: recepción / requerimiento / cumplimiento / vencimiento / notificación."
+    },
+    {
+      "id": "C05",
+      "titulo": "Qué vía corresponde a tu objetivo",
+      "apartado": "C05 · Qué vía corresponde a tu objetivo",
+      "pagina": 5,
+      "entradilla": "Exigir una respuesta y controvertir una negativa ficta tienen objetos diferentes. Identificar el acto y la pretensión evita pedir al tribunal una solución distinta de la que necesitas. [F01, art. 8; F07, art. 31, IV y V]",
+      "bloques": [
+        {
+          "subtitulo": "Si el problema es que no contestan",
+          "texto": "La protección del derecho de petición persigue una respuesta en los términos constitucionales; no concede automáticamente lo solicitado. La LOTJA CDMX distingue además la acción por falta de contestación, cuando la ley lo permite, de la impugnación de una negativa ficta. Su artículo 31, fracción IV, contempla treinta días naturales, salvo otros plazos legales o reglamentarios, o que la naturaleza del asunto requiera un periodo distinto. No es el plazo fiscal de configuración. [F01, art. 8; F07, art. 31, IV]",
+          "fuentes": [
+            "F01",
+            "F07"
+          ]
+        },
+        {
+          "subtitulo": "Si se impugna la negativa presunta",
+          "texto": "Se pretende que el tribunal examine la controversia y resuelva conforme al derecho probado. En materia federal, el TFJA conoce únicamente los asuntos que le atribuye su ley; en la CDMX, rigen la competencia de su Tribunal y su legislación procesal. No cualquier omisión de cualquier autoridad lleva al TFJA. [F05, art. 3, XV; F07, arts. 3, XV y 31, V] El artículo 3, fracción XV, federal contiene una salvedad por posible afectación a derechos de terceros reconocidos en registro o anotación administrativa.",
+          "fuentes": [
+            "F05",
+            "F07"
+          ]
+        },
+        {
+          "subtitulo": "Mientras la autoridad guarda silencio",
+          "texto": "CFF 37 y CF CDMX 55 permiten, en sus respectivos supuestos, impugnar después del plazo mientras no se dicte resolución, o esperar a que se dicte. No conviertas esa posibilidad en una regla perpetua: una resolución expresa y su notificación obligan a revisar el acto, la oportunidad y la vía de defensa. [F02, art. 37; F06, art. 55]",
+          "fuentes": [
+            "F02",
+            "F06"
+          ]
+        },
+        {
+          "subtitulo": "No acumules estrategias por reflejo",
+          "texto": "La elección y compatibilidad de vías exige revisar la etapa y los criterios aplicables. Tampoco puede afirmarse que un recurso es obligatorio u optativo sólo porque una compilación no menciona un aviso de entrada en operación. Para un asunto real deben verificarse norma, transitorios y publicaciones oficiales pertinentes. Esta guía no decide la estrategia del expediente.",
+          "fuentes": [
+            "F05",
+            "F07"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Qué vía corresponde a tu objetivo",
+        "texto": "Objetivo 1: obtener respuesta. Objetivo 2: impugnar la negativa presunta y discutir el derecho pedido. Revisa competencia, exclusiones, acto y vía; los 30 días naturales de falta de contestación local admiten salvedades. La resolución expresa puede cambiar la defensa; no traslades sin análisis la regla de impugnación del silencio.",
+        "fuentes": [
+          "F01",
+          "F02",
+          "F05",
+          "F06",
+          "F07"
+        ]
+      },
+      "notas_prompt": "Escribe el acto que impugnarías y el resultado concreto que pedirías."
+    },
+    {
+      "id": "C06",
+      "titulo": "Dos cuestiones que deben probarse",
+      "apartado": "C06 · Dos cuestiones que deben probarse",
+      "pagina": 6,
+      "entradilla": "Una cosa es acreditar la configuración de la negativa ficta y otra demostrar que procede lo solicitado. El silencio no prueba por sí solo propiedad, pagos, superficie, exención o cualquier otro derecho de fondo. [F06, arts. 54 y 55; F08, arts. 58 y 102]",
+      "bloques": [
+        {
+          "subtitulo": "Primera cuestión · configuración",
+          "texto": "Identifica la petición, su recepción, el régimen que atribuye efecto negativo, el plazo transcurrido y la ausencia de respuesta o notificación jurídicamente relevante. Examina competencia y requisitos según ese régimen. La copia de la instancia con sello de recepción es un anexo específico de la demanda por negativa ficta. [F04, art. 15, IV; F08, art. 58, III]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Segunda cuestión · fondo",
+          "texto": "Para obtener el reconocimiento de lo solicitado hay que explicar qué derecho existe, qué norma lo reconoce y qué pruebas satisfacen sus condiciones. Una afirmación del escrito anterior no sustituye una escritura, resolución, pago o constancia. El tribunal debe decidir con el material procesal y el régimen aplicable. [F04, arts. 51 y 52; F08, arts. 100 y 102]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Qué acredita cada documento",
+          "texto": "El acuse acredita recepción, pero por sí solo puede no mostrar todo lo pedido. La solicitud completa delimita el objeto. Una escritura puede acreditar titularidad; una resolución previa, lo que efectivamente reconoció; los comprobantes, los pagos que identifican. Relaciona cada prueba con un hecho concreto y evita atribuirle un alcance que no tiene. [F08, arts. 57, XI y 67]",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Expediente administrativo",
+          "texto": "Solicitarlo ayuda a conocer antecedentes y actuaciones, pero no convierte en existentes los documentos faltantes. Identifica los que necesitas y la autoridad que los conserva; conserva tus propias pruebas. El artículo 81 local permite diligencias para mejor proveer, sin que eso garantice que la Sala suplirá toda ausencia probatoria. [F08, arts. 58 y 81 a 84]",
+          "fuentes": [
+            "F08"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Dos cuestiones que deben probarse",
+        "texto": "Configuración: petición recibida + silencio relevante + plazo y efecto legal. Fondo: derecho solicitado + requisitos + pruebas. El acuse acredita recepción; no acredita por sí solo todo el derecho. Puedes demostrar la ficta y no demostrar la pretensión.",
+        "fuentes": [
+          "F04",
+          "F06",
+          "F08"
+        ]
+      },
+      "notas_prompt": "Haz dos columnas: qué prueba el silencio / qué prueba mi derecho de fondo."
+    },
+    {
+      "id": "C07",
+      "titulo": "Cómo se construye la demanda",
+      "apartado": "C07 · Cómo se construye la demanda",
+      "pagina": 7,
+      "entradilla": "La demanda inicia el juicio contencioso. Acción es acudir al tribunal; pretensión es el resultado solicitado; concepto de nulidad o impugnación es la razón jurídica que sostiene que la negativa es ilegal. Estas distinciones ordenan el escrito. [F04, art. 14; F08, art. 57]",
+      "bloques": [
+        {
+          "subtitulo": "El núcleo que debe ser coherente",
+          "texto": "Identifica actor, carácter de comparecencia, autoridades, tercero interesado cuando exista, negativa impugnada y petición de origen. Narra los hechos en orden; formula el derecho y los conceptos de nulidad; ofrece pruebas relacionadas y precisa el resultado pedido. Sigue los requisitos y sanciones de la ley del tribunal competente. [F04, arts. 14 y 15; F08, arts. 57 y 58]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "En CDMX, revisa cada requisito",
+          "texto": "El artículo 57 incluye nombre, domicilio procesal, acto, autoridades, tercero, pretensión, fecha de notificación o conocimiento bajo protesta, hechos, conceptos, firma y pruebas. El 58 regula anexos, incluidos copias para las partes y la instancia sellada en negativa ficta. No todas las omisiones tienen la misma consecuencia: unas generan prevención; otras impiden tener la demanda por interpuesta. [F08, arts. 57 y 58]",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Propio derecho, representante y autorizado",
+          "texto": "Quien actúa por propio derecho no necesita poder para representarse, pero sí debe satisfacer capacidad, identificación procesal, firma e interés exigibles. Quien actúa por otro acredita representación; el artículo 6 local permite reconocer la ya probada ante la autoridad si se demuestra. El autorizado del artículo 15 tiene las facultades que esa norma concede; no debe confundirse con apoderado ni trasladarse esta regla a otros procesos. [F08, arts. 6 y 15]",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Una autoridad no es demandada sólo por ser superior",
+          "texto": "La selección depende del acto, la omisión, la petición y las atribuciones legales. Si se omite una autoridad que debe ser parte, la LJA prevé su llamamiento; eso no reemplaza el análisis inicial. No se añade automáticamente a una Tesorería por aparecer un beneficio fiscal en los hechos. [F08, arts. 37 y 64]",
+          "fuentes": [
+            "F08"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Cómo se construye la demanda",
+        "texto": "Conecta hechos → prueba → norma → concepto de nulidad → pretensión. Adjunta la instancia recibida y documentos exigidos. Distingue propio derecho, representación y autorización. Determina las demandadas por su intervención y competencia; no sólo por jerarquía.",
+        "fuentes": [
+          "F04",
+          "F08"
+        ]
+      },
+      "notas_prompt": "Formula un concepto: hecho probado + norma aplicable + infracción + efecto que solicitas."
+    },
+    {
+      "id": "C08",
+      "titulo": "La contestación y la ampliación",
+      "apartado": "C08 · La contestación y la ampliación",
+      "pagina": 8,
+      "entradilla": "La negativa ficta carece inicialmente de una motivación expresa que puedas conocer. Al contestar, la autoridad debe exponer los hechos y el derecho que la sustentan; la ampliación permite controvertir esas razones. [F04, art. 22; F08, art. 69, segundo párrafo]",
+      "bloques": [
+        {
+          "subtitulo": "Qué hacer al recibir la contestación",
+          "texto": "Lee razones, pruebas y anexos; identifica cada punto que afecta lo pedido. Contrástalos con la solicitud, los hechos y la ley. La ampliación no es repetir la demanda: debe responder a los fundamentos incorporados a la controversia. [F04, art. 17, I; F08, art. 62, I]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Plazos ordinarios que no deben confundirse",
+          "texto": "Federal: {{ampliacion_federal}} siguientes a aquel en que surta efectos la notificación del acuerdo que admite la contestación, conforme al artículo 17. CDMX: {{ampliacion_cdmx}} siguientes a aquel en que surta efectos la notificación del acuerdo que admite la contestación, conforme al artículo 62. Son referencias para la vía ordinaria; se revisan notificación, calendario, modalidad y régimen aplicable antes de calcular una fecha concreta. [F04, art. 17; F08, art. 62]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Alegatos y ampliación cumplen funciones distintas",
+          "texto": "En CDMX, el artículo 94 prohíbe ampliar la litis mediante alegatos: no reemplazan la oportunidad de combatir las razones nuevas en ampliación. Si se presenta una resolución expresa, examina su fecha, notificación y modo de incorporación al juicio; no presupongas que toda resolución tardía entra automáticamente o queda siempre fuera. [F04, arts. 17 y 22; F08, arts. 60, 62, 69 y 94]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Precaución con las fórmulas absolutas",
+          "texto": "El énfasis en resolver el fondo no elimina todos los presupuestos de procedencia del juicio ni garantiza una sentencia favorable. La defensa exige identificar la regla y el alcance del criterio invocado. Una tesis sobre otra legislación necesita un análisis de aplicabilidad; su rubro no sustituye ese análisis. [F04, arts. 8 y 9; F08, arts. 92 y 93]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Reforma federal de 2026",
+          "texto": "La compilación de LFPCA contiene disposiciones con entrada diferida a 180 y 240 días desde su publicación del 9 de junio de 2026. No se tratan aquí como operativas al 22 de octubre. La regla ordinaria de ampliación de diez días precede a esa reforma. [F04, transitorios del decreto de 2026]",
+          "fuentes": [
+            "F04"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "La contestación y la ampliación",
+        "texto": "Autoridad: expone hechos y derecho. Actor: los controvierte en ampliación. Vía ordinaria: federal {{ampliacion_federal}} / CDMX {{ampliacion_cdmx}}, siguientes a aquel en que surta efectos la notificación del acuerdo que admite la contestación. No sustituyas ampliación por alegatos. Revisa resolución expresa, calendario y régimen temporal.",
+        "fuentes": [
+          "F04",
+          "F08"
+        ]
+      },
+      "notas_prompt": "Haz una lista: razón de la autoridad / respuesta jurídica / prueba / plazo para ampliar."
+    },
+    {
+      "id": "C09",
+      "titulo": "Qué puede resolver la sentencia",
+      "apartado": "C09 · Qué puede resolver la sentencia",
+      "pagina": 9,
+      "entradilla": "El objetivo correcto no es \"tener la nulidad que afecte al particular\", sino obtener control judicial sobre la negativa que lo perjudica y, cuando corresponda, el reconocimiento o restablecimiento del derecho probado. [F04, arts. 51 y 52; F08, arts. 100 y 102]",
+      "bloques": [
+        {
+          "subtitulo": "Ilegalidad y efectos son preguntas diferentes",
+          "texto": "Primero se determina si existe una causa de ilegalidad: por ejemplo, hechos mal apreciados o aplicación incorrecta de la norma. Después se fija la consecuencia que permite la ley. En CDMX, los artículos 100 y 102 regulan esas cuestiones; ante el TFJA, los artículos 51 y 52 de la LFPCA. [F04; F08]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "No toda nulidad produce el mismo resultado",
+          "texto": "La ley contempla reconocimiento de validez, nulidad y distintos efectos restitutorios. En CDMX, el artículo 102 distingue, entre otros, nulidad lisa y llana, nulidad para efectos y reconocimiento de un derecho con condena a cumplir la obligación correlativa. La pretensión debe corresponder al derecho y a las pruebas; no basta acumular nombres de tipos de sentencia. [F08, art. 102]",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "No basta con decir que no contestaron",
+          "texto": "La falta de respuesta no vuelve correctos todos los hechos afirmados por el actor. Incluso cuando la ley atribuye consecuencias a la falta de contestación judicial, deben observarse sus salvedades y valorar lo probado. El artículo 70 local admite prueba en contrario respecto de los hechos tenidos por confesados. [F08, arts. 70 y 102]",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "La petición de origen delimita la controversia",
+          "texto": "La demanda debe explicar qué se pidió administrativamente y qué se pretende respecto de esa negativa. No añadas un beneficio distinto como si hubiera sido solicitado y negado. Si faltan la petición completa o sus anexos, registra la duda antes de afirmar que el tribunal puede conceder ese beneficio. [F04, arts. 14 y 15; F08, arts. 57, 58 y 102]",
+          "fuentes": [
+            "F04",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "La supletoriedad no permite elegir artículos",
+          "texto": "Que una ley pueda aplicarse supletoriamente no autoriza sustituir una regla local expresa. Para la sentencia del tribunal de CDMX se parte de su legislación; las normas federales no se trasladan sólo porque resulten familiares. [F08, art. 1]",
+          "fuentes": [
+            "F08"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Qué puede resolver la sentencia",
+        "texto": "Sentencia: verifica legalidad y decide los efectos permitidos. El silencio no concede automáticamente el derecho. En CDMX: arts. 100 y 102; federal: 51 y 52. Reconocimiento y condena exigen procedencia y prueba. La supletoriedad no desplaza una regla local expresa.",
+        "fuentes": [
+          "F04",
+          "F08"
+        ]
+      },
+      "notas_prompt": "Escribe qué tendría que probarse para obtener algo más que una declaración de nulidad."
+    },
+    {
+      "id": "C10",
+      "titulo": "Aplicación a una solicitud catastral",
+      "apartado": "C10 · Aplicación a una solicitud catastral",
+      "pagina": 10,
+      "entradilla": "Ejemplo hipotético inspirado en el problema del material aportado, sin datos del expediente: una persona pide corregir un registro duplicado de su inmueble en CDMX. La autoridad recibe la solicitud y no notifica resolución dentro del plazo aplicable.",
+      "bloques": [
+        {
+          "subtitulo": "La primera pregunta es normativa",
+          "texto": "Por tratarse de actualización de datos catastrales, se examinan conjuntamente los artículos 54 y 55 del Código Fiscal local. No se concluye afirmativa sólo leyendo el 54; el 55 incluye esta materia entre sus exclusiones. Tampoco se aplica automáticamente el plazo de tres meses del CFF federal. [F06, arts. 54 y 55]",
+          "fuentes": [
+            "F06"
+          ]
+        },
+        {
+          "subtitulo": "La segunda pregunta es probatoria",
+          "texto": "¿Las dos inscripciones corresponden al mismo inmueble? ¿Qué dato debe permanecer? ¿Qué acredita cada documento? Una representación cartográfica puede ayudar a ubicar; si advierte que carece de validez administrativa o legal, no debe presentarse como reconocimiento definitivo del derecho. La resolución previa debe leerse completa, no inferirse de su mención en un estudio. [F08, arts. 57, XI; 67 y 102]",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Depurar duplicidad no es lo mismo que fusionar",
+          "texto": "En el ejemplo se busca corregir dos registros del mismo inmueble. Fusionar dos inmuebles distintos plantea otra situación. La denominación del trámite no demuestra por sí sola cuál ocurrió: la identidad y el resultado pedido deben quedar acreditados. Esta es una distinción didáctica del supuesto, no una certificación catastral.",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Si además se pide un beneficio fiscal",
+          "texto": "Hay que verificar que estuviera incluido en la petición, qué disposición lo autoriza, quién puede resolverlo, su vigencia y todos sus requisitos. No basta que el estudio anterior mencione dos posibles resoluciones de beneficios. Aquí no se elige una ni se afirma derecho a condonación sin la solicitud y constancias completas. [F06, art. 55; F08, arts. 37, 57 y 102]",
+          "fuentes": [
+            "F06",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "Alcance de la revisión del PDF anterior",
+          "texto": "Se recuperan sus preguntas útiles y se corrigen generalizaciones; no se ratifica que una demanda esté lista, que los anexos hayan sido cotejados ni que exista un vencimiento cierto. Sólo se recibió el estudio, no la demanda y sus constancias originales. Los datos privados se excluyen de la copia pública.",
+          "fuentes": [
+            "F08"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Aplicación a una solicitud catastral",
+        "texto": "Caso hipotético CDMX: rectificar registro duplicado exige CF 54 + 55 y prueba de identidad y datos. Duplicidad del mismo inmueble no equivale a fusión de dos. Un beneficio fiscal adicional requiere petición, norma, competencia y requisitos. El estudio no certifica el expediente real.",
+        "fuentes": [
+          "F06",
+          "F08"
+        ]
+      },
+      "notas_prompt": "Anota qué cuatro documentos pedirías antes de defender la corrección del registro."
+    },
+    {
+      "id": "C11",
+      "titulo": "Practica antes de ver las respuestas",
+      "apartado": "C11 · Practica antes de ver las respuestas",
+      "pagina": 11,
+      "entradilla": "Resuelve estos supuestos hipotéticos con la norma y el objetivo procesal. Las respuestas están en C12. El ejercicio no pretende fijar plazos de un expediente real.",
+      "bloques": [
+        {
+          "subtitulo": "A · Ocho meses",
+          "texto": "Una persona presenta una petición fiscal federal ordinaria. Un compañero dice que toda consulta permite esperar ocho meses. ¿Qué artículo y qué tipo de consulta debes revisar para aceptar o rechazar esa afirmación?",
+          "fuentes": [
+            "F02"
+          ]
+        },
+        {
+          "subtitulo": "B · Cuatro meses en Catastro",
+          "texto": "Una solicitud de actualización catastral de CDMX queda sin respuesta. Se invoca únicamente el artículo 54 para sostener que fue aceptada. ¿Qué falta leer? ¿Qué elemento adicional exige la pretensión de rectificación?",
+          "fuentes": [
+            "F06",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "C · Llegó la contestación",
+          "texto": "En un juicio ordinario local, la autoridad explica por primera vez por qué niega lo pedido. El actor quiere contestar esas razones al formular alegatos. ¿Qué actuación debe revisar de inmediato y qué dato necesita para contar el plazo?",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "D · No hay resolución previa",
+          "texto": "El estudio dice que una resolución anterior reconoció el dato correcto, pero no se tiene copia. ¿Puede afirmarse que ese dato está probado? Distingue lo que sabes, lo que falta y cómo lo pedirías.",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "E · El requerimiento",
+          "texto": "Compara una petición bajo CFF 37 y un trámite bajo LFPA 17-A con prevención oportuna. ¿Cuál norma vincula el inicio al cumplimiento y cuál suspende para luego reanudar? ¿Por qué no usarías una sola fórmula para ambos?",
+          "fuentes": [
+            "F02",
+            "F03"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Practica antes de ver las respuestas",
+        "texto": "Pon a prueba la ruta con cinco casos: ocho meses, catastro, ampliación, prueba faltante y requerimientos. Responde primero en Carta C11; contrasta después con C12. Son ejercicios hipotéticos y no plazos certificados de un expediente.",
+        "fuentes": [
+          "F02",
+          "F03",
+          "F06",
+          "F08"
+        ]
+      },
+      "notas_prompt": "A: __________ B: __________ C: __________ D: __________ E: __________"
+    },
+    {
+      "id": "C12",
+      "titulo": "Respuestas y correcciones esenciales",
+      "apartado": "C12 · Respuestas y correcciones esenciales",
+      "pagina": 12,
+      "entradilla": "La clave es justificar cada respuesta con su régimen y sus condiciones. No memorices un número sin recordar a qué solicitud se aplica.",
+      "bloques": [
+        {
+          "subtitulo": "A y B · Regla y excepción",
+          "texto": "A: {{plazo_cff_general}} es la regla del CFF 37; {{plazo_cff_34a}} corresponde a consultas del 34-A sobre metodología de precios o contraprestaciones entre partes relacionadas. B: debe leerse el artículo 55 local, que excluye actualización catastral de la afirmativa. Aun acreditado el silencio, se prueba el dato cuya corrección se pide. [F02, arts. 34-A y 37; F06, arts. 54 y 55; F08, art. 102]",
+          "fuentes": [
+            "F02",
+            "F06",
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "C · Defensa frente a las razones",
+          "texto": "Revisar la ampliación de demanda del artículo 62, fracción I, de la LJA: {{ampliacion_cdmx}} en vía ordinaria siguientes a aquel en que surta efectos la notificación del acuerdo que admite la contestación. Necesitas ese acuerdo y su notificación, además del calendario aplicable. Los alegatos no sustituyen esta oportunidad. [F08, arts. 62 y 69]",
+          "fuentes": [
+            "F08"
+          ]
+        },
+        {
+          "subtitulo": "D y E · Constancias y cómputo",
+          "texto": "D: la mención en un estudio no equivale a prueba documental de la resolución. Debe obtenerse e identificarse en el expediente, sin afirmar por anticipado su contenido o alcance. E: CFF 37 hace comenzar el término al cumplir el requerimiento; LFPA 17-A prevé suspensión por prevención oportuna y reanudación posterior. [F08, art. 81; F02, art. 37; F03, art. 17-A]",
+          "fuentes": [
+            "F08",
+            "F02",
+            "F03"
+          ]
+        },
+        {
+          "subtitulo": "Lo que quedó corregido de los apuntes",
+          "texto": "\"Gobernado\" es la persona frente a la autoridad; \"gobernador\" designa un cargo. Petición no equivale a concesión. La obligación de responder no depende del sufragio de cada funcionario. No hay plazo constitucional universal de tres meses ni libertad para elegir afirmativa o negativa. Instancia y procedimiento son nociones distintas. Aclaración administrativa no significa solamente revisar una notificación.",
+          "fuentes": [
+            "F01",
+            "F02",
+            "F03"
+          ]
+        },
+        {
+          "subtitulo": "Cómo seguir estudiando",
+          "texto": "Al cambiar un caso, vuelve a comprobar jurisdicción, norma, petición completa, pruebas y notificaciones. El paquete permite editar el contenido y regenerar ambos formatos; una revisión futura de las normas debe actualizar las dos salidas y sus fuentes. Fecha de revisión de este material: 22 de octubre de 2026.",
+          "fuentes": [
+            "F01",
+            "F02",
+            "F03",
+            "F06",
+            "F08"
+          ]
+        }
+      ],
+      "sintesis": {
+        "titulo": "Respuestas y correcciones esenciales",
+        "texto": "Correcciones clave: gobernado; deber constitucional; plazo según régimen; efecto del silencio fijado por ley; instancia distinta de procedimiento; aclaración con alcance específico. Revisa C12 después de resolver. El silencio abre la defensa, pero no prueba el derecho.",
+        "fuentes": [
+          "F01",
+          "F02",
+          "F03",
+          "F06",
+          "F08"
+        ]
+      },
+      "notas_prompt": "Mi error más frecuente era: __________ Ahora lo distinguiré así: __________"
+    }
+  ],
+  "paginas": [
+    {
+      "numero": 1,
+      "titulo": "El derecho a obtener respuesta",
+      "conceptos": [
+        "C01"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Escribe qué pedirías y qué respuesta concreta esperas recibir."
+    },
+    {
+      "numero": 2,
+      "titulo": "Qué transforma el silencio en una ficta",
+      "conceptos": [
+        "C02"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Distingue con tus palabras: omisión, negativa ficta y respuesta expresa negativa."
+    },
+    {
+      "numero": 3,
+      "titulo": "El plazo depende del régimen",
+      "conceptos": [
+        "C03"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Autoridad: __________ Materia: __________ Norma y artículo: __________"
+    },
+    {
+      "numero": 4,
+      "titulo": "Cómo revisar el cómputo",
+      "conceptos": [
+        "C04"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Traza la cronología: recepción / requerimiento / cumplimiento / vencimiento / notificación."
+    },
+    {
+      "numero": 5,
+      "titulo": "Qué vía corresponde a tu objetivo",
+      "conceptos": [
+        "C05"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Escribe el acto que impugnarías y el resultado concreto que pedirías."
+    },
+    {
+      "numero": 6,
+      "titulo": "Dos cuestiones que deben probarse",
+      "conceptos": [
+        "C06"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Haz dos columnas: qué prueba el silencio / qué prueba mi derecho de fondo."
+    },
+    {
+      "numero": 7,
+      "titulo": "Cómo se construye la demanda",
+      "conceptos": [
+        "C07"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Formula un concepto: hecho probado + norma aplicable + infracción + efecto que solicitas."
+    },
+    {
+      "numero": 8,
+      "titulo": "La contestación y la ampliación",
+      "conceptos": [
+        "C08"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Haz una lista: razón de la autoridad / respuesta jurídica / prueba / plazo para ampliar."
+    },
+    {
+      "numero": 9,
+      "titulo": "Qué puede resolver la sentencia",
+      "conceptos": [
+        "C09"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Escribe qué tendría que probarse para obtener algo más que una declaración de nulidad."
+    },
+    {
+      "numero": 10,
+      "titulo": "Aplicación a una solicitud catastral",
+      "conceptos": [
+        "C10"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Anota qué cuatro documentos pedirías antes de defender la corrección del registro."
+    },
+    {
+      "numero": 11,
+      "titulo": "Practica antes de ver las respuestas",
+      "conceptos": [
+        "C11"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "A: __________ B: __________ C: __________ D: __________ E: __________"
+    },
+    {
+      "numero": 12,
+      "titulo": "Respuestas y correcciones esenciales",
+      "conceptos": [
+        "C12"
+      ],
+      "tipo": "conceptos",
+      "notas_prompt": "Mi error más frecuente era: __________ Ahora lo distinguiré así: __________"
+    },
+    {
+      "numero": 13,
+      "titulo": "Fuentes y lectura verificable",
+      "conceptos": [],
+      "tipo": "fuentes",
+      "fuentes": [
+        "F01",
+        "F02"
+      ],
+      "notas_prompt": "Anota el artículo o pasaje que necesitas volver a consultar."
+    },
+    {
+      "numero": 14,
+      "titulo": "Fuentes y lectura verificable",
+      "conceptos": [],
+      "tipo": "fuentes",
+      "fuentes": [
+        "F03",
+        "F04",
+        "F05"
+      ],
+      "notas_prompt": "Anota el artículo o pasaje que necesitas volver a consultar."
+    },
+    {
+      "numero": 15,
+      "titulo": "Fuentes y lectura verificable",
+      "conceptos": [],
+      "tipo": "fuentes",
+      "fuentes": [
+        "F06",
+        "F07",
+        "F08"
+      ],
+      "notas_prompt": "Anota el artículo o pasaje que necesitas volver a consultar."
+    },
+    {
+      "numero": 16,
+      "titulo": "Fuentes y lectura verificable",
+      "conceptos": [],
+      "tipo": "fuentes",
+      "fuentes": [
+        "F09",
+        "F10"
+      ],
+      "notas_prompt": "Anota el artículo o pasaje que necesitas volver a consultar."
+    }
+  ],
+  "pizarra": {
+    "subtitulo": "Del derecho de petición a la sentencia · Federal y CDMX, sin mezclar regímenes",
+    "zonas": [
+      {
+        "id": "Z1",
+        "titulo": "Empieza aquí · petición y silencio",
+        "conceptos": [
+          "C01",
+          "C02"
+        ]
+      },
+      {
+        "id": "Z2",
+        "titulo": "Ubica la norma y cuenta bien",
+        "conceptos": [
+          "C03",
+          "C04"
+        ]
+      },
+      {
+        "id": "Z3",
+        "titulo": "Elige la vía y prueba dos cuestiones",
+        "conceptos": [
+          "C05",
+          "C06"
+        ]
+      },
+      {
+        "id": "Z4",
+        "titulo": "Construye la demanda",
+        "conceptos": [
+          "C07"
+        ]
+      },
+      {
+        "id": "Z5",
+        "titulo": "Contesta las razones de la autoridad",
+        "conceptos": [
+          "C08"
+        ]
+      },
+      {
+        "id": "Z6",
+        "titulo": "Decisión, aplicación y repaso",
+        "conceptos": [
+          "C09",
+          "C10",
+          "C11",
+          "C12"
+        ]
+      }
+    ]
+  },
+  "reglas_criticas": [
+    {
+      "id": "plazo_cff_general",
+      "valor": 3,
+      "unidad": "meses",
+      "aplica_a": "CFF art. 37, regla general"
+    },
+    {
+      "id": "plazo_cff_34a",
+      "valor": 8,
+      "unidad": "meses",
+      "aplica_a": "Sólo consultas CFF art. 34-A"
+    },
+    {
+      "id": "plazo_fiscal_cdmx",
+      "valor": 4,
+      "unidad": "meses",
+      "aplica_a": "CF CDMX art. 54, hasta"
+    },
+    {
+      "id": "ampliacion_federal",
+      "valor": 10,
+      "unidad": "días",
+      "aplica_a": "LFPCA art.17, vía ordinaria"
+    },
+    {
+      "id": "ampliacion_cdmx",
+      "valor": 15,
+      "unidad": "días",
+      "aplica_a": "LJA CDMX art.62, vía ordinaria"
+    }
+  ],
+  "revision_sintesis": {
+    "sha256": "8adfec0d73a5db99fbae6cf02bf5d13f4ac8172cd651d936e2104aba84d3d4c6",
+    "nota": "Revisión22oct2026: cotejo federal/local, condiciones del silencio, diferencia de vías, prueba, ampliación y alcance del ejemplo. Síntesis revisadas tras correcciones jurídicas y comprobación del CFCDMX54/55/433. Auditoría final: inicio de ampliación, días naturales, actualización catastral y ausencia de suspensión por aclaración explicitados."
+  }
+}

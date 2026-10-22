@@ -1,0 +1,258 @@
+[
+  {
+    "id": "F01",
+    "titulo": "Constitución Política de los Estados Unidos Mexicanos",
+    "autor_institucion": "Congreso Constituyente; compilación de la Cámara de Diputados",
+    "tipo": "norma constitucional federal",
+    "fecha_edicion": "2026-10-07",
+    "url_o_identificador": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Encabezado vigente y pasajes de los artículos 1, párrafos primero a tercero, y 8 completo. Lectura de pasajes pertinentes, no de las 416 páginas.",
+    "localizadores": [
+      "Art. 1, párrs. 1-3, p. 1",
+      "Art. 8, p. 18"
+    ],
+    "afirmaciones_respaldadas": [
+      "Derecho de petición: escrito, pacífico y respetuoso; en materia política sólo ciudadanos de la República.",
+      "Debe recaer acuerdo escrito y hacerse conocer en breve término; el artículo no fija tres meses.",
+      "La obligación constitucional abarca a funcionarios y empleados públicos; no depende de elección mediante sufragio."
+    ],
+    "estado": "consultada",
+    "limites": [
+      "No fija una fecha universal de cumplimiento ni garantiza contestación favorable.",
+      "La última reforma de la compilación no equivale a reforma del artículo 8: éste conserva nota de artículo original DOF 05-02-1917."
+    ],
+    "fecha_publicacion_original": "1917-02-05"
+  },
+  {
+    "id": "F02",
+    "titulo": "Código Fiscal de la Federación",
+    "autor_institucion": "Congreso de la Unión; compilación de la Cámara de Diputados",
+    "tipo": "ley federal fiscal",
+    "fecha_edicion": "2026-04-09",
+    "url_o_identificador": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CFF.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Encabezado vigente; artículos 12, 18, 18-A, 33-A, 34, 34-A y 37; contexto inmediato de las disposiciones y nota de la reforma de 2026. No lectura integral de las 377 páginas.",
+    "localizadores": [
+      "Arts.12 (p.7),18 y18-A (pp.27-28),33-A (p.80),34 y34-A (pp.81-82),37 (p.83).",
+      "Reforma9abr2026,art.141,p.377."
+    ],
+    "afirmaciones_respaldadas": [
+      "Artículo 37: tres meses para instancias o peticiones fiscales; falta de notificación de resolución permite considerar negativa y acudir a defensa en cualquier tiempo posterior mientras no se dicte resolución, o esperar.",
+      "Ocho meses se refiere específicamente a consultas del art. 34-A sobre metodología de precios o contraprestaciones entre partes relacionadas.",
+      "Si se requiere completar requisitos o elementos, el término comienza desde cumplimiento.",
+      "Meses no son automáticamente noventa días; cómputo conforme art. 12.",
+      "Arts. 18 y 18-A regulan requisitos formales y especiales de las promociones.",
+      "Art. 33-A: aclaración en supuestos determinados; seis días para presentarla y seis para resolver desde integración; no constituye instancia ni detiene defensa."
+    ],
+    "estado": "consultada",
+    "limites": [
+      "Conservar la diferencia textual entre 'sin que se notifique' para configuración y 'mientras no se dicte' para impugnar. Si aparece resolución expresa, revisar sus fechas, notificación y vía/plazo aplicable; no recomendar espera indefinida.",
+      "No trasladar CFF37 como plazo de todo derecho de petición ni a autoridades locales sin fundamento.",
+      "No afirmar que toda consulta fiscal genera una resolución impugnable autónomamente: art. 34 señala que la respuesta no obliga al particular y permite impugnar resoluciones definitivas que apliquen sus criterios.",
+      "Aclaración del art. 33-A no es recurso ni mecanismo general para cuestionar cualquier notificación."
+    ],
+    "fecha_publicacion_original": "1981-12-31"
+  },
+  {
+    "id": "F03",
+    "titulo": "Ley Federal de Procedimiento Administrativo",
+    "autor_institucion": "Congreso de la Unión; compilación de la Cámara de Diputados",
+    "tipo": "ley federal administrativa",
+    "fecha_edicion": "2025-11-14",
+    "url_o_identificador": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPA.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Encabezado; arts. 1 y 2; art. 16.X; arts. 17, 17-A y 17-B. Lectura de pasajes pertinentes, no de las 34 páginas. También transitorios primero a tercero de reforma DOF 14-11-2025, p.33.",
+    "localizadores": [
+      "Arts. 1 y 2, p. 1",
+      "Art. 16.X y arts. 17, 17-A, 17-B, p. 6",
+      "Reforma DOF14-11-2025, transitorios primero a tercero, p.33"
+    ],
+    "afirmaciones_respaldadas": [
+      "En su ámbito, plazo ordinario máximo de tres meses, salvo regla diferente; silencio negativo salvo disposición legal o administrativa general contraria.",
+      "Afirmativa ficta requiere previsión normativa; el particular no elige a voluntad el sentido del silencio.",
+      "Constancia a solicitud del interesado: dos días hábiles; contempla silencio positivo cuando otra disposición lo prevé.",
+      "Prevención oportuna suspende el plazo y éste se reanuda al día hábil inmediato siguiente de contestarla; inicio ordinario al día hábil siguiente de presentación.",
+      "Ámbito federal y exclusión fiscal de contribuciones y accesorios, con demás exclusiones legales."
+    ],
+    "estado": "consultada",
+    "limites": [
+      "No aplicar a actos locales por sólo tratarse de materia administrativa.",
+      "No usar la remisión supletoria al Código Nacional sin verificar su aplicación temporal: reforma de 14-11-2025 contiene régimen de implementación gradual. Este estudio no depende de esa remisión.",
+      "La constancia documenta la configuración; no afirmar que crea automáticamente todos los efectos ni prescindir de requisitos de legislación especial."
+    ],
+    "fecha_publicacion_original": "1994-08-04"
+  },
+  {
+    "id": "F04",
+    "titulo": "Ley Federal de Procedimiento Contencioso Administrativo",
+    "autor_institucion": "Congreso de la Unión; compilación de la Cámara de Diputados",
+    "tipo": "ley federal procesal administrativa",
+    "fecha_edicion": "2026-06-09",
+    "url_o_identificador": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPCA.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Encabezado; pasajes de arts. 13 a 15, 17, 22, 51 y 52 y transitorios 1-3 del decreto DOF 09-06-2026. No lectura integral de 80 páginas ni de todos los regímenes procesales. Auditoría: artículos 8 y 9 completos (improcedencia y sobreseimiento) también leídos.",
+    "localizadores": [
+      "Arts.8-9 (pp.6-8),13-15 (pp.9-12),17.I (pp.13-14),22 (p.17),51-52 (pp.31-34).",
+      "Reforma9jun2026: transitorios1-3 (pp.79-80)."
+    ],
+    "afirmaciones_respaldadas": [
+      "Demanda: identificación de partes, resolución, hechos, pruebas, conceptos y pretensión; negativa ficta requiere copia de instancia con sello de recepción.",
+      "Art. 22: autoridad explica hechos y derecho de negativa ficta al contestar.",
+      "Art. 17.I: ampliación ordinaria en diez días desde efectos de notificación del acuerdo que admite contestación; este plazo proviene de 2016.",
+      "Silencio no garantiza nulidad: sentencia puede validar, anular o reconocer/restablecer derechos según procedencia.",
+      "Art. 13.I: regla general de treinta días para resolución expresa notificada, distinta de CFF37."
+    ],
+    "estado": "consultada",
+    "limites": [
+      "ADVERTENCIA TEMPORAL: decreto09-06-2026 entra ordinariamente al día siguiente; art19 párrafo2, a180 días; nuevas disposiciones sobre plazos máximos enumeradas por transitorio tercero, a240 días naturales. No tratarlas como operativas el22-10-2026.",
+      "No usar el plazo de ampliación ordinaria como universal: vía sumaria tiene regla especial art58-6 (cinco días).",
+      "No calcular vencimiento real sin vía, acuerdo, notificación, efectos y calendario.",
+      "No atribuir al art17 un nuevo plazo de10 días nacido en2026: párrafo primero reformado desde13-06-2016."
+    ],
+    "fecha_publicacion_original": "2005-12-01"
+  },
+  {
+    "id": "F05",
+    "titulo": "Ley Orgánica del Tribunal Federal de Justicia Administrativa",
+    "autor_institucion": "Congreso de la Unión; compilación de la Cámara de Diputados",
+    "tipo": "ley orgánica federal",
+    "fecha_edicion": "2025-10-16",
+    "url_o_identificador": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOTFJA.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Encabezado, comienzo del art. 3, fracción XV completa y párrafo relativo al carácter definitivo. Lectura pertinente, no de las 40 páginas.",
+    "localizadores": [
+      "Art. 3, primer párrafo, p. 2",
+      "Art. 3.XV y párrafo sobre resoluciones definitivas, p. 4"
+    ],
+    "afirmaciones_respaldadas": [
+      "TFJA conoce negativa ficta sólo en materias de su competencia, conforme plazo del CFF, LFPA u otras normas; subsidiariamente tres meses.",
+      "Competencia comprende negativa a expedir constancia de positiva ficta cuando la ley la prevé.",
+      "Fracción XV incluye excepción por posible afectación a derecho de tercero reconocido en registro o anotación administrativa."
+    ],
+    "estado": "consultada",
+    "limites": [
+      "No extender competencia del TFJA a cualquier petición ante cualquier autoridad.",
+      "Determinar materia concreta y norma especial antes de trasladar esta regla a un litigio; CDMX tiene legislación y tribunal propios.",
+      "La definitividad comprende ausencia de recurso administrativo o carácter optativo de éste."
+    ],
+    "fecha_publicacion_original": "2016-07-18"
+  },
+  {
+    "id": "F06",
+    "titulo": "Código Fiscal de la Ciudad de México",
+    "autor_institucion": "Consejería Jurídica y de Servicios Legales de la Ciudad de México",
+    "tipo": "ley local",
+    "fecha_edicion": "2025-12-19",
+    "url_o_identificador": "https://data.consejeria.cdmx.gob.mx/images/leyes/2025/2026/210126/CODIGO_FISCAL_DE_LA_CDMX_26.1.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Compilación oficial vigente19dic2025, encabezado p1; artículos54 y55 completos p28; artículo433 completo p267 y contexto de notificaciones pp268-273. Acceso por rangos y motor PDF; no lectura íntegra de1142p.",
+    "localizadores": [
+      "Arts.54 y55, p.28: plazo, afirmativa, exclusiones y opción de negativa.",
+      "Art.433, p.267: cómputo; contexto arts.434-444, pp.268-273.",
+      "Encabezado p.1: última reforma19dic2025."
+    ],
+    "afirmaciones_respaldadas": [
+      "Hasta cuatro meses, falta de notificación y afirmativa condicionada a inexistencia de resolución o acto debidamente fundado.",
+      "Exclusiones de afirmativa incluyen actualización catastral, consultas y condonación; incompetencia y requisitos.",
+      "Requerimiento: término comienza al cumplimiento debido.",
+      "Posibilidad de impugnar tras plazo mientras no se dicte resolución, o esperar.",
+      "Meses y días hábiles se computan de modo distinto; cierre de oficinas e inicio conforme433."
+    ],
+    "estado": "consultada",
+    "limites": "Se leyó texto primario con PDFium y se conserva registro local de páginas consultadas. No se verificó calendario de expediente real ni aviso e-Revocación. La iniciativa2026 hallada en Congreso fue descartada por no ser texto promulgado."
+  },
+  {
+    "id": "F07",
+    "titulo": "Ley Orgánica del Tribunal de Justicia Administrativa de la Ciudad de México",
+    "autor_institucion": "Tribunal de Justicia Administrativa de la Ciudad de México",
+    "tipo": "ley local",
+    "fecha_edicion": "2026-07-13",
+    "url_o_identificador": "https://www.tjacdmx.gob.mx/images/Normatividad/ley_organica_tjacdmx_con_reforma_marzo_2019.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Portal oficial de normatividad; compilación04/03/2019: artículos1 a3 y30-31; decreto13/07/2026: artículoNOVENO y transitoriosTERCERO ySÉPTIMO.",
+    "localizadores": [
+      "Arts.1 y3.XV (pp.2-5),31.IV-VII (p.20), compilación2019.",
+      "F10: reforma13jul2026 sólo8 y27; decreto art.NOVENO y transitorios."
+    ],
+    "afirmaciones_respaldadas": [
+      "Tribunal local con jurisdicción plena; competencia para negativas fictas en las materias del art.3, por el plazo especial o, en defecto de éste, cuatro meses.",
+      "Artículo31IV: falta de contestación en30d naturales salvo ley, reglamento u otra exigencia de la naturaleza del asunto. Art31V: negativas fictas, cuatro meses desde recepción por autoridad demandada competente de la última promoción, salvo ley especial.",
+      "Reforma13/07/2026 modificó arts.8 y27 sobre publicidad de sesiones y protección de datos, no3XV ni31IV/V. Vigor al día siguiente, sin que excepción del transitorio7 afecte LOTJA."
+    ],
+    "estado": "consultada",
+    "limites": "Lectura de pasajes relacionados; no de toda la ley. No se adopta interpretación de que cualquier escrito posterior reinicia automáticamente plazo fiscal. Reforma cotejada en https://www.tjacdmx.gob.mx/images/Normatividad/Ley_Org%C3%A1nica_TJACDMX_Reforma_Julio_2026.pdf"
+  },
+  {
+    "id": "F08",
+    "titulo": "Ley de Justicia Administrativa de la Ciudad de México",
+    "autor_institucion": "Tribunal de Justicia Administrativa de la Ciudad de México",
+    "tipo": "ley local",
+    "fecha_edicion": "2019-12-23",
+    "url_o_identificador": "https://www.tjacdmx.gob.mx/images/Normatividad/Ley-de-Justicia-Administrativa-de-la-Ciudad-de-Mexico.23Diciembre2019.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Encabezado de compilación y portal oficial; artículos1-7,15,21-22,37-39,56-70,79-84,92-94,96-103; transitorios24 y29 de reforma23/12/2019.",
+    "localizadores": [
+      "Arts.1,6 y15 (pp.1-3);37-39 (pp.8-9);56-70 (pp.12-17).",
+      "Arts.79-84 (pp.19-20);92-94 (pp.22-24);97-103 (pp.25-28).",
+      "Transitorios24 y29, reforma23dic2019 (pp.44-45)."
+    ],
+    "afirmaciones_respaldadas": [
+      "La supletoriedad procede a falta de disposición expresa y sin oposición a la ley local.",
+      "Representación artículo 6 y autorización artículo 15 son instituciones diferentes.",
+      "El artículo 57 señala once requisitos; el 58, fracción III, exige instancia sellada para negativa ficta.",
+      "El artículo 62 permite ampliar en quince días siguientes a aquél en que surta efectos la notificación del acuerdo que admita la contestación, en afirmativa o negativa ficta.",
+      "El artículo 69 exige a la autoridad expresar hechos y derecho de la negativa ficta al contestar.",
+      "El artículo 70 considera confesados hechos por falta de contestación, salvo prueba en contrario, y contempla examen de improcedencia y sobreseimiento.",
+      "El artículo 81 faculta al Magistrado para requerir documentos; no exonera al actor de identificar y ofrecer las pruebas de las que dispone conforme al artículo 58.",
+      "Los artículos 100 y 102 distinguen causas de nulidad y efectos de sentencia, incluido reconocimiento de derecho subjetivo y condena.",
+      "Artículo94: alegatos no pueden ampliar litis fijada en admisión de demanda o ampliación.",
+      "Artículo7párrafo2 sujeto a entrada en vigor especial de transitorios24 y29: operación del sistema previo aviso en Gaceta; la compilación no demuestra por sí misma publicación o ausencia de ese aviso."
+    ],
+    "estado": "consultada",
+    "limites": "Lectura de pasajes indicados, no toda ley. No se verificó si se publicó aviso de operación de e-Revocación; no se emite conclusión de optatividad/obligatoriedad para expediente concreto."
+  },
+  {
+    "id": "F09",
+    "titulo": "Ley de Procedimiento Administrativo de la Ciudad de México",
+    "autor_institucion": "Congreso de la Ciudad de México; Gaceta Oficial publicada por TJACDMX",
+    "tipo": "ley local",
+    "fecha_edicion": "2026-07-13",
+    "url_o_identificador": "https://www.congresocdmx.gob.mx/archivo-926698f8f4cf6d90af3c42527a7d8a0225d39cec.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Compilación2019: encabezado, arts.1,2,89,90; decreto13jul2026: reforma39 y transitorios2 y7. Lectura de pasajes; no lectura íntegra de la ley.",
+    "localizadores": [
+      "Compilación2019: arts.1 y2, pp.1-3; arts.89 y90, pp.30-32",
+      "Gaceta13jul2026: art.DÉCIMO SEGUNDO,p.117; transitorios2 y7,pp.125-126",
+      "Complementar con F10 para reforma de julio2026."
+    ],
+    "afirmaciones_respaldadas": [
+      "Ámbito y exclusiones, incluidas materias fiscales con salvedad de multas administrativas.",
+      "Cuarenta días hábiles sólo a falta de plazo específico en leyes o manual; efecto negativo salvo afirmativa expresa.",
+      "Afirmativa sujeta a procedimiento y comprobación de requisitos; art90.",
+      "Reforma13jul2026 afecta39, no89/90; vigor14jul2026 y régimen de procedimientos previos."
+    ],
+    "estado": "consultada",
+    "limites": "La compilación base2019 se cotejó con reforma13jul2026, https://www.tjacdmx.gob.mx/images/Normatividad/Ley_Org%C3%A1nica_TJACDMX_Reforma_Julio_2026.pdf . No confundir fecha de compilación con última reforma. No se certifica caso concreto."
+  },
+  {
+    "id": "F10",
+    "titulo": "Gaceta Oficial CDMX, 13 de julio de 2026: decretos de reformas locales",
+    "autor_institucion": "Gobierno de la Ciudad de México; ejemplar oficial publicado por TJACDMX",
+    "tipo": "publicación oficial de decretos legislativos",
+    "fecha_edicion": "2026-07-13",
+    "url_o_identificador": "https://www.tjacdmx.gob.mx/images/Normatividad/Ley_Org%C3%A1nica_TJACDMX_Reforma_Julio_2026.pdf",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Pasajes relativos a LOTJA y LPA con sus respectivos transitorios, no las228 páginas completas.",
+    "localizadores": [
+      "pp.17-18: LOTJA, artículoNOVENO y transitorios3 y7",
+      "p.117: LPA, artículoDÉCIMO SEGUNDO reforma39; pp.125-126: transitorios2 y7"
+    ],
+    "afirmaciones_respaldadas": [
+      "ReformaLOTJA8 y27 no modifica3XV ni31.",
+      "ReformaLPA39 no modifica89/90; entrada general14jul2026 con régimen de asuntos previos."
+    ],
+    "estado": "consultada",
+    "limites": "Dos decretos distintos en un mismo ejemplar; no intercambiar sus transitorios."
+  }
+]

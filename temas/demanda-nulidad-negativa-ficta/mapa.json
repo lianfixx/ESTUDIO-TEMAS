@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "tema_id": "demanda-nulidad-negativa-ficta",
+  "version": "1.0.0",
+  "conceptos": [
+    {
+      "id": "C01",
+      "titulo": "El derecho a obtener respuesta",
+      "apartado": "C01 · El derecho a obtener respuesta"
+    },
+    {
+      "id": "C02",
+      "titulo": "Qué transforma el silencio en una ficta",
+      "apartado": "C02 · Qué transforma el silencio en una ficta"
+    },
+    {
+      "id": "C03",
+      "titulo": "El plazo depende del régimen",
+      "apartado": "C03 · El plazo depende del régimen"
+    },
+    {
+      "id": "C04",
+      "titulo": "Cómo revisar el cómputo",
+      "apartado": "C04 · Cómo revisar el cómputo"
+    },
+    {
+      "id": "C05",
+      "titulo": "Qué vía corresponde a tu objetivo",
+      "apartado": "C05 · Qué vía corresponde a tu objetivo"
+    },
+    {
+      "id": "C06",
+      "titulo": "Dos cuestiones que deben probarse",
+      "apartado": "C06 · Dos cuestiones que deben probarse"
+    },
+    {
+      "id": "C07",
+      "titulo": "Cómo se construye la demanda",
+      "apartado": "C07 · Cómo se construye la demanda"
+    },
+    {
+      "id": "C08",
+      "titulo": "La contestación y la ampliación",
+      "apartado": "C08 · La contestación y la ampliación"
+    },
+    {
+      "id": "C09",
+      "titulo": "Qué puede resolver la sentencia",
+      "apartado": "C09 · Qué puede resolver la sentencia"
+    },
+    {
+      "id": "C10",
+      "titulo": "Aplicación a una solicitud catastral",
+      "apartado": "C10 · Aplicación a una solicitud catastral"
+    },
+    {
+      "id": "C11",
+      "titulo": "Practica antes de ver las respuestas",
+      "apartado": "C11 · Practica antes de ver las respuestas"
+    },
+    {
+      "id": "C12",
+      "titulo": "Respuestas y correcciones esenciales",
+      "apartado": "C12 · Respuestas y correcciones esenciales"
+    }
+  ],
+  "relaciones": [
+    {
+      "desde": "C01",
+      "hacia": "C02",
+      "relacion": "permite distinguir",
+      "fuentes": [
+        "F01",
+        "F02",
+        "F06"
+      ],
+      "justificacion": "C01 y C02 distinguen el deber de contestar de la consecuencia legal atribuida al silencio."
+    },
+    {
+      "desde": "C02",
+      "hacia": "C03",
+      "relacion": "depende de",
+      "fuentes": [
+        "F02",
+        "F03",
+        "F06",
+        "F09"
+      ],
+      "justificacion": "C03 explica que el sentido y plazo dependen del régimen de la solicitud."
+    },
+    {
+      "desde": "C03",
+      "hacia": "C04",
+      "relacion": "exige verificar",
+      "fuentes": [
+        "F02",
+        "F03",
+        "F06",
+        "F07"
+      ],
+      "justificacion": "C04 exige acuse, requerimientos y regla de cómputo del régimen identificado."
+    },
+    {
+      "desde": "C04",
+      "hacia": "C05",
+      "relacion": "orienta la vía",
+      "fuentes": [
+        "F02",
+        "F06",
+        "F07"
+      ],
+      "justificacion": "C05 distingue las vías según configuración, acto y objetivo; el tiempo solo no garantiza procedencia."
+    },
+    {
+      "desde": "C05",
+      "hacia": "C06",
+      "relacion": "requiere probar",
+      "fuentes": [
+        "F04",
+        "F08"
+      ],
+      "justificacion": "C06 separa la prueba de configuración de la prueba del fondo."
+    },
+    {
+      "desde": "C06",
+      "hacia": "C07",
+      "relacion": "sustenta",
+      "fuentes": [
+        "F04",
+        "F08"
+      ],
+      "justificacion": "C07 organiza hechos, prueba, norma, argumento y pretensión."
+    },
+    {
+      "desde": "C07",
+      "hacia": "C08",
+      "relacion": "se desarrolla en",
+      "fuentes": [
+        "F04",
+        "F08"
+      ],
+      "justificacion": "C08 explica la contestación y ampliación previstas en ambas leyes para la negativa ficta."
+    },
+    {
+      "desde": "C08",
+      "hacia": "C09",
+      "relacion": "integra la litis",
+      "fuentes": [
+        "F04",
+        "F08"
+      ],
+      "justificacion": "C09 explica las cuestiones de legalidad y efectos a resolver con los argumentos y pruebas incorporados."
+    },
+    {
+      "desde": "C09",
+      "hacia": "C10",
+      "relacion": "se aplica en",
+      "fuentes": [],
+      "justificacion": "C10 es un ejemplo hipotético propio de aplicación de los conceptos; no afirma hechos del expediente privado."
+    },
+    {
+      "desde": "C10",
+      "hacia": "C11",
+      "relacion": "se practica en",
+      "fuentes": [],
+      "justificacion": "C11 contiene ejercicios docentes hipotéticos; relación organizativa."
+    },
+    {
+      "desde": "C11",
+      "hacia": "C12",
+      "relacion": "se contrasta con",
+      "fuentes": [],
+      "justificacion": "C12 contiene las respuestas razonadas a los ejercicios de C11; relación organizativa."
+    }
+  ],
+  "remisiones": [
+    {
+      "concepto_id": "C01",
+      "paginas_cuaderno": [
+        1
+      ],
+      "zona_pizarra": "Z1"
+    },
+    {
+      "concepto_id": "C02",
+      "paginas_cuaderno": [
+        2
+      ],
+      "zona_pizarra": "Z1"
+    },
+    {
+      "concepto_id": "C03",
+      "paginas_cuaderno": [
+        3
+      ],
+      "zona_pizarra": "Z2"
+    },
+    {
+      "concepto_id": "C04",
+      "paginas_cuaderno": [
+        4
+      ],
+      "zona_pizarra": "Z2"
+    },
+    {
+      "concepto_id": "C05",
+      "paginas_cuaderno": [
+        5
+      ],
+      "zona_pizarra": "Z3"
+    },
+    {
+      "concepto_id": "C06",
+      "paginas_cuaderno": [
+        6
+      ],
+      "zona_pizarra": "Z3"
+    },
+    {
+      "concepto_id": "C07",
+      "paginas_cuaderno": [
+        7
+      ],
+      "zona_pizarra": "Z4"
+    },
+    {
+      "concepto_id": "C08",
+      "paginas_cuaderno": [
+        8
+      ],
+      "zona_pizarra": "Z5"
+    },
+    {
+      "concepto_id": "C09",
+      "paginas_cuaderno": [
+        9
+      ],
+      "zona_pizarra": "Z6"
+    },
+    {
+      "concepto_id": "C10",
+      "paginas_cuaderno": [
+        10
+      ],
+      "zona_pizarra": "Z6"
+    },
+    {
+      "concepto_id": "C11",
+      "paginas_cuaderno": [
+        11
+      ],
+      "zona_pizarra": "Z6"
+    },
+    {
+      "concepto_id": "C12",
+      "paginas_cuaderno": [
+        12
+      ],
+      "zona_pizarra": "Z6"
+    }
+  ]
+}

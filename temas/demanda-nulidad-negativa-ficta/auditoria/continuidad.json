@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-10-22",
+  "comando": "python3 editables/generar.py . --self-test",
+  "resultado": "aprobado",
+  "pruebas": [
+    {
+      "caso": "explicacion_sustantiva",
+      "resultado": "bloqueado antes de generar por falta de nueva revisión de síntesis"
+    },
+    {
+      "caso": "dato_compartido",
+      "resultado": "bloqueado antes de generar por falta de nueva revisión de síntesis"
+    },
+    {
+      "caso": "premisa_invertida",
+      "resultado": "bloqueado antes de generar por falta de nueva revisión de síntesis"
+    },
+    {
+      "caso": "campo_desconocido",
+      "resultado": "rechazado"
+    }
+  ],
+  "modifica_canonico": false
+}

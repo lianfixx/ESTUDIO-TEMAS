@@ -1,0 +1,119 @@
+{
+  "fecha": "2026-10-22",
+  "ruta": "salidas/cuaderno.pdf",
+  "sha256": "ccae1998eb6e4a10ff7e67df9a16acbf2ad9927f82cf453eae98d7b812d5dfdd",
+  "paginas": 16,
+  "revision_visual": {
+    "estado": "aprobada",
+    "paginas_abiertas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "render": "pypdfium2 scale1.5, PNG individuales",
+    "grises_paginas_abiertas": [
+      1,
+      8,
+      15,
+      16
+    ],
+    "hallazgos_bloqueantes": [],
+    "detalle": "Todas páginas legibles, márgenes conservados, ningún recorte/solape visible. URLs de fuentes13–16 caben; p15 URL larga envuelve una segunda línea, sin pérdida. Números11 y12 comprobados con recortes ampliados y extracción."
+  },
+  "comprobaciones": {
+    "texto_seleccionable": true,
+    "paginas_con_enlaces": {
+      "13": 2,
+      "14": 3,
+      "15": 3,
+      "16": 2
+    },
+    "palabras_fuera_margen40pt": 0
+  },
+  "limites": "Esta revisión es visual/editorial; no constituye nueva investigación jurídica. Si cambia PDF, conservar revisión sólo para páginas cuyo contenido/diseño no cambie y volver a revisar afectadas.",
+  "reverificacion": {
+    "pagina_reabierta": 7,
+    "estado": "aprobada",
+    "fecha": "2026-10-22",
+    "evidencia": "Comparación SHA256 de16 renders PNG scale1.5: todas idénticas respecto de los PNG guardados durante primera revisión; texto actual p7 incluye demandada. No se detectan cambios visuales en otras15p. Hash global actual coincide con QA registrada.",
+    "renders": [
+      {
+        "pagina": 1,
+        "igual_render": true
+      },
+      {
+        "pagina": 2,
+        "igual_render": true
+      },
+      {
+        "pagina": 3,
+        "igual_render": true
+      },
+      {
+        "pagina": 4,
+        "igual_render": true
+      },
+      {
+        "pagina": 5,
+        "igual_render": true
+      },
+      {
+        "pagina": 6,
+        "igual_render": true
+      },
+      {
+        "pagina": 7,
+        "igual_render": true
+      },
+      {
+        "pagina": 8,
+        "igual_render": true
+      },
+      {
+        "pagina": 9,
+        "igual_render": true
+      },
+      {
+        "pagina": 10,
+        "igual_render": true
+      },
+      {
+        "pagina": 11,
+        "igual_render": true
+      },
+      {
+        "pagina": 12,
+        "igual_render": true
+      },
+      {
+        "pagina": 13,
+        "igual_render": true
+      },
+      {
+        "pagina": 14,
+        "igual_render": true
+      },
+      {
+        "pagina": 15,
+        "igual_render": true
+      },
+      {
+        "pagina": 16,
+        "igual_render": true
+      }
+    ]
+  }
+}

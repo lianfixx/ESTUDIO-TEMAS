@@ -1,0 +1,12 @@
+{
+  "fecha": "2026-10-22",
+  "ruta": "salidas/pizarra.pdf",
+  "sha256": "44f4cd53067c06fe72a33cc39209a58df5389a6a254343376064330af41e748a",
+  "estado": "aprobada",
+  "revision": "Render completo, seis zonas a escala de lectura y vista completa en grises abiertos. C01-C12, cinco conexiones rotuladas, remisiones, fuentes, notas y versión comprobadas. Sin recortes, solapes ni glifos fallidos.",
+  "lienzos": 1,
+  "dimensiones_pt": [
+    2383.94,
+    1683.78
+  ]
+}

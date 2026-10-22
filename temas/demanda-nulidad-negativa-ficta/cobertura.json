@@ -1,0 +1,290 @@
+[
+  {
+    "entrada_id": "E01",
+    "punto": "Silencio administrativo como omisión de respuesta a petición",
+    "conceptos": [
+      "C01",
+      "C02"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Artículo 8: pacífica y escrita; agregar respetuosa y comunicación de respuesta",
+    "conceptos": [
+      "C01"
+    ],
+    "estado": "corregido",
+    "motivo": "Se incorpora el contenido completo relevante del artículo 8."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Obligación por sufragio o por haber elegido a la autoridad",
+    "conceptos": [
+      "C01",
+      "C12"
+    ],
+    "estado": "corregido",
+    "motivo": "Deber constitucional también para autoridades designadas; no deriva de elección personal."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Plazo general de tres meses por derecho de petición",
+    "conceptos": [
+      "C01",
+      "C03",
+      "C04"
+    ],
+    "estado": "corregido",
+    "motivo": "Artículo 8 no establece plazo universal; diferenciar CFF, LFPA y régimen local."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Ocho meses como excepción del CFF37",
+    "conceptos": [
+      "C03",
+      "C11",
+      "C12"
+    ],
+    "estado": "corregido",
+    "motivo": "Se precisa que corresponde sólo a consultas del artículo34-A."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Silencio positivo o negativo, elección del gobernado",
+    "conceptos": [
+      "C02",
+      "C03"
+    ],
+    "estado": "corregido",
+    "motivo": "Lo determina la norma; no es opción libre escoger el sentido favorable."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Gobernador en lugar de gobernado",
+    "conceptos": [
+      "C12"
+    ],
+    "estado": "corregido",
+    "motivo": "Se distingue persona frente a autoridad de titular de cargo."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Definición negativa ficta: omisión expresa y plazo",
+    "conceptos": [
+      "C02",
+      "C04",
+      "C06"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Petición como planteamiento concreto",
+    "conceptos": [
+      "C01",
+      "C02"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Instancia como pasos lógicos jurídicos",
+    "conceptos": [
+      "C02"
+    ],
+    "estado": "corregido",
+    "motivo": "Se diferencia instancia de procedimiento."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Aclaración administrativa sólo sobre notificaciones",
+    "conceptos": [
+      "C02",
+      "C12"
+    ],
+    "estado": "corregido",
+    "motivo": "CFF33-A tiene supuestos, plazos y efectos específicos; no es recurso ni suspende defensa."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Objeto: nulidad que afecte intereses mediante juicio",
+    "conceptos": [
+      "C07",
+      "C09"
+    ],
+    "estado": "corregido",
+    "motivo": "Se impugna negativa que perjudica y se pide efecto legal procedente, no una nulidad que perjudique."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp1-7 auditorías previas, dieciséis cambios y afirmaciones de cotejo",
+    "conceptos": [
+      "C10"
+    ],
+    "estado": "corregido",
+    "motivo": "Se tratan como afirmaciones del estudio, no como constancias o comprobaciones repetidas en esta revisión."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp7-10 acción, pretensión, concepto y dos cuestiones de prueba",
+    "conceptos": [
+      "C06",
+      "C07",
+      "C09"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp8-10 competencia, requisitos, anexos y prueba",
+    "conceptos": [
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp10-12 propio derecho, representación y autorización",
+    "conceptos": [
+      "C07"
+    ],
+    "estado": "corregido",
+    "motivo": "Se evita afirmar que quien actúa por propio derecho no tiene requisitos de capacidad, firma e interés."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp12-15 marco local y evitar trasplante federal",
+    "conceptos": [
+      "C03",
+      "C05",
+      "C09"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp15-17 configuración local, cuatro meses y última promoción",
+    "conceptos": [
+      "C03",
+      "C04",
+      "C06"
+    ],
+    "estado": "corregido",
+    "motivo": "No se ratifica fecha real ni reinicio automático por cualquier escrito; se exige expediente completo y norma especial."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp17-18 derecho de petición, omisión, fictas y rutas",
+    "conceptos": [
+      "C02",
+      "C05"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp18-19 contestación, ampliación, argumentos y sentencia",
+    "conceptos": [
+      "C08",
+      "C09"
+    ],
+    "estado": "corregido",
+    "motivo": "Se eliminan afirmaciones absolutas sobre toda improcedencia o cualquier resolución expresa tardía; delimitar criterio y legislación."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp18-20 pruebas pendientes, cartografía, duplicidad y fusión",
+    "conceptos": [
+      "C06",
+      "C10"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp20-23 fracciónIV/V31 y reglas locales",
+    "conceptos": [
+      "C03",
+      "C05",
+      "C07",
+      "C08",
+      "C09"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollo y síntesis enlazados por los IDs indicados."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp23-26 condonación específica y dos resoluciones fiscales posibles",
+    "conceptos": [
+      "C10"
+    ],
+    "estado": "fuera_de_alcance",
+    "motivo": "No se determina el beneficio real: falta solicitud y constancias. Se incluye cómo verificarlo; no se desarrolla régimen particular ni se elige resolución por semejanza."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp25-26 preguntas para defender la demanda",
+    "conceptos": [
+      "C11",
+      "C12"
+    ],
+    "estado": "corregido",
+    "motivo": "Se transforman en ejercicios hipotéticos sin afirmar hechos privados o plazos no comprobados."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp26-28 formato de despacho, datos fijos y lista de autorizados",
+    "conceptos": [],
+    "estado": "fuera_de_alcance",
+    "motivo": "Esta entrega es material de estudio, no edición de demanda ni plantilla del despacho; datos personales y profesionales se excluyen del repositorio público."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "pp28-29 catálogo de leyes y diecinueve referencias judiciales",
+    "conceptos": [
+      "C08"
+    ],
+    "estado": "fuera_de_alcance",
+    "motivo": "No se republica la auditoría de citas del expediente. Se consultan normas y criterios pertinentes al estudio; lo no reverificado no se presenta como autoridad vigente aplicable."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "Nombre, folios, cuentas, superficies, fechas, domicilios y contactos del caso",
+    "conceptos": [],
+    "estado": "fuera_de_alcance",
+    "motivo": "Protección de información privada en repositorio público; no necesarios para enseñar el mecanismo y no se altera el original."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "e-Revocación: inferencia de falta de aviso desde compilación",
+    "conceptos": [
+      "C05"
+    ],
+    "estado": "corregido",
+    "motivo": "Ausencia de mención en texto compilado no acredita inexistencia de aviso oficial; no se ratifica estrategia de recurso del caso."
+  },
+  {
+    "entrada_id": "E02",
+    "punto": "p17 diagrama raster: solicitud, silencio, demanda, contestación, ampliación y sentencia",
+    "conceptos": [
+      "C04",
+      "C07",
+      "C08",
+      "C09"
+    ],
+    "estado": "corregido",
+    "motivo": "Figura leída visualmente: se conservó relación procesal y se eliminaron fechas y abreviaciones que omitían condiciones del caso."
+  }
+]
