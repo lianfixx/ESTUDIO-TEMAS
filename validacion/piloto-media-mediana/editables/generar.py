@@ -4,7 +4,8 @@ Python 3 + ReportLab; los pasos de auditoría son externos a la generación.
 """
 from pathlib import Path
 from fractions import Fraction
-import argparse, hashlib, json, os, sys
+import argparse, hashlib, json, math, os, re, shutil, sys
+from tempfile import TemporaryDirectory
 import reportlab
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
@@ -21,7 +22,13 @@ def write_json(path,value): path.write_text(json.dumps(value,ensure_ascii=False,
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 def fmt(value):
     v=Fraction(value)
-    return str(v.numerator) if v.denominator==1 else format(float(v),'.10g').replace('.',',')
+    if v.denominator==1:return str(v.numerator)
+    # Los datos decimales, medias de cinco y medianas de dos terminan en decimal.
+    sign='-' if v<0 else '';n=abs(v.numerator);whole,rest=divmod(n,v.denominator);digits=[]
+    while rest:
+        digit,rest=divmod(rest*10,v.denominator);digits.append(str(digit))
+        if len(digits)>12:raise ValueError('Resultado fuera de la precisión decimal del piloto.')
+    return sign+str(whole)+','+''.join(digits)
 def stats(vals):
     v=sorted(Fraction(x) for x in vals);n=len(v)
     med=v[n//2] if n%2 else (v[n//2-1]+v[n//2])/2
@@ -32,10 +39,33 @@ def context_for(name,vals):
     result.update({name+'_lista':', '.join(map(fmt,v)),name+'_suma_expr':' + '.join(map(fmt,v)),name+'_mayor':fmt(v[-1]),name+'_minimo':fmt(v[0]),name+'_rango':fmt(v[-1]-v[0]),name+'_posicion':fmt((n+1)//2),name+'_menores':str(sum(Fraction(x)<Fraction(s['mediana']) for x in v)),name+'_mayores':str(sum(Fraction(x)>Fraction(s['mediana']) for x in v)),name+'_centro_expr':' + '.join(map(fmt,v[n//2-1:n//2+1]))})
     return result
 
-def T(key):
+def resolve_text(key,trail=()):
+    USED_TEXTS.add(key)
+    if key in trail:raise ValueError('Referencia circular de texto: '+key)
     item=CONTENT['textos']
-    for part in key.split('.'):item=item[part]
-    return item.format_map(CTX)
+    try:
+        for part in key.split('.'):item=item[part]
+    except (KeyError,TypeError):raise ValueError('Bloque de texto inexistente: '+key) from None
+    if isinstance(item,dict) and set(item)=={'ref'} and isinstance(item['ref'],str):
+        return resolve_text(item['ref'],trail+(key,))
+    if not isinstance(item,str):raise ValueError('El bloque debe ser texto o una referencia: '+key)
+    return item
+
+def T(key):
+    USED_TEXTS.add(key)
+    return resolve_text(key).format_map(CTX)
+
+def duration(value,label):
+    if isinstance(value,bool) or not isinstance(value,(int,float)) or not math.isfinite(value):
+        raise ValueError(label+': se requiere un número JSON finito; no se admiten booleanos.')
+    result=Fraction(str(value))
+    if result<0 or result>Fraction('999.99') or (result*100).denominator!=1:
+        raise ValueError(label+': el piloto admite duraciones de 0 a 999,99 con máximo dos decimales.')
+    return result
+
+def change_phrase(delta,n):
+    if delta==0:return 'no cambia (0 min)'
+    return ('sube ' if delta>0 else 'baja ')+fmt(abs(delta))+'/'+str(n)+' = '+fmt(abs(delta)/n)+' min'
 
 def configure_fonts(directory=None):
     global NORMAL,BOLD,FONT_INFO
@@ -56,9 +86,18 @@ def configure_fonts(directory=None):
     raise RuntimeError('No hay tipografías compatibles. Instala DejaVu Sans o indica --font-dir (DejaVuSans.ttf/DejaVuSans-Bold.ttf o Vera.ttf/VeraBd.ttf).')
 
 def load(root):
-    global ROOT,OUT,CONTENT,META,SOURCES,MAP,COVERAGE,SCENARIOS,CTX,URL
+    global ROOT,OUT,CONTENT,META,SOURCES,MAP,COVERAGE,SCENARIOS,CTX,URL,USED_TEXTS
     ROOT=root.resolve();OUT=ROOT/'salidas';OUT.mkdir(exist_ok=True);(ROOT/'revision').mkdir(exist_ok=True)
     CONTENT=read_json(ROOT/'contenido.json');META=CONTENT;SOURCES=read_json(ROOT/'fuentes.json');MAP=read_json(ROOT/'mapa.json');COVERAGE=read_json(ROOT/'cobertura.json')
+    USED_TEXTS=set()
+    if any('parrafos' in s for s in CONTENT.get('secciones',[])):
+        raise ValueError('Campo antiguo secciones[].parrafos: migra su explicación a textos renderizados y referencia esos bloques; no se ignora.')
+    if CONTENT.get('schema_version')!='1.1':raise ValueError('contenido.json requiere schema 1.1, con secciones[].bloques.')
+    for section in CONTENT['secciones']:
+        if not isinstance(section.get('bloques'),list) or not section['bloques']:raise ValueError('Cada sección requiere bloques renderizados.')
+        for ref in section['bloques']:
+            if not isinstance(ref,str) or ref.split('.')[0] not in ('pizarra','cuaderno'):raise ValueError('La sección debe referir bloques de pizarra/cuaderno.')
+            resolve_text(ref)
     ids=[x['id'] for x in CONTENT['secciones']]; mids=[x['id'] for x in MAP['conceptos']]; fids=[x['id'] for x in SOURCES]
     if len(ids)!=len(set(ids)) or set(ids)!=set(mids) or len(mids)!=len(set(mids)):raise ValueError('Conceptos canónicos y mapa no coinciden o se repiten.')
     if len(fids)!=len(set(fids)):raise ValueError('IDs de fuentes repetidos.')
@@ -71,16 +110,24 @@ def load(root):
         if rem['concepto_id'] not in ids or not all(isinstance(p,int) and 1<=p<=3 for p in rem['paginas_cuaderno']):raise ValueError('Remisión inválida.')
     for item in COVERAGE:
         if not set(item['conceptos'])<=set(ids) or item['entrada_id'] not in {x['id'] for x in META['entradas']}:raise ValueError('Cobertura con referencia inexistente.')
-    d=CONTENT['datos'];principal=sorted(d['principal']);ejercicio=sorted(d['ejercicio'])
+    d=CONTENT['datos']
+    if not all(isinstance(d[k],list) and len(d[k])==5 for k in ('principal','ejercicio')):raise ValueError('Este piloto requiere cinco duraciones en cada ejemplo.')
+    principal=sorted(duration(x,'datos.principal') for x in d['principal']);ejercicio=sorted(duration(x,'datos.ejercicio') for x in d['ejercicio'])
+    if any(values[-1]<=values[-2] for values in (principal,ejercicio)):
+        raise ValueError('Este piloto requiere un máximo estricto en principal y ejercicio por la premisa del traslado largo; admite repeticiones centrales.')
+    comparison={k:duration(d['comparacion'][k],'datos.comparacion.'+k) for k in ('base','aumentado')}
+    replacement=duration(d['sustitucion_ejercicio'],'datos.sustitucion_ejercicio')
     # Esta composición compara cinco traslados y cambia solo el máximo.
-    if len(principal)!=5 or len(ejercicio)!=5 or any(not isinstance(x,(int,float)) or x<0 for x in principal+ejercicio):raise ValueError('Este piloto requiere cinco duraciones no negativas en cada ejemplo.')
-    for value in d['comparacion'].values():
-        if value<principal[-2]:raise ValueError('La sustitución debe conservar las posiciones centrales.')
-    if d['sustitucion_ejercicio']<ejercicio[-2]:raise ValueError('La sustitución del ejercicio debe conservar las posiciones centrales.')
-    SCENARIOS={'base':principal[:-1]+[d['comparacion']['base']],'principal':principal,'aumentado':principal[:-1]+[d['comparacion']['aumentado']],'retirado':principal[:-1],'ejercicio':ejercicio,'sustitucion':ejercicio[:-1]+[d['sustitucion_ejercicio']]}
+    for value in comparison.values():
+        if value<principal[-2]:raise ValueError('La sustitución debe conservar los valores centrales.')
+    if comparison['aumentado']<principal[-1]:raise ValueError('El escenario aumentado debe ser mayor o igual que el máximo principal.')
+    if replacement<ejercicio[-2]:raise ValueError('La sustitución del ejercicio debe conservar los valores centrales.')
+    SCENARIOS={'base':principal[:-1]+[comparison['base']],'principal':principal,'aumentado':principal[:-1]+[comparison['aumentado']],'retirado':principal[:-1],'ejercicio':ejercicio,'sustitucion':ejercicio[:-1]+[replacement]}
     CTX=dict(META)
     for name,values in SCENARIOS.items():CTX.update(context_for(name,values))
-    CTX.update(cambio_suma=fmt(principal[-1]-d['comparacion']['base']),cambio_media=fmt(Fraction(principal[-1]-d['comparacion']['base'])/len(principal)),ejercicio_descenso=fmt(Fraction(ejercicio[-1]-d['sustitucion_ejercicio'])/len(ejercicio)))
+    delta=principal[-1]-comparison['base'];exercise_delta=replacement-ejercicio[-1]
+    old_median=Fraction(stats(principal)['mediana']);removed_median=Fraction(stats(principal[:-1])['mediana'])
+    CTX.update(cambio_suma=fmt(delta),cambio_media=fmt(delta/len(principal)),cambio_media_ejercicio=fmt(exercise_delta/len(ejercicio)),cambio_total_frase=('el total no cambia' if delta==0 else ('el total aumenta ' if delta>0 else 'el total disminuye ')+fmt(abs(delta))+' min'),cambio_media_frase=change_phrase(delta,len(principal)),ejercicio_media_frase=change_phrase(exercise_delta,len(ejercicio)),retiro_mediana_frase=('la mediana se conserva en '+fmt(old_median)+' min' if old_median==removed_median else 'la mediana cambia de '+fmt(old_median)+' a '+fmt(removed_median)+' min'))
     f=next(s for s in SOURCES if s['id']=='F01');URL=f['url_o_identificador']
     CTX.update(fuente_id=f['id'],fuente_autores=f['autor_institucion'],fuente_titulo=f['titulo'],fuente_fecha_edicion=f['fecha_edicion'],fuente_anio=f['fecha_edicion'][:4],fuente_url=URL,fuente_consulta=f['consulta'])
     observed=Fraction(stats(principal)['media']) in principal
@@ -96,16 +143,12 @@ def notebook_rows():
     return [CONTENT['textos']['comun']['tabla_cuaderno']]+[[CTX[name+'_lista']]+[CTX[name+'_'+k] for k in ('n','suma','media','mediana')] for name in ('base','principal','aumentado','retirado')]
 
 def markdown_view():
-    lines=['<!-- VISTA DERIVADA: editar contenido.json y regenerar. -->','# '+META['titulo'],'',T('comun.titulo'),'',f"Tema: {META['id']} · Versión: {META['version']} · Revisión: {META['fecha_revision']}",'','## Pregunta y alcance',CONTENT['introduccion'].format_map(CTX)]
+    lines=['<!-- VISTA DERIVADA: editar contenido.json y regenerar. -->','# '+META['titulo'],'',T('comun.titulo'),'',f"Tema: {META['id']} · Versión: {META['version']} · Revisión: {META['fecha_revision']}",'','## Alcance',META['alcance'],'','Cada sección referencia bloques consumidos por los PDF. Los textos de pizarra y cuaderno pueden tener distinta extensión: su correspondencia conceptual requiere revisión manual. Las referencias compartidas usan una sola definición.']
     for section in CONTENT['secciones']:
         lines+=['','## '+section['id']+' · '+section['titulo'],'']
-        lines+=['\n\n'.join(s.format_map(CTX) for s in section['parrafos'])]
+        lines+=['\n\n'.join('**'+ref+'**: '+T(ref) for ref in section['bloques'])]
         if section['id']=='C04':
             rows=notebook_rows();lines+=['','| '+' | '.join(rows[0])+' |','|---|---:|---:|---:|---:|']+['| '+' | '.join(row)+' |' for row in rows[1:]]
-    lines+=['','## Síntesis de las composiciones','', 'Los textos siguientes pertenecen al mismo contenido canónico; el código solo decide su disposición.']
-    for group in ('pizarra','cuaderno'):
-        lines+=['','### '+group.capitalize()]
-        for key in CONTENT['textos'][group]:lines+=['','**'+key+'**: '+T(group+'.'+key)]
     lines+=['','## Fuentes']
     for source in SOURCES:
         lines+=['',f"{source['id']}. {source['autor_institucion']}. {source['titulo']}. Edición: {source['fecha_edicion']}. {source['url_o_identificador']}",f"Consulta: {source['consulta']}. Alcance leído: {source['alcance_leido']}",source['limites']]
@@ -113,7 +156,7 @@ def markdown_view():
     (ROOT/'contenido.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 
 def calculations():
-    write_json(ROOT/'revision/calculos.json',{'metodo':'Aritmética racional exacta con Fraction; todos los resultados se derivan de datos en contenido.json.','resultados':{name:stats(v) for name,v in SCENARIOS.items()},'cambio_media':CTX['cambio_media'],'cambio_media_ejercicio':'-'+CTX['ejercicio_descenso']})
+    write_json(ROOT/'revision/calculos.json',{'metodo':'Aritmética racional exacta con Fraction(str(numero)); datos JSON de hasta dos decimales, sin redondeo binario previo.','resultados':{name:stats(v) for name,v in SCENARIOS.items()},'cambio_media':CTX['cambio_media'],'cambio_media_ejercicio':CTX['cambio_media_ejercicio']})
 
 INPUTS=['contenido.json','fuentes.json','mapa.json','cobertura.json','editables/generar.py','editables/probar_regresion.py','editables/README.md']
 OUTPUTS=['salidas/pizarra.pdf','salidas/cuaderno.pdf','contenido.md','revision/calculos.json']
@@ -126,13 +169,13 @@ def manifest(refresh=False):
         audit=read_json(audit_path)
         if audit.get('generacion_verificada')!=generation:raise ValueError('La auditoría no corresponde a los bytes actuales. Regenerar y revisar de nuevo.')
     else:
-        audit={'fecha':META['fecha_revision'],'version':META['version'],'contenido':{'estado':'pendiente','evidencia':'La generación no constituye una auditoría; revisar resultados y fuentes.'},'visual':{'estado':'pendiente','evidencia':'Renderizar e inspeccionar ambos PDF de esta generación.'},'correspondencia':{'estado':'pendiente','evidencia':'Revisar fuente canónica, mapa, cobertura y ambas salidas.'},'reproduccion':{'estado':'pendiente','evidencia':'Ejecutar la regresión en una copia temporal.'},'archivo':{'estado':'pendiente','evidencia':'Verificar inventario y hashes.'},'limites':META['limites']}
+        audit={'fecha':META['fecha_revision'],'version':META['version'],'generacion_verificada':None,'contenido':{'estado':'pendiente','evidencia':'La generación no constituye una auditoría; revisar resultados y fuentes.'},'visual':{'estado':'pendiente','evidencia':'Renderizar e inspeccionar ambos PDF de esta generación.'},'correspondencia':{'estado':'pendiente','evidencia':'Revisar fuente canónica, mapa, cobertura y ambas salidas.'},'reproduccion':{'estado':'pendiente','evidencia':'Ejecutar la regresión en una copia temporal.'},'archivo':{'estado':'pendiente','evidencia':'Verificar inventario y hashes.'},'limites':META['limites']}
         write_json(audit_path,audit)
-    reviewed=all(audit.get(k,{}).get('estado')=='aprobada' for k in ('contenido','visual','correspondencia','reproduccion','archivo'))
+    reviewed=audit.get('generacion_verificada')==generation and all(audit.get(k,{}).get('estado')=='aprobada' for k in ('contenido','visual','correspondencia','reproduccion','archivo'))
     pending=[] if reviewed else ['Revisar generación actual y completar auditorías independientes.']
     functions={'contenido.json':'Única fuente canónica de datos, textos, síntesis e identidad','contenido.md':'Vista derivada; no editar','fuentes.json':'Registro de evidencia consultada','mapa.json':'Conceptos, relaciones y remisiones','cobertura.json':'Cobertura de la entrada y destino conceptual','editables/generar.py':'Composición y generación desde el contenido canónico','editables/probar_regresion.py':'Prueba de propagación en copia temporal','editables/README.md':'Dependencias y comandos reproducibles','salidas/pizarra.pdf':'Lienzo A1 horizontal conectado','salidas/cuaderno.pdf':'Tres páginas Carta con respuesta separada','revision/calculos.json':'Resultados calculados desde los datos canónicos','revision/estructura.json':'Revisión técnica de los PDF finales','revision/auditoria.json':'Evidencia de revisión, separada de la generación','revision/regresion.json':'Resultado de la prueba de propagación','CAMBIOS.md':'Historial de correcciones','INDICE.md':'Índice local'}
     files=[{'ruta':r,'funcion':functions.get(r,'Renderizado de revisión visual'),'sha256':sha(ROOT/r)} for r in sorted(functions) if (ROOT/r).is_file()]
-    result={**{k:META[k] for k in ('id','titulo','version','version_skill','fecha_revision','alcance','entradas')},'schema_version':'1.1','contenido_canonico':'contenido.json','vista_contenido':'contenido.md','estado':'revisado' if reviewed else 'borrador','archivos':files,'generacion':generation,'reproduccion':{'comando':'python3 editables/generar.py','regresion':'python3 editables/probar_regresion.py','dependencias':['Python 3','reportlab','pypdf para la prueba; PyMuPDF/Poppler para revisión visual','DejaVu Sans, o Bitstream Vera de ReportLab']},'auditoria':{k:audit[k] for k in ('contenido','visual','correspondencia')},'pendientes':pending,'goodnotes':{'estado':'no_importado','evidencia':'Piloto interno; no solicitado.'},'destino':'Piloto interno de validación; no publicado por este generador.','limites':META['limites']}
+    result={**{k:META[k] for k in ('id','titulo','version','version_skill','fecha_revision','alcance','entradas')},'schema_version':'1.2','contenido_canonico':'contenido.json','vista_contenido':'contenido.md','estado':'revisado' if reviewed else 'borrador','archivos':files,'generacion':generation,'reproduccion':{'comando':'python3 editables/generar.py','regresion':'python3 editables/probar_regresion.py','dependencias':['Python 3','reportlab','pypdf para la prueba; PyMuPDF/Poppler para revisión visual','DejaVu Sans, o Bitstream Vera de ReportLab']},'auditoria':{**{k:audit[k] for k in ('contenido','visual','correspondencia','reproduccion','archivo')},'generacion_verificada':audit.get('generacion_verificada')},'pendientes':pending,'goodnotes':{'estado':'no_importado','evidencia':'Piloto interno; no solicitado.'},'destino':'Piloto interno de validación; no publicado por este generador.','limites':META['limites']}
     write_json(ROOT/'manifest.json',result)
 class Draw:
     def __init__(self,c,w,h): self.c,self.w,self.h=c,w,h
@@ -156,11 +199,11 @@ class Draw:
         for a in [angle+2.65,angle-2.65]:path.lineTo(x+length*math.cos(a),self.h-(y+length*math.sin(a)))
         path.close();c.drawPath(path,fill=1,stroke=0)
         if label:self.text(label,lx,ly,size,color=BLUE)
-    def table(self,rows,x,y,widths,size=11,rowh=30):
+    def table(self,rows,x,y,widths,size=11,padding=10):
         st=ParagraphStyle('t',fontName=NORMAL,fontSize=size,leading=size*1.2,textColor=INK)
         data=[[Paragraph(str(cell),st) for cell in row] for row in rows]
         t=Table(data,colWidths=widths,rowHeights=None,hAlign='LEFT')
-        t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),LIGHT),('TEXTCOLOR',(0,0),(-1,0),BLUE),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),('TOPPADDING',(0,0),(-1,-1),10),('BOTTOMPADDING',(0,0),(-1,-1),10),('LINEBELOW',(0,0),(-1,0),1,BLUE),('LINEBELOW',(0,1),(-1,-1),.4,LINE)]))
+        t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),LIGHT),('TEXTCOLOR',(0,0),(-1,0),BLUE),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),('TOPPADDING',(0,0),(-1,-1),padding),('BOTTOMPADDING',(0,0),(-1,-1),padding),('LINEBELOW',(0,0),(-1,0),1,BLUE),('LINEBELOW',(0,1),(-1,-1),.4,LINE)]))
         _,hh=t.wrap(sum(widths),10000);t.drawOn(self.c,x,self.h-y-hh);return hh
 
 def board():
@@ -182,7 +225,8 @@ def board():
     for i,v in enumerate(SCENARIOS['principal']):
         xx=895+i*120
         if i==2:d.box(xx-7,407,98,76,LIGHT)
-        d.text(fmt(v),xx,419,40,True,BLUE if i==2 else INK)
+        number=fmt(v);size=min(40,40*84/max(84,pdfmetrics.stringWidth(number,BOLD,40)))
+        d.text(number,xx,419,size,True,BLUE if i==2 else INK)
         d.text(str(i+1)+'°',xx+15,493,19)
     d.p(T('pizarra.t92'),894,550,590,21)
     d.box(1672,300,648,390)
@@ -249,24 +293,24 @@ def notebook():
     d.p(T('cuaderno.t150'),55,155,502)
     d.text(T('cuaderno.t151'),55,210,16,True,BLUE)
     d.p(T('cuaderno.t152'),55,239,502)
-    d.box(55,300,502,97)
-    d.p(T('cuaderno.t154'),70,312,472,12,leading=23)
-    d.p(T('cuaderno.t155'),55,411,502)
-    d.text(T('cuaderno.t156'),55,463,16,True,BLUE)
-    d.p(T('cuaderno.t157'),55,494,502)
-    d.p(T('cuaderno.t158'),55,559,502)
-    notes(d,640)
+    d.box(55,300,502,106)
+    d.p(T('cuaderno.t154'),70,310,472,11.5,leading=22)
+    d.p(T('cuaderno.t155'),55,420,502)
+    d.text(T('cuaderno.t156'),55,474,16,True,BLUE)
+    d.p(T('cuaderno.t157'),55,505,502,11)
+    d.p(T('cuaderno.t158'),55,574,502,11)
+    notes(d,648)
     c.showPage()
     d=Draw(c,w,h);head(d,2,T('cuaderno.pagina2_titulo'),T('cuaderno.pagina2_subtitulo'))
     rows=notebook_rows()
-    d.table(rows,55,153,[234,34,72,77,85],10.5)
-    d.text(T('cuaderno.t164'),55,324,9)
-    d.p(T('cuaderno.t165'),55,347,502)
-    d.text(T('cuaderno.t166'),55,413,16,True,BLUE)
-    d.p(T('cuaderno.t167'),55,442,502)
-    d.p(T('cuaderno.t168'),55,501,502)
+    d.table(rows,55,153,[234,34,72,77,85],11,padding=4)
+    d.text(T('cuaderno.t164'),55,267,9)
+    d.p(T('cuaderno.t165'),55,288,502,11,leading=14)
+    d.text(T('cuaderno.t166'),55,365,16,True,BLUE)
+    d.p(T('cuaderno.t167'),55,393,502,11,leading=14)
+    d.p(T('cuaderno.t168'),55,451,502,11,leading=14)
     d.box(55,546,502,187,PALE)
-    d.p(T('cuaderno.t170'),68,557,476,10.5,leading=15)
+    d.p(T('cuaderno.t170'),68,557,476,11,leading=15)
     
     for yy in [641,667,693,719]:d.line(70,yy,540,yy,width=.4)
     c.showPage()
@@ -276,23 +320,33 @@ def notebook():
     d.p(T('cuaderno.t177'),55,238,502)
     d.p(T('cuaderno.t178'),55,306,502)
     d.text(T('cuaderno.t179'),55,367,16,True,BLUE)
-    d.p(T('cuaderno.t180'),55,397,502)
-    d.text(T('cuaderno.t181'),55,478,16,True,BLUE)
-    d.p(T('cuaderno.t182'),55,508,502,10)
-    d.p(T('cuaderno.enlace_fuente'),55,570,502,10)
-    d.p(T('cuaderno.t184'),55,595,502,10)
+    d.p(T('cuaderno.t180'),55,397,502,11)
+    d.text(T('cuaderno.t181'),55,493,16,True,BLUE)
+    d.p(T('cuaderno.t182'),55,523,502,10)
+    d.p(T('cuaderno.enlace_fuente'),55,579,502,10)
+    d.p(T('cuaderno.t184'),55,602,502,10)
     notes(d,638,T('cuaderno.pregunta_final'))
     # Only one annotation line fits in footer-safe area
     c.save()
 
 def main():
+    global OUT
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1])
     parser.add_argument('--font-dir',type=Path,help='Carpeta con DejaVuSans.ttf/DejaVuSans-Bold.ttf o Vera.ttf/VeraBd.ttf')
     parser.add_argument('--manifest-only',action='store_true',help='Actualizar inventario tras auditoría externa con snapshot coincidente; no genera ni aprueba.')
     args=parser.parse_args();load(args.root);configure_fonts(args.font_dir)
     if not args.manifest_only:
-        markdown_view();calculations();board();notebook()
+        # Solo los consumidores PDF acreditan uso. El Markdown se deriva después.
+        final_out=OUT
+        with TemporaryDirectory(prefix='media-mediana-render-') as temporary:
+            OUT=Path(temporary);USED_TEXTS.clear();board();notebook()
+            declared={ref for section in CONTENT['secciones'] for ref in section['bloques']}
+            declared|={group+'.'+key for group in ('pizarra','cuaderno','compartidos') for key in CONTENT['textos'].get(group,{})}
+            unused=declared-USED_TEXTS
+            if unused:raise ValueError('Bloque declarado no utilizado por ningún PDF: '+', '.join(sorted(unused)))
+            for name in ('pizarra.pdf','cuaderno.pdf'):shutil.copyfile(OUT/name,final_out/name)
+        OUT=final_out;markdown_view();calculations()
     manifest(refresh=args.manifest_only)
     print('Inventario actualizado.' if args.manifest_only else 'Generados ambos PDF y vista derivada. Auditorías pendientes.')
 if __name__=='__main__':main()

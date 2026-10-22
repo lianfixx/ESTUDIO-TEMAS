@@ -15,8 +15,9 @@ si fueran apuntes solicitados por Emi.
 
 ## Método
 
-- [Pizarras de estudio](skills/pizarras-de-estudio/SKILL.md), versión 1.1.0.
+- [Pizarras de estudio](skills/pizarras-de-estudio/SKILL.md), versión 1.2.0.
 - [Plan y decisiones acordadas](PLAN_PIZARRAS_DE_ESTUDIO.md).
-- [Auditoría profunda y correcciones](AUDITORIA_2026-10-22.md).
+- [Correcciones de fondo y comprobaciones actuales](AUDITORIA_FONDO_2026-10-22.md).
+- [Auditoría anterior 1.1.0](AUDITORIA_2026-10-22.md).
 - [Piloto interno con ambos formatos](validacion/piloto-media-mediana/INDICE.md),
-  versión 1.1.0. Ejemplo reproducible de validación, separado de los temas del usuario.
+  versión 1.2.0. Ejemplo reproducible de validación, separado de los temas del usuario.

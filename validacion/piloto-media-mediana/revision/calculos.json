@@ -1,5 +1,5 @@
 {
-  "metodo": "Aritmética racional exacta con Fraction; todos los resultados se derivan de datos en contenido.json.",
+  "metodo": "Aritmética racional exacta con Fraction(str(numero)); datos JSON de hasta dos decimales, sin redondeo binario previo.",
   "resultados": {
     "base": {
       "datos": [

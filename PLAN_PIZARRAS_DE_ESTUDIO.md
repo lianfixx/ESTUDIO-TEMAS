@@ -1,6 +1,6 @@
 # Plan para la skill de pizarras de estudio
 
-Estado: diseño aprobado; implementación vigente 1.1.0. Véanse [la skill](skills/pizarras-de-estudio/SKILL.md), la [auditoría profunda](AUDITORIA_2026-10-22.md) y el [registro histórico 1.0.0](VALIDACION_SKILL.md).
+Estado: diseño aprobado; implementación vigente 1.2.0. Véanse [la skill](skills/pizarras-de-estudio/SKILL.md), las [correcciones de fondo](AUDITORIA_FONDO_2026-10-22.md), la [auditoría anterior 1.1.0](AUDITORIA_2026-10-22.md) y el [registro histórico 1.0.0](VALIDACION_SKILL.md).
 Fecha: 22 de octubre de 2026.
 Repositorio: lianfixx/ESTUDIO-TEMAS.
 Nombre propuesto: pizarras-de-estudio.
@@ -137,3 +137,13 @@ de contenido y diseño. Se conserva un piloto reproducible y 20 pruebas del
 validador. El informe de auditoría documenta los defectos detectados en 1.0.0 y
 su corrección, sin convertir el registro anterior en una validación más amplia
 de la que fue.
+
+## Correcciones de fondo 1.2.0
+
+La fuente única requiere uso efectivo de las explicaciones, también dentro del
+propio JSON; mover textos duplicados del script al JSON no basta. La generación
+debe mantener verdaderas las explicaciones cuando cambien los datos o rechazar
+premisas incompatibles. Las aprobaciones quedan vinculadas a la generación
+revisada y una vista no puede ocultar un canónico Markdown contradictorio. Estos
+casos se incorporan a las pruebas del método, sin añadir contenido ajeno al
+alcance del piloto ni modificar protocolos jurídicos que no mostraron defectos.

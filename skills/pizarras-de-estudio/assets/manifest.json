@@ -1,9 +1,9 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "id": null,
   "titulo": null,
   "version": "0.1.0",
-  "version_skill": "1.1.0",
+  "version_skill": "1.2.0",
   "fecha_revision": null,
   "estado": "borrador",
   "alcance": null,
@@ -14,6 +14,7 @@
     "dependencias": []
   },
   "auditoria": {
+    "generacion_verificada": null,
     "contenido": {
       "estado": "pendiente",
       "evidencia": null

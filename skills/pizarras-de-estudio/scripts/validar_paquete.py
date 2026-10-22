@@ -104,18 +104,21 @@ class Validador:
         if self.estado == "referencia_historica" and m.get("schema_version") == "1.0":
             self.mensaje("historico", "Solo se comprobaron archivos y hashes; no es un paquete doble validado.", True)
             return self.resultado()
-        if m.get("schema_version") != "1.1":
-            self.mensaje("schema", "El paquete doble requiere manifest schema_version 1.1")
+        if m.get("schema_version") != "1.2":
+            self.mensaje("schema", "El paquete doble requiere manifest schema_version 1.2; "
+                         "migrar desde 1.1 exige regenerar y revisar las salidas, no solo cambiar el número.")
         if self.estado not in ("borrador", "parcial", "revisado"):
             self.mensaje("estado", "Estado de paquete doble no válido")
         for campo in ("id", "titulo", "version", "version_skill", "fecha_revision", "alcance"):
             self.requerido(texto_no_vacio(m.get(campo)), "campo", f"Falta {campo} en el manifiesto")
         canon = m.get("contenido_canonico")
         vista = m.get("vista_contenido")
+        canon_tipo = None
         texto = ""
         if canon is not None:
             p = self.ruta(canon, "contenido_canonico")
             if p is not None:
+                canon_tipo = p.suffix
                 if p.suffix not in (".md", ".json"):
                     self.mensaje("canonico", "El contenido canónico debe ser .md o .json")
                 elif p.suffix == ".json":
@@ -127,7 +130,13 @@ class Validador:
                 else:
                     texto = self.leer(canon) or ""
         self.requerido(canon is not None, "canonico", "Falta contenido_canonico")
-        if vista is not None:
+        if canon_tipo == ".md" and vista is not None:
+            self.mensaje("vista", "Con contenido canónico Markdown, vista_contenido debe ser null; "
+                         "la vista no puede ocultar el contenido canónico.")
+        if canon_tipo == ".json":
+            self.requerido(isinstance(vista, str) and vista != canon, "vista",
+                           "El contenido canónico JSON requiere una vista Markdown derivada y distinta.")
+        if vista is not None and canon_tipo != ".md":
             p = self.ruta(vista, "vista_contenido")
             if p is not None and p.suffix != ".md":
                 self.mensaje("vista", "vista_contenido debe ser .md o null")
@@ -155,7 +164,7 @@ class Validador:
                 self.requerido(nombre in archivos, "registro", f"Editable no registrado: {nombre}")
         self.requerido(bool(editables), "editables", "Faltan fuentes editables")
         salidas = {"salidas/pizarra.pdf", "salidas/cuaderno.pdf"}
-        vista_derivada = isinstance(vista, str) and vista != canon
+        vista_derivada = canon_tipo == ".json" and isinstance(vista, str) and vista != canon
         if vista_derivada:
             salidas.add(vista)
         for nombre in salidas:
@@ -190,6 +199,15 @@ class Validador:
             a = auditoria.get(tipo, {}) if isinstance(auditoria, dict) else {}
             self.requerido(isinstance(a, dict) and a.get("estado") == "aprobada"
                            and texto_no_vacio(a.get("evidencia")), "auditoria", f"Falta auditoría {tipo} aprobada con evidencia")
+        verificada = auditoria.get("generacion_verificada") if isinstance(auditoria, dict) else None
+        if verificada is not None and not isinstance(verificada, dict):
+            self.mensaje("tipo", "auditoria.generacion_verificada debe ser un objeto o null")
+        if self.estado == "revisado":
+            self.requerido(isinstance(gen, dict) and isinstance(verificada, dict)
+                           and json.dumps(verificada, sort_keys=True) == json.dumps(gen, sort_keys=True),
+                           "auditoria_generacion", "La auditoría aprobada debe identificar exactamente "
+                           "la generación actual mediante auditoria.generacion_verificada; "
+                           "revisar de nuevo si cambiaron sus insumos, salidas o entorno.")
         pendientes = self.lista(m.get("pendientes", []), "pendientes")
         sustantivos = [p for p in pendientes if not isinstance(p, dict) or p.get("sustantivo") is not False]
         for p in pendientes:

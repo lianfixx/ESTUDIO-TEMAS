@@ -1,62 +1,116 @@
 {
   "fecha": "2026-10-22",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "contenido": {
     "estado": "aprobada",
-    "evidencia": "Revisión de datos canónicos, explicaciones y ambos PDF finales. Cálculos contrastados independientemente con statistics.median y Fraction: escenarios base 20/20, principal 30/20, aumentado 50/20, retirado 17,5/17,5; ejercicio 28/20 y sustitución 20/20. Se conserva la fuente F01 ya consultada en la revisión 1.0.0; en esta reparación se comprobó su registro y uso, sin atribuir una nueva lectura del libro. No cambian definiciones: se distingue sustitución con n fijo de retirar, mediana resistente de inmutable y dato alto de error."
+    "evidencia": "Revisión de explicaciones y ambos PDF. Datos originales conservados. Resultados contrastados con statistics.mean/median y valores esperados independientes: base20/20, principal30/20, aumentado50/20, retirado17,5/17,5; ejercicio28/20 y sustitución20/20. Se incorporaron unidades, precisión de regla par y repeticiones, atipicidad formal y límites de inferencia antes presentes solo en Markdown. Se distingue valor central de índice. La fuente F01 conserva el alcance ya registrado; esta reparación no acredita nueva lectura completa del libro."
   },
   "visual": {
     "estado": "aprobada",
-    "evidencia": "Inspección real de los renderizados finales: tres páginas Carta a 100 dpi, lienzo completo a 40 dpi, seis zonas a escala 1,2 (86,4 dpi) y cuatro vistas en grises. Sin recortes de la página, solapamientos ni glyphs perdidos visibles. Comprobados fórmulas, tabla, inicio, conexiones, título corregido, pie a págs. 1-3 y espacio adicional para resolución. Los límites de los recortes de detalle son intencionales y se contrastaron con el lienzo completo.",
+    "evidencia": "Inspección real de los renderizados finales: tres páginas Carta en color y gris a108dpi, lienzo A1 completo en color y gris a39,6dpi y seis zonas a86,4dpi. Sin solapamientos, texto recortado ni glifos perdidos visibles. Las divisiones de los recortes son intencionales y se cotejaron con el lienzo completo. Página2 conserva cuerpo de11pt y cuatro líneas de resolución mediante menor relleno de tabla. Se revisaron títulos, fórmulas, remisiones, pies y enlaces. PNG temporales fuera del paquete; hashes identifican las imágenes inspeccionadas. Sin impresión física ni importación en Goodnotes.",
+    "pdfs_verificados": [
+      {
+        "ruta": "salidas/pizarra.pdf",
+        "sha256": "c3b50f90dc411c6b137c3c5a5a1ef4d1fbfa2f553b137c696a27aa4527f6c615"
+      },
+      {
+        "ruta": "salidas/cuaderno.pdf",
+        "sha256": "6c2226db188d5456ba64b23e9c5052ca092215e7333adacb288b2757c26336cd"
+      }
+    ],
     "imagenes_inspeccionadas": [
-      "cuaderno-1.png",
-      "cuaderno-2.png",
-      "cuaderno-3.png",
-      "cuaderno-gris-1.png",
-      "cuaderno-gris-2.png",
-      "cuaderno-gris-3.png",
-      "pizarra-general-1.png",
-      "pizarra-gris-1.png",
-      "pizarra-zona-1-1.png",
-      "pizarra-zona-1-2.png",
-      "pizarra-zona-1-3.png",
-      "pizarra-zona-2-1.png",
-      "pizarra-zona-2-2.png",
-      "pizarra-zona-2-3.png"
-    ]
+      {
+        "nombre": "cuaderno-1.png",
+        "sha256": "08e958befe90999c5ba6b2568aef9ebaa5d6f96bef593c29725afbf8a22c15b2"
+      },
+      {
+        "nombre": "cuaderno-2.png",
+        "sha256": "67cbb516061118ac03b879759530d419b1130e7f09e05e5552029e9c5c5b2f21"
+      },
+      {
+        "nombre": "cuaderno-3.png",
+        "sha256": "2156eda6b65cc45500faed6355c0a5169b10534d76f4ee4c4497c1d8d0a9fcbf"
+      },
+      {
+        "nombre": "cuaderno-gris-1.png",
+        "sha256": "05e492851963e717dcb471234a2d102b1477643aaa26def0017093127aa4cbfd"
+      },
+      {
+        "nombre": "cuaderno-gris-2.png",
+        "sha256": "ff5eb2033047b40651d091e089e6c54404c1be48321dc592f3d6b12438b3e2fb"
+      },
+      {
+        "nombre": "cuaderno-gris-3.png",
+        "sha256": "e11b3d1dabf755d5620828dc20f15887e0fcfa595615b8e71bd5a497a8ae9bc8"
+      },
+      {
+        "nombre": "pizarra-1.png",
+        "sha256": "6ee5841a59ab0da2830a3e05e7c7c235415fc57312974740ea6ddef96f5d4674"
+      },
+      {
+        "nombre": "pizarra-gris-1.png",
+        "sha256": "2473424c932f45586f38c76e000d7d2338ba99f2e72df142e4eb6c27dfabd438"
+      },
+      {
+        "nombre": "pizarra-zona-1-1.png",
+        "sha256": "c29961fd3d412916b9aafda4fac1cfc2b0416a0a8437c9cdd339fe2c02ce7b9b"
+      },
+      {
+        "nombre": "pizarra-zona-1-2.png",
+        "sha256": "b72e8f55a4cfa2e4f803a200e16fb093f4bdcd263113de3c001db8ef0cc7598d"
+      },
+      {
+        "nombre": "pizarra-zona-1-3.png",
+        "sha256": "cdefa78e684936cd237619f2c39f9fa6492cbb728f59c62dd6b8be847815be3e"
+      },
+      {
+        "nombre": "pizarra-zona-2-1.png",
+        "sha256": "52590a64432b23fdf494e5a07509a7f617cbdd52e6165395c84ee7b58d911cc2"
+      },
+      {
+        "nombre": "pizarra-zona-2-2.png",
+        "sha256": "1db5284fa4fd63c7a5b3f7176f364f933003ddcf53272de6e7c1fbc4b7569c7c"
+      },
+      {
+        "nombre": "pizarra-zona-2-3.png",
+        "sha256": "9284e348217d0ad296ca2505c15720dd06bcb30bc99a443474ca26cfefed62ac"
+      }
+    ],
+    "revision_integracion": "Revisión independiente del agente coordinador: abrió pizarra completa y cuaderno páginas1-3 sobre los mismos renderizados finales; confirmó ausencia de recortes/solapamientos, cuerpo legible y cuatro líneas de resolución en página2. Cotejó explicaciones y matices actuales."
   },
   "correspondencia": {
     "estado": "aprobada",
-    "evidencia": "C01-C07, F01, cobertura E01, identidad media-mediana y versión 1.1.0 coinciden entre canónico, vista, mapa y PDF. C07 se desarrolla en cuaderno p3 y se remite desde el lienzo. Los textos y valores renderizados provienen del JSON y sus cálculos, y la bibliografía del registro de fuentes. La prueba de mutación verifica propagación real en ambos formatos."
+    "evidencia": "Revisión manual de C01-C07, mapa, cobertura E01, referencias F01 y composiciones. secciones[].bloques agrupa bloques consumidos realmente por los PDF; Markdown se deriva después y no acredita consumo. La definición compartida elegir se usa en pizarra.t111/cuaderno.t167; regresión sustantiva verifica su propagación en ambos. Las otras síntesis de pizarra son más breves que el desarrollo y se cotejaron semánticamente en esta generación; no se afirma equivalencia automática. C07 continúa separado en cuaderno p3, con remisión desde el lienzo."
   },
   "reproduccion": {
     "estado": "aprobada",
-    "evidencia": "Ejecutados generar.py y probar_regresion.py. La regresión modifica datos principal/ejercicio, texto común, versión y título/URL de fuente en una copia temporal; verifica texto extraído y enlaces de ambos PDF, vista derivada, hashes e integridad del original. También se comprobó repetibilidad de bytes en idéntico entorno y generación con Vera sin caracteres fuera del mapa de glyphs. La extracción técnica y tamaños se registran en estructura.json."
+    "evidencia": "Generación ejecutada y regresión final aprobada en copia temporal: explicación sustantiva compartida, datos, versión, bibliografía y URL; direcciones inversas y nulas; retiro que conserva mediana20; seis escenarios decimales exactos;19 rechazos explícitos sin reemplazar salidas. Incluye párrafos antiguos, bloque huérfano, referencia inexistente, booleanos/no finitos, límites del piloto y máximo no estricto. Regenerar deja snapshot null y auditorías pendientes; manifest-only exige snapshot vigente y no autoaprueba. Resultado completo en revision/regresion.json. Estas pruebas funcionales no sustituyen revisión visual."
   },
   "archivo": {
     "estado": "aprobada",
-    "evidencia": "Piloto conservado únicamente dentro de la carpeta autorizada. Manifiesto schema 1.1 con entradas reales, salidas, cobertura, tipografías y hashes actuales; mapa schema 1.0. El generador deja futuras auditorías pendientes y nunca se incluye el manifiesto como insumo circular."
+    "evidencia": "Inventario portátil y hashes de generación contrastados con bytes actuales. Manifest schema1.2 con generacion_verificada idéntica al snapshot revisado también en este archivo; contenido schema1.1 y mapa schema1.0. Sin PNG ni pycache dentro del piloto. Trabajo limitado a carpeta piloto; no publicación remota."
   },
   "publicacion_remota": {
     "estado": "no_aplica",
-    "evidencia": "No se realizó publicación durante la reparación; destino del piloto se administra por separado."
+    "evidencia": "Sin operaciones remotas."
   },
   "goodnotes": {
     "estado": "no_aplica",
-    "evidencia": "No se solicitó ni se realizó importación."
+    "evidencia": "No se realizó importación."
   },
   "limites": [
     "No se leyó el libro completo: secciones pertinentes y bibliografía de página abierta.",
     "No hay observaciones empíricas: todos los tiempos son hipotéticos.",
     "No se hizo impresión física; revisión de PDF renderizado en color y grises.",
     "No se comprobó importación en Goodnotes.",
-    "No se conservaron copias íntegras de fuentes académicas; se guardó la referencia y el alcance leído."
+    "No se conservaron copias íntegras de fuentes académicas; se guardó la referencia y el alcance leído.",
+    "Este piloto admite cinco datos por ejemplo, máximo estricto, números finitos de0 a999,99 y hasta dos decimales; no demuestra generalidad estadística ni ajuste automático de todo texto al diseño."
   ],
   "generacion_verificada": {
     "entradas": [
       {
         "ruta": "contenido.json",
-        "sha256": "6f95037c6384de1f13157b5217b2dca09a8d6b1068a52f6dd65ed2ea3738f649"
+        "sha256": "87bf610aadc181080ee547dd369409472d166161cffaff4534ec33850734e9a4"
       },
       {
         "ruta": "fuentes.json",
@@ -64,7 +118,7 @@
       },
       {
         "ruta": "mapa.json",
-        "sha256": "88fc9ec340431c9282f5d19f2312af605814c88f0f8883da7b475eb95bc284df"
+        "sha256": "d11a6b05a4bbc1f9c4901bee53a7a5e93bab85dc557439de8ce543a9614b79da"
       },
       {
         "ruta": "cobertura.json",
@@ -72,33 +126,33 @@
       },
       {
         "ruta": "editables/generar.py",
-        "sha256": "cfa9d79c6192e43650e1400ba2d4f174eedbc71d0418cf9278fc27b48ad92ed6"
+        "sha256": "bf7bc186ec2a676833b562903b6e1258e08e46b4d60a17754b049860877ff8f6"
       },
       {
         "ruta": "editables/probar_regresion.py",
-        "sha256": "c3fc09a8a0b00612aa7f41cc36e77250ee507676254fd7eb378c114c174ca50c"
+        "sha256": "28ef94021ec34b579dd74640de7ce032b4aa788f4a4b4a3b0cecf288000dfaf6"
       },
       {
         "ruta": "editables/README.md",
-        "sha256": "e58448862a766ff9feb37be6e2e1185d41acc5769013537a13c9e688d8312141"
+        "sha256": "30ed4cf20d17b9a412efc23353b1d612a480900900f2c7a9266681f994b32c3e"
       }
     ],
     "salidas": [
       {
         "ruta": "salidas/pizarra.pdf",
-        "sha256": "12e79d31429d25f1b999d98fbf5938671a8496b82bc2525888f71fcc1fbde7fa"
+        "sha256": "c3b50f90dc411c6b137c3c5a5a1ef4d1fbfa2f553b137c696a27aa4527f6c615"
       },
       {
         "ruta": "salidas/cuaderno.pdf",
-        "sha256": "087080117f1ba2537bc909a77821703e0d6e86b616e1f3fac5e2235fe15a5e97"
+        "sha256": "6c2226db188d5456ba64b23e9c5052ca092215e7333adacb288b2757c26336cd"
       },
       {
         "ruta": "contenido.md",
-        "sha256": "0fa984cab50b6a15cfcab5a884bd3669b05ea97514cb6327cf6bc88bbeb3e625"
+        "sha256": "11fb9c20455900d9ce2361caa918088164a60f8f24ab78bec060ad29052360ff"
       },
       {
         "ruta": "revision/calculos.json",
-        "sha256": "2423b7d584d57645936b7f019b59e276465d40f196f2a1de5c9b77e942e454e6"
+        "sha256": "67d57bf71c65054692bf513eafd98d7e6de7a1cee3eb9b996424c1bdcf777188"
       }
     ],
     "entorno": {

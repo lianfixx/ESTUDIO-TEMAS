@@ -1,5 +1,12 @@
 # Auditoría profunda de Pizarras de estudio 1.1.0
 
+> Registro histórico. La [revisión de fondo 1.2.0](AUDITORIA_FONDO_2026-10-22.md)
+> encontró casos que esta auditoría no había probado: prosa canónica que solo
+> llegaba al Markdown, frases dependientes de datos que podían volverse falsas,
+> una vista que ocultaba un canónico contradictorio y una aprobación antigua
+> aceptada por el validador. El cierre siguiente describe el alcance observado
+> entonces; no debe interpretarse como garantía de ausencia de esos defectos.
+
 Fecha: 22 de octubre de 2026. Resultado: defectos detectados corregidos y
 comprobaciones finales aprobadas. No se detectaron pendientes que impidan usar
 el método dentro del alcance revisado.

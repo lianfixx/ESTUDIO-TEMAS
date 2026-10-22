@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "tema_id": "media-mediana",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "conceptos": [
     {
       "id": "C01",
@@ -135,7 +135,7 @@
       "paginas_cuaderno": [
         2
       ],
-      "zona_pizarra": "C04 · CAMBIA LA MAGNITUD; LA MEDIANA SE CONSERVA"
+      "zona_pizarra": "C04 · SUSTITUIR EL MÁXIMO SIN MOVER EL CENTRO"
     },
     {
       "concepto_id": "C05",

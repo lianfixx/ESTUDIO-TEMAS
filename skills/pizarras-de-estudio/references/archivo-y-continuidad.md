@@ -47,7 +47,7 @@ En `fuentes.json`, conservar un ID por fuente, título, institución o autor, fe
 
 ## Revisar una vez, producir dos formatos
 
-### Contrato de manifiesto 1.1 y mapa 1.0
+### Contrato de manifiesto 1.2 y mapa 1.0
 
 Usar el manifiesto de `assets/manifest.json`. `archivos` contiene objetos con
 `ruta` relativa a la carpeta del tema, `funcion` y `sha256` real de los bytes.
@@ -68,6 +68,14 @@ textos puede adaptarse. Conservar síntesis intencionales junto al contenido
 canónico, sin duplicar datos mutables ni bibliografía dentro del generador.
 El diseño puede definir posiciones y estilos, pero debe cargar textos, cifras,
 versión y fuentes de los archivos declarados. No basta comprobar IDs.
+No admitir una segunda vista que sustituya al canónico Markdown en la validación.
+Con JSON, la vista Markdown debe ser un archivo distinto, generado desde él.
+Evitar desarrollos duplicados que solo se lean para producir esa vista: definir
+bloques reutilizables y referencias a su uso en las salidas. Diferenciar los
+textos compartidos de las síntesis intencionales; estas últimas necesitan revisión
+de correspondencia, porque compartir un JSON no garantiza equivalencia semántica.
+Rechazar campos retirados o contenido destinado a una salida que el generador
+no consuma. Documentar la migración cuando cambie el esquema interno del canónico.
 
 Registrar en `generacion.entradas` las rutas y hashes de los insumos reales:
 contenido canónico, `fuentes.json`, `mapa.json`, `cobertura.json` y editables que
@@ -86,6 +94,13 @@ Comprobar que el manifiesto registre todos los insumos y salidas del conjunto.
 Actualizar los hashes después de generar y marcar las revisiones afectadas como
 pendientes. La generación no puede aprobar su propia revisión visual o jurídica.
 Tras inspeccionar la entrega final, registrar las aprobaciones con evidencia.
+En `auditoria.generacion_verificada`, conservar una copia exacta de `generacion`
+correspondiente a los archivos efectivamente revisados. Debe coincidir para marcar
+`revisado`; usar `null` mientras esté pendiente. Si también existe una bitácora
+externa, mantenerla concordante. Refrescar los hashes del inventario no renueva
+una aprobación. Solo actualizar esta evidencia después de revisar los cambios;
+si se conserva una comprobación sustantiva anterior porque el contenido no cambió,
+explicar qué se reutilizó y revisar las salidas y aspectos afectados.
 
 En `mapa.json`, completar `tema_id` y `version` iguales al manifiesto, y estas listas:
 
@@ -112,9 +127,11 @@ Antes de marcar `revisado`, comprobar la correspondencia entre conceptos del map
 
 ### Migrar materiales anteriores
 
-No declarar conformidad 1.1 a una muestra 1.0 por cambiar el número del esquema.
+No declarar conformidad 1.2 a una muestra 1.0 o 1.1 por cambiar el número del esquema.
 Revisar qué consume realmente el generador, establecer una fuente única, agregar
-cobertura, regenerar y registrar los hashes antes de aprobar. Conservar el historial
+cobertura, regenerar y registrar los hashes y la generación realmente auditada
+antes de aprobar. No rellenar `auditoria.generacion_verificada` copiando el estado
+actual sin la revisión correspondiente. Conservar el historial
 y las limitaciones de la validación anterior. Una `referencia_historica` puede
 seguir con el esquema legado y con revisión sustantiva pendiente; nunca contarla
 como entrega nueva de doble formato.

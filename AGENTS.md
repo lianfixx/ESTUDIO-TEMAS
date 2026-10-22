@@ -20,9 +20,15 @@
    Al cambiar el generador, comprobar propagación en una copia temporal. Una
    generación nueva debe invalidar las aprobaciones afectadas.
 
-Método vigente: 1.1.0. Consultar `AUDITORIA_2026-10-22.md` para los defectos
+Método vigente: 1.2.0. Consultar `AUDITORIA_FONDO_2026-10-22.md` para los defectos
 corregidos y los límites de las pruebas. Los casos de `validacion/` son pruebas
 del método y no deben registrarse como apuntes solicitados por el usuario.
+
+Una corrección sustantiva no puede quedarse solo en la vista Markdown. Comprobar
+su destino real en las salidas y las síntesis relacionadas. No conservar una
+explicación de aumento, disminución o invariancia si los datos nuevos la contradicen.
+El manifiesto 1.2 requiere `auditoria.generacion_verificada` concordante con la
+generación efectivamente revisada; no actualizar esa evidencia sin revisar.
 
 La autorización del 22-oct-2026 abarca el método y los futuros materiales de
 estudio. No volver a preguntar formatos o archivo. Revisar datos y derechos antes

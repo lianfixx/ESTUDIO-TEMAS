@@ -1,12 +1,13 @@
 {
   "pizarra": {
+    "sha256": "c3b50f90dc411c6b137c3c5a5a1ef4d1fbfa2f553b137c696a27aa4527f6c615",
     "paginas": 1,
     "detalle": [
       {
         "pagina": 1,
         "ancho_pt": 2383.93701171875,
         "alto_pt": 1683.780029296875,
-        "caracteres_extraibles": 2353,
+        "caracteres_extraibles": 2425,
         "urls": [
           "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data"
         ]
@@ -15,27 +16,28 @@
     "texto_dentro_de_pagina": true
   },
   "cuaderno": {
+    "sha256": "6c2226db188d5456ba64b23e9c5052ca092215e7333adacb288b2757c26336cd",
     "paginas": 3,
     "detalle": [
       {
         "pagina": 1,
         "ancho_pt": 612.0,
         "alto_pt": 792.0,
-        "caracteres_extraibles": 1098,
+        "caracteres_extraibles": 1225,
         "urls": []
       },
       {
         "pagina": 2,
         "ancho_pt": 612.0,
         "alto_pt": 792.0,
-        "caracteres_extraibles": 1158,
+        "caracteres_extraibles": 1411,
         "urls": []
       },
       {
         "pagina": 3,
         "ancho_pt": 612.0,
         "alto_pt": 792.0,
-        "caracteres_extraibles": 1307,
+        "caracteres_extraibles": 1369,
         "urls": [
           "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data"
         ]

@@ -3,16 +3,42 @@
   "pruebas": {
     "pizarra": {
       "paginas": 1,
-      "propagacion": "correcta"
+      "propagacion": "correcta",
+      "explicacion_sustantiva": "compartida y presente"
     },
     "cuaderno": {
       "paginas": 3,
-      "propagacion": "correcta"
-    }
+      "propagacion": "correcta",
+      "explicacion_sustantiva": "compartida y presente"
+    },
+    "auditoria": "null al regenerar; coincidencia exigida; sin autoaprobación",
+    "repetidos_y_direcciones": "base 100: media baja 4; sustitución 100: sube 6,4; retiro conserva mediana 20",
+    "cambio_nulo": "la media no cambia en ambos escenarios",
+    "decimales": "fracciones exactas y coma decimal en ambos PDF",
+    "rechazos_antes_de_publicar_salidas": [
+      "principal_bool",
+      "principal_nan",
+      "principal_infinito",
+      "ejercicio_bool",
+      "comparacion_bool",
+      "comparacion_nan",
+      "comparacion_infinito",
+      "sustitucion_bool",
+      "sustitucion_nan",
+      "sustitucion_infinito",
+      "negativo",
+      "mas_de_dos_decimales",
+      "fuera_de_escala",
+      "centro_incompatible",
+      "principal_sin_maximo_estricto",
+      "ejercicio_sin_maximo_estricto",
+      "secciones.parrafos_antiguo",
+      "bloque_huerfano",
+      "referencia_inexistente"
+    ]
   },
   "vista_derivada": "regenerada sin consumir su contenido previo",
   "hashes_manifest": "correctos",
   "piloto_original": "sin cambios",
-  "tipografia_alternativa": "Vera: ambos PDF generados y texto extraído sin caracteres fuera de su mapa de glyphs",
-  "determinismo": "Mismos bytes de ambos PDF con idénticas entradas y entorno; no sustituye auditoría."
+  "limites": "Regresión funcional del piloto; no demuestra equivalencia semántica de síntesis ni reemplaza inspección visual."
 }

@@ -1,5 +1,11 @@
 # Cambios
 
+## 1.2.0 · 2026-10-22
+- Corrección de fondo: los párrafos de secciones antes solo llegaban al Markdown. Contenido schema 1.1 los sustituye por referencias a bloques consumidos por los PDF, rechaza campos antiguos y textos huérfanos. Una explicación sustantiva se comparte entre formatos; las síntesis distintas conservan revisión manual. Se trasladan al cuaderno los matices que antes solo figuraban en la vista.
+- Direcciones calculadas desde diferencias racionales: aumento, descenso o igualdad; retirar distingue mediana conservada de cambiada. Datos finitos de hasta dos decimales y límites explícitos del piloto; booleanos y supuestos incompatibles se rechazan. Se conservan los datos originales y el único ejercicio.
+- Manifest schema 1.2 exige snapshot de generación revisada también en auditoria. Regenerar lo deja nulo y las revisiones pendientes; --manifest-only no autoaprueba. Mapa conserva schema 1.0. Piloto y skill 1.2.0.
+- Regresión de explicación sustantiva, escenarios inversos/nulos, repetidos, decimales, entradas inválidas y rechazo de omisiones. Revisión final en ambos formatos, color y grises; sin impresión física ni importación en Goodnotes.
+
 ## 1.1.0 · 2026-10-22
 - Corregido el fallo real de fuente doble: el generador anterior solo comprobaba encabezados Markdown, mientras duplicaba a mano textos y cifras. Ahora consume `contenido.json`; Markdown es una vista derivada. Los resultados se calculan y las referencias provienen de `fuentes.json`.
 - Migración de manifiesto a schema 1.1: declara canónico, vista, cobertura, entradas/salidas con SHA-256 y entorno tipográfico; mapa conserva schema 1.0. Versiones piloto y skill: 1.1.0.

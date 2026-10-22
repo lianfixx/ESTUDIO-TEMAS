@@ -1,4 +1,5 @@
 """Pruebas del contrato; usa PIZARRAS_VALIDATOR para probar otra instalación."""
+import copy
 import hashlib
 import json
 import os
@@ -44,8 +45,8 @@ class PaqueteTest(unittest.TestCase):
         self.write("editables/generar.py", "# Fuente editable de prueba\n")
         self.write("salidas/pizarra.pdf", b"%PDF-fixture-estructural-pizarra")
         self.write("salidas/cuaderno.pdf", b"%PDF-fixture-estructural-cuaderno")
-        self.manifest = {"schema_version": "1.1", "id": "ejemplo", "titulo": "Ejemplo", "version": "1.0.0",
-                         "version_skill": "1.1.0", "fecha_revision": "2026-10-22", "estado": "revisado",
+        self.manifest = {"schema_version": "1.2", "id": "ejemplo", "titulo": "Ejemplo", "version": "1.0.0",
+                         "version_skill": "1.2.0", "fecha_revision": "2026-10-22", "estado": "revisado",
                          "alcance": "Ejemplo mínimo", "contenido_canonico": "contenido.json",
                          "vista_contenido": "contenido.md", "entradas": [{"id": "E01", "nombre": "Pregunta"}],
                          "reproduccion": {"comando": "python3 editables/generar.py", "dependencias": ["Python 3"]},
@@ -61,7 +62,7 @@ class PaqueteTest(unittest.TestCase):
         else:
             p.write_text(valor if isinstance(valor, str) else json.dumps(valor, ensure_ascii=False), encoding="utf-8")
 
-    def refresh(self, snapshot=True):
+    def refresh(self, snapshot=True, audit=True):
         self.manifest["archivos"] = [{"ruta": p.relative_to(self.root).as_posix(), "funcion": "Fixture",
                                       "sha256": hashlib.sha256(p.read_bytes()).hexdigest()}
                                      for p in sorted(self.root.rglob("*")) if p.is_file() and p.name != "manifest.json"]
@@ -72,6 +73,8 @@ class PaqueteTest(unittest.TestCase):
                 derivada = r["ruta"] == vista and vista != self.manifest.get("contenido_canonico")
                 destino = "salidas" if r["ruta"].startswith("salidas/") or derivada else "entradas"
                 self.manifest["generacion"][destino].append({k: r[k] for k in ("ruta", "sha256")})
+        if audit:
+            self.manifest["auditoria"]["generacion_verificada"] = copy.deepcopy(self.manifest["generacion"])
         self.write("manifest.json", self.manifest)
 
     def errors(self, *codigos):
@@ -98,6 +101,75 @@ class PaqueteTest(unittest.TestCase):
         (self.root / "contenido.json").unlink()
         self.refresh()
         self.assertTrue(validar(self.root)["ok"])
+
+    def test_markdown_no_puede_ocultarse_con_otra_vista(self):
+        # El canónico contradice identidad y referencias, mientras la vista antigua sigue correcta.
+        texto = (self.root / "contenido.md").read_text(encoding="utf-8")
+        self.write("canonico.md", texto.replace("Tema: ejemplo · Versión: 1.0.0",
+                                               "Tema: otro-tema · Versión: 9.9.9")
+                                      .replace("[F01, §1]", "[F99, §1]"))
+        self.manifest["contenido_canonico"] = "canonico.md"
+        self.refresh()
+        self.errors("vista", "version", "referencia")
+
+    def test_json_requiere_vista_markdown_distinta(self):
+        for vista in (None, "contenido.json", "vista.txt"):
+            with self.subTest(vista=vista):
+                self.manifest["vista_contenido"] = vista
+                if vista == "vista.txt":
+                    self.write(vista, (self.root / "contenido.md").read_text(encoding="utf-8"))
+                self.refresh()
+                self.errors("vista")
+
+    def test_migracion_1_1_no_se_aprueba(self):
+        self.manifest["schema_version"] = "1.1"
+        self.write("manifest.json", self.manifest)
+        resultado = self.errors("schema")
+        self.assertTrue(any("regenerar y revisar" in e["mensaje"] for e in resultado["errores"]))
+
+    def test_auditoria_requiere_snapshot_actual_no_vacio(self):
+        for snapshot in (None, {}, {"entradas": [], "salidas": []}):
+            with self.subTest(snapshot=snapshot):
+                self.manifest["auditoria"]["generacion_verificada"] = snapshot
+                self.write("manifest.json", self.manifest)
+                self.errors("auditoria_generacion")
+        self.manifest["auditoria"].pop("generacion_verificada")
+        self.write("manifest.json", self.manifest)
+        self.errors("auditoria_generacion")
+
+    def test_regenerar_no_permite_reutilizar_auditoria_anterior(self):
+        anterior = copy.deepcopy(self.manifest["auditoria"])
+        self.write("contenido.json", {"id": "ejemplo", "version": "1.0.0", "texto": "Texto corregido"})
+        self.write("salidas/pizarra.pdf", b"%PDF-fixture-estructural-pizarra-corregida")
+        self.write("salidas/cuaderno.pdf", b"%PDF-fixture-estructural-cuaderno-corregido")
+        self.refresh(audit=False)
+        self.assertEqual(self.manifest["auditoria"], anterior)
+        self.errors("auditoria_generacion")
+        self.refresh()
+        self.assertTrue(validar(self.root)["ok"])
+
+    def test_auditoria_snapshot_incluye_entorno_y_tipos(self):
+        self.manifest["generacion"]["entorno"] = {"python": "3.12", "revision": 1}
+        self.refresh(snapshot=False)
+        self.manifest["generacion"]["entorno"]["python"] = "3.13"
+        self.write("manifest.json", self.manifest)
+        self.errors("auditoria_generacion")
+        self.manifest["generacion"]["entorno"]["python"] = "3.12"
+        self.manifest["generacion"]["entorno"]["revision"] = True
+        self.write("manifest.json", self.manifest)
+        self.errors("auditoria_generacion")
+
+    def test_auditoria_pendiente_puede_tener_snapshot_null(self):
+        for estado in ("borrador", "parcial"):
+            with self.subTest(estado=estado):
+                self.manifest["estado"] = estado
+                self.manifest["auditoria"]["generacion_verificada"] = None
+                for tipo in ("contenido", "visual", "correspondencia"):
+                    self.manifest["auditoria"][tipo]["estado"] = "pendiente"
+                self.write("manifest.json", self.manifest)
+                resultado = validar(self.root)
+                self.assertTrue(resultado["ok"], resultado)
+                self.assertFalse(resultado["paquete_doble_validado"])
 
     def test_salida_corrupta(self):
         self.write("salidas/cuaderno.pdf", b"cambiado")

@@ -2,7 +2,7 @@
 
 | Tema | Versión | Revisión | Estado | Salidas |
 |---|---|---|---|---|
-| Media y mediana | 1.1.0 | 2026-10-22 | revisado; piloto de validación | [Pizarra](salidas/pizarra.pdf) · [Cuaderno](salidas/cuaderno.pdf) |
+| Media y mediana | 1.2.0 | 2026-10-22 | revisado; piloto de validación | [Pizarra](salidas/pizarra.pdf) · [Cuaderno](salidas/cuaderno.pdf) |
 
 Canónico: `contenido.json`. Vista derivada: `contenido.md`. Evidencia: `fuentes.json`. Relaciones: `mapa.json`. Cobertura: `cobertura.json`. Regeneración y prueba: `editables/README.md`. Estado de una generación nueva: consultar siempre `manifest.json`.
 

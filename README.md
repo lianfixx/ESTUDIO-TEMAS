@@ -10,7 +10,7 @@ Cada tema nuevo tiene dos salidas complementarias:
 Ambas parten de una fuente canónica editable y de las mismas fuentes verificadas. La
 profundidad depende del tema; no se rellena ni se comprime todo en una sola hoja.
 
-Método actual: **1.1.0**, con [auditoría profunda](AUDITORIA_2026-10-22.md),
+Método actual: **1.2.0**, con [correcciones de fondo](AUDITORIA_FONDO_2026-10-22.md),
 validador de integridad y [piloto reproducible](validacion/piloto-media-mediana/INDICE.md).
 El piloto prueba el método; se conserva separado de los apuntes del usuario.
 
@@ -36,6 +36,9 @@ relaciones, diseño editable, ambos PDF y un manifiesto del estado real. El hist
 de Git conserva versiones anteriores. No se reemplazan los originales. El manifiesto
 identifica la fuente canónica, los archivos usados para generar y las revisiones
 que corresponden a los PDF actuales; generar un PDF no equivale a aprobarlo.
+Las aprobaciones identifican la generación exacta revisada. Los bloques de
+contenido realmente usados y las explicaciones que dependen de datos deben
+permanecer coherentes después de una modificación.
 
 Desde la raíz del repositorio se pueden ejecutar las comprobaciones:
 

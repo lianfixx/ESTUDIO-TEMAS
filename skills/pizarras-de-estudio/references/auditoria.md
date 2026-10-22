@@ -33,10 +33,15 @@ recortes del lienzo como páginas de estudio.
 ## Reproducción y archivo
 
 Confirmar editables que realmente produzcan los PDF, dependencias y comando.
-Probar continuidad en una copia temporal: cambiar una frase o dato compartido en
-la fuente canónica y comprobar que llega a ambos formatos, o que el generador
+Probar continuidad en una copia temporal: cambiar una explicación sustantiva y
+un dato compartido en la fuente canónica y comprobar que llegan a ambos formatos,
+o que el generador
 detiene una síntesis incompatible con explicación concreta. Que el script encuentre
-IDs no prueba que use el contenido. Restaurar la muestra y no publicar el cambio
+IDs, cambie el título o actualice solo la vista Markdown no prueba que use el
+desarrollo. Probar también un caso que cambie las premisas de la explicación:
+por ejemplo, invertir el sentido de una variación o repetir valores centrales.
+El texto debe seguir siendo verdadero, o rechazarse la entrada antes de generar
+un material incoherente. Restaurar la muestra y no publicar el cambio
 de prueba. Ejecutar este ensayo al crear o modificar el generador, no repetirlo
 en cada corrección tipográfica si ya hay evidencia válida.
 
@@ -46,8 +51,10 @@ no abre fuentes, no comprueba el número real de páginas de un PDF ni interpret
 de veracidad, revisión jurídica o legibilidad.
 
 Después de regenerar, actualizar hashes y marcar revisiones afectadas como
-pendientes. Aprobarlas solo tras revisar los archivos finales. Registrar hashes
-de los PDF inspeccionados en la evidencia de auditoría cuando sea posible.
+pendientes. Aprobarlas solo tras revisar los archivos finales. Registrar en
+`auditoria.generacion_verificada` el registro exacto de entradas, salidas y entorno
+revisado, incluidos los hashes de los PDF. Comprobarlo contra `generacion`;
+una aprobación antigua con hashes documentales nuevos sigue siendo antigua.
 Si el original es un PDF legado sin fuente editable, señalarlo; no crear un
 editable ficticio ni prometer reproducción exacta.
 Verificar manifiesto, índice, rutas, hashes y cambios. Revisar el diff y los

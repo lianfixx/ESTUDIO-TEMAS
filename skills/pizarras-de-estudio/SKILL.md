@@ -97,8 +97,19 @@ Mantener `fuentes.json` como evidencia. El generador debe consumir el contenido
 canónico y las fuentes reales, sin duplicar explicaciones, datos, versión o
 referencias dentro del código. Guardar en el canónico las síntesis intencionales
 del lienzo y derivar de los datos comunes las cifras que puedan cambiar.
+Evitar también duplicar un desarrollo dentro del propio canónico si una copia
+solo alimenta la vista Markdown: usar bloques compartidos y referencias explícitas
+a las composiciones. Una corrección sustantiva debe llegar a la salida prevista
+o detener la generación; nunca aceptarla y omitirla silenciosamente. Comprobar
+manualmente que las síntesis distintas conservan condiciones y excepciones.
+Si cambian los datos, recalcular también las afirmaciones que dependan de ellos
+(«aumenta», «disminuye», «se conserva») o detenerse si dejan de cumplirse los
+supuestos del diseño. Actualizar cifras sin revisar la explicación es insuficiente.
 Al regenerar, actualizar el registro de insumos y salidas y sus hashes e invalidar
 las revisiones afectadas. No reutilizar una aprobación de archivos anteriores.
+Vincular las aprobaciones al registro exacto de generación revisado mediante
+`auditoria.generacion_verificada`; no copiar el registro nuevo sobre una aprobación
+antigua para hacerla pasar.
 Conservar también diseño abierto o código que produzca cada PDF: SVG, HTML/CSS
 o script con dependencias y comando probado. Un PDF solo no es una fuente editable.
 Evitar cuentas o enlaces temporales como única vía para continuar.
