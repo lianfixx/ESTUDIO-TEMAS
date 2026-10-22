@@ -1,5 +1,12 @@
 # Archivo, continuidad y trabajo entre IA
 
+- [Destino y autorización](#destino-y-autorización-vigente)
+- [Entrada para cualquier IA](#entrada-para-cualquier-ia)
+- [Archivos por tema](#una-carpeta-por-tema)
+- [Contenido y generación](#revisar-una-vez-producir-dos-formatos)
+- [Sincronización](#recuperar-modificar-y-sincronizar)
+- [Instalación](#skill-instalada-y-copia-canónica)
+
 ## Destino y autorización vigente
 
 Usar `lianfixx/ESTUDIO-TEMAS` como repositorio del método y de los trabajos de estudio. El 22 de octubre de 2026 Emi autorizó guardar también las pizarras y permitir que otras IA con la skill puedan usarlas, guardarlas y modificarlas. Entregar siempre dos formatos: lienzo grande conectado y páginas normales para imprimir, estudiar y anotar. No volver a preguntar estas decisiones.
@@ -22,7 +29,8 @@ Usar nombres estables sin espacios ni acentos, por ejemplo `temas/isai-y-amparo/
 
 | Archivo o carpeta | Función |
 | --- | --- |
-| `contenido.md` | Contenido canónico con identificadores estables de apartados, preguntas y afirmaciones importantes. |
+| `contenido.md` o `contenido.json` | Una fuente canónica declarada, con conceptos y datos compartidos. Con JSON, generar `contenido.md` como vista de lectura. |
+| `cobertura.json` | Destino o exclusión motivada de cada punto relevante de las entradas. |
 | `fuentes.json` | Fuentes realmente consultadas, sus localizadores y su relación con las afirmaciones. |
 | `mapa.json` | Conceptos, conexiones con significado y referencias a los apartados que desarrollan cada relación. |
 | `editables/` | Diseño abierto del lienzo y de las páginas; SVG, HTML/CSS, código o formato equivalente que permita regenerar ambos. |
@@ -39,14 +47,45 @@ En `fuentes.json`, conservar un ID por fuente, título, institución o autor, fe
 
 ## Revisar una vez, producir dos formatos
 
-### Contrato de los archivos abiertos, versión 1.0
+### Contrato de manifiesto 1.1 y mapa 1.0
 
 Usar el manifiesto de `assets/manifest.json`. `archivos` contiene objetos con
 `ruta` relativa a la carpeta del tema, `funcion` y `sha256` real de los bytes.
 `entradas` identifica material recibido, cobertura de lectura y dudas. Mantener
 las auditorías de contenido, visual y correspondencia separadas. No incluir el
-propio manifiesto en sus hashes. Los valores `null` en plantillas son desconocidos
+propio manifiesto en sus hashes. Una entrada sin contenido estudiable puede llevar `sin_contenido` con un motivo
+concreto; si se marca `relevante: false`, también debe justificarse. `pendientes`
+admite texto (sustantivo por defecto) u objetos con `descripcion` y `sustantivo`.
+Un pendiente no sustantivo debe seguir visible como aviso; no usar esa marca para
+ocultar una duda que cambie la comprensión. Los valores `null` en plantillas son desconocidos
 pendientes de completar, no resultados verificados.
+
+Declarar `contenido_canonico` como ruta relativa de la única fuente que se edita.
+Usar `vista_contenido: null` si es `contenido.md`; si se usa `contenido.json`,
+generar `contenido.md` y declararlo como vista derivada. El JSON debe contener
+`id` y `version` concordantes con el manifiesto; su estructura de conceptos y
+textos puede adaptarse. Conservar síntesis intencionales junto al contenido
+canónico, sin duplicar datos mutables ni bibliografía dentro del generador.
+El diseño puede definir posiciones y estilos, pero debe cargar textos, cifras,
+versión y fuentes de los archivos declarados. No basta comprobar IDs.
+
+Registrar en `generacion.entradas` las rutas y hashes de los insumos reales:
+contenido canónico, `fuentes.json`, `mapa.json`, `cobertura.json` y editables que
+afecten el resultado. Registrar en `generacion.salidas` ambos PDF y, si existe,
+la vista derivada. Cada objeto lleva `ruta` y `sha256`. El registro se produce
+al generar y se comprueba antes de entregar; no reconstruirlo para encubrir un
+PDF viejo. No incluir `manifest.json` como insumo de su propio hash: si el código
+lo lee para configuración, conservar esa configuración en otro archivo de entrada
+o registrar explícitamente sus campos de configuración sin bucle de hashes.
+Las rutas deben permanecer dentro del tema, también al resolver enlaces simbólicos.
+Se puede registrar en `generacion.entorno` versiones de dependencias y nombres y
+hashes de fuentes tipográficas externas, sin rutas privadas. Si cambian las
+dependencias o se usa una tipografía de respaldo, revisar de nuevo la composición.
+
+Comprobar que el manifiesto registre todos los insumos y salidas del conjunto.
+Actualizar los hashes después de generar y marcar las revisiones afectadas como
+pendientes. La generación no puede aprobar su propia revisión visual o jurídica.
+Tras inspeccionar la entrega final, registrar las aprobaciones con evidencia.
 
 En `mapa.json`, completar `tema_id` y `version` iguales al manifiesto, y estas listas:
 
@@ -67,9 +106,18 @@ Se pueden añadir campos sin cambiar el significado de los anteriores. Cambiar
 `schema_version` y documentar la migración si se altera el contrato. Guardar
 `fuentes.json` como lista con el contrato de `investigacion-y-fuentes.md`.
 
-Corregir primero `contenido.md` y el registro de fuentes; actualizar después el mapa y regenerar las dos salidas. Mostrar el mismo identificador de tema y versión en ambos PDF. El lienzo sintetiza y conecta; el cuaderno desarrolla y permite escribir. No mantener dos textos independientes que puedan contradecirse ni convertir la pizarra en páginas simplemente recortándola.
+Corregir primero la fuente declarada en `contenido_canonico` y el registro de fuentes; actualizar después el mapa y regenerar las dos salidas. Mostrar el mismo identificador de tema y versión en ambos PDF. El lienzo sintetiza y conecta; el cuaderno desarrolla y permite escribir. No mantener dos textos independientes que puedan contradecirse ni convertir la pizarra en páginas simplemente recortándola.
 
-Antes de marcar `revisado`, comprobar la correspondencia entre conceptos del mapa y apartados, la integridad de referencias y la revisión visual de todas las páginas. Si solo se pudo actualizar una salida, registrar el desfase, conservar estado `parcial` y no presentar el conjunto como final. Una modificación solo de estilo también requiere regenerar la salida afectada y registrar que el contenido no cambió.
+Antes de marcar `revisado`, comprobar la correspondencia entre conceptos del mapa y apartados, la integridad de referencias y la revisión visual de todas las páginas. Si solo se pudo actualizar una salida, registrar el desfase, conservar estado `parcial` y no presentar el conjunto como final. Una modificación solo de estilo requiere regenerar la salida afectada y registrar que el contenido no cambió. Si cambia la versión común del tema, actualizar esa versión en ambos PDF y regenerarlos; no dejar uno con la versión anterior. No repetir investigación sustantiva sin motivo en una corrección puramente visual. Si el usuario pide expresamente una sola salida, declarar el alcance y cualquier desfase pendiente del conjunto.
+
+### Migrar materiales anteriores
+
+No declarar conformidad 1.1 a una muestra 1.0 por cambiar el número del esquema.
+Revisar qué consume realmente el generador, establecer una fuente única, agregar
+cobertura, regenerar y registrar los hashes antes de aprobar. Conservar el historial
+y las limitaciones de la validación anterior. Una `referencia_historica` puede
+seguir con el esquema legado y con revisión sustantiva pendiente; nunca contarla
+como entrega nueva de doble formato.
 
 ## Recuperar, modificar y sincronizar
 
@@ -84,6 +132,6 @@ Guardar el hash del commit de cada publicación en la respuesta o registro de ej
 
 ## Skill instalada y copia canónica
 
-Tratar `skills/pizarras-de-estudio/` de `ESTUDIO-TEMAS` como la referencia portable del método. La instalación en el entorno de cada IA es una copia de uso. Antes de modificar o reemplazar una copia, comparar su versión y sus diferencias con el repositorio; conservar cambios locales no integrados y resolver conflictos de forma explícita.
+Tratar `skills/pizarras-de-estudio/` de `ESTUDIO-TEMAS` como la referencia portable del método. La instalación en el entorno de cada IA es una copia de uso. Antes de modificar o reemplazar una copia, comparar su versión y sus diferencias con el repositorio; distinguir instrucciones y recursos del método de metadatos de interfaz que la plataforma puede añadir (iconos o políticas), sin borrarlos por arrastre; conservar cambios locales no integrados y resolver conflictos de forma explícita.
 
 Cuando el usuario solicite mejorar el método, validar el paquete, actualizar la copia canónica y sincronizar la instalación disponible. En Work Mode seguir además el procedimiento vigente de persistencia de skills. Comprobar por separado ambos guardados; un commit en GitHub no prueba que la skill quedó instalada, ni una instalación local prueba que GitHub recibió los cambios.

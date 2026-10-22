@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "id": "media-mediana",
+  "titulo": "Media y mediana: qué cambia con un traslado largo",
+  "version": "1.1.0",
+  "version_skill": "1.1.0",
+  "fecha_revision": "2026-10-22",
+  "alcance": "Introducción a media y mediana con tiempos hipotéticos, sustituciones y eliminación; fórmulas explicadas, límites y ejercicio con respuesta separada.",
+  "entradas": [
+    {
+      "id": "E01",
+      "nombre": "Encargo textual y cinco tiempos hipotéticos",
+      "cobertura": "Leído íntegramente",
+      "unidad": "minutos",
+      "dudas": [],
+      "datos_ref": "datos.principal"
+    }
+  ],
+  "limites": [
+    "No se leyó el libro completo: secciones pertinentes y bibliografía de página abierta.",
+    "No hay observaciones empíricas: todos los tiempos son hipotéticos.",
+    "No se hizo impresión física; revisión de PDF renderizado en color y grises.",
+    "No se comprobó importación en Goodnotes.",
+    "No se conservaron copias íntegras de fuentes académicas; se guardó la referencia y el alcance leído."
+  ],
+  "datos": {
+    "principal": [
+      10,
+      15,
+      20,
+      25,
+      80
+    ],
+    "comparacion": {
+      "base": 30,
+      "aumentado": 180
+    },
+    "ejercicio": [
+      12,
+      16,
+      20,
+      24,
+      68
+    ],
+    "sustitucion_ejercicio": 28
+  },
+  "textos": {
+    "comun": {
+      "titulo": "MEDIA Y MEDIANA",
+      "pie": "{id} · v{version} · {fecha_revision}",
+      "tabla_pizarra": [
+        "Último dato, con n = {principal_n}",
+        "Total",
+        "Media",
+        "Mediana"
+      ],
+      "tabla_cuaderno": [
+        "Escenario",
+        "n",
+        "Suma",
+        "Media",
+        "Mediana"
+      ],
+      "caso_pedido": " (caso pedido)",
+      "media_no_observada": "Ningún traslado duró {principal_media} min: la media no necesita ser un dato observado.",
+      "media_observada": "La media coincide aquí con un dato observado; no siempre tiene que hacerlo."
+    },
+    "pizarra": {
+      "t73": "Media y mediana - Pizarra conectada",
+      "t75": "¿Qué cambia cuando un traslado dura mucho más?",
+      "t76": "Ejemplo hipotético • tiempos en minutos • un dato por traslado",
+      "t79": "C02 · MEDIA",
+      "t80": "Suma las duraciones y reparte el total entre los {principal_n} traslados.",
+      "t81": "({principal_suma_expr}) / {principal_n}",
+      "t82": "{principal_suma} / {principal_n} = {principal_media} min",
+      "t83": "Usa todas las magnitudes. El total puede recuperarse: {principal_n} × {principal_media} = {principal_suma} min.",
+      "t84": "[F01, §2.5] · Desarrollo: pág. 1",
+      "t86": "C01 · LOS MISMOS DATOS",
+      "t92": "n = {principal_n} traslados. Cada observación tiene el mismo peso.",
+      "t94": "C03 · MEDIANA",
+      "t95": "Ordena de menor a mayor y ubica el centro.",
+      "t96": "Posición: ({principal_n} + 1) / 2 = {principal_posicion}",
+      "t97": "Dato central = {principal_mediana} min",
+      "t98": "{principal_menores} valores menores y {principal_mayores} mayores. La posición {principal_posicion} no significa {principal_posicion} minutos.",
+      "t99": "[F01, §2.5] · Desarrollo: pág. 1",
+      "flecha100": "sumar",
+      "flecha101": "ordenar",
+      "flecha103": "cambiar solo el mayor",
+      "t105": "C04 · CAMBIA LA MAGNITUD; LA MEDIANA SE CONSERVA",
+      "t108": "De {base_mayor} a {principal_mayor} se suman {cambio_suma} min: la media sube {cambio_suma} / {principal_n} = {cambio_media} min. La mediana sigue en {principal_mediana} porque no cambia el dato central.",
+      "t110": "C05 · ¿PARA QUÉ?",
+      "t111": "Total repartido: media.<br/><br/>Posición central: mediana.<br/><br/>En este caso, informar ambas hace visible la diferencia.",
+      "t112": "C03 · SI n ES PAR",
+      "t113": "Promedia los valores de las posiciones n/2 y n/2 + 1.<br/><br/>No promedies las posiciones.",
+      "t114": "Retirar {principal_mayor} cambia n a {retirado_n}: media = {retirado_suma} / {retirado_n} = {retirado_media} min; mediana = ({retirado_centro_expr}) / 2 = {retirado_mediana} min.",
+      "t115": "Retirar ≠ sustituir",
+      "flecha117": "se interpreta con límites",
+      "flecha118": "practicar con otros datos",
+      "t119": "C05 · LÍMITES QUE IMPORTAN",
+      "t120": "{principal_mayor} es un dato alto; no demuestra un error. No se elimina por elevar la media.<br/><br/>La mediana resiste estos cambios, pero no es inmutable: retirar un dato puede mover el centro.",
+      "t121": "Ninguna medida describe toda la variación ni permite generalizar desde {principal_n} tiempos hipotéticos. Conserva el contexto y la lista de datos.",
+      "t122": "C06 · PRUEBA TÚ",
+      "t123": "{ejercicio_lista} min.<br/>Calcula media y mediana. Luego sustituye {ejercicio_mayor} por {sustitucion_mayor}: ¿qué cambia y por qué?<br/><br/>¿Que la mediana no cambie prueba que el traslado largo no importa?",
+      "t124": "Respuesta separada: cuaderno, pág. 3.",
+      "t125": "TUS CONEXIONES",
+      "t126": "¿Qué pregunta resolverías con cada medida?",
+      "t129": "{fuente_id} · {fuente_autores}. {fuente_titulo} ({fuente_anio}). Referencia y enlace: cuaderno, pág. 3.",
+      "t130": "{id} · v{version} · {fecha_revision} · Datos hipotéticos. Fórmulas completas y matices: cuaderno, págs. 1-3.",
+      "inicio": "EMPIEZA AQUÍ",
+      "pregunta": "según la pregunta",
+      "paridad": "si cambia la cantidad"
+    },
+    "cuaderno": {
+      "t148": "Media y mediana - Cuaderno de estudio",
+      "pagina1_titulo": "Dos maneras de resumir",
+      "pagina1_subtitulo": "C01-C03 · El mismo conjunto, dos preguntas diferentes.",
+      "t150": "<b>Ejemplo hipotético:</b> tiempos de {principal_lista} minutos. Hay n = {principal_n} traslados y cada observación tiene el mismo peso.",
+      "t151": "C02 · Media: repartir el total",
+      "t152": "La media aritmética suma todas las duraciones y divide entre la cantidad de traslados. Responde a cuánto tocaría por traslado si repartiéramos el total por igual. [F01, §2.5]",
+      "t154": "<b>Media = (x<sub>1</sub> + x<sub>2</sub> + ... + x<sub>n</sub>) / n</b><br/>x<sub>i</sub> es cada duración; n es la cantidad de datos.<br/><b>({principal_suma_expr}) / {principal_n} = {principal_suma} / {principal_n} = {principal_media} min</b>",
+      "t155": "{media_observada} El total se recupera: {principal_n} × {principal_media} = {principal_suma} min.",
+      "t156": "C03 · Mediana: encontrar el centro",
+      "t157": "Ordena de menor a mayor. Con n <b>impar</b>, toma el valor de la posición <b>(n + 1) / 2</b>. Aquí ({principal_n} + 1) / 2 = {principal_posicion}; el valor central es <b>{principal_mediana} min</b>. La posición {principal_posicion} no es una duración. [F01, §2.5]",
+      "t158": "Con n <b>par</b>, toma los valores en las posiciones <b>n/2</b> y <b>n/2 + 1</b>; súmalos y divide entre 2. Con {retirado_lista}: mediana = ({retirado_centro_expr}) / 2 = <b>{retirado_mediana} min</b>. [F01, §2.5, ej. 2.26]",
+      "pagina2_titulo": "Qué cambia por el dato alto",
+      "pagina2_subtitulo": "C04-C06 · Sustituir conserva n; retirar lo cambia.",
+      "t164": "Suma, media y mediana en minutos. Cálculos propios.",
+      "t165": "Con n fijo: <b>cambio de media = cambio del dato / n</b>. De {base_mayor} a {principal_mayor} se añaden {cambio_suma} min; la media sube {cambio_suma}/{principal_n} = {cambio_media} min. La mediana no cambia porque el dato central sigue siendo {principal_mediana}. Retirar {principal_mayor} cambia n y también la mediana.",
+      "t166": "C05 · Elegir sin perder contexto",
+      "t167": "Para el total repartido, sirve la media; para la posición central, la mediana. [F01, §2.5, ej. 2.27] No hay una ganadora universal. {principal_mayor} es un <b>dato alto</b>, no un error demostrado: no lo retires solo por elevar la media.",
+      "t168": "Ninguna describe toda la variación: los datos van de {principal_minimo} a {principal_mayor} min. {principal_n} tiempos hipotéticos no permiten generalizar a una población.",
+      "t170": "<b>C06 · Ejercicio breve</b><br/>{ejercicio_lista} min. Calcula media y mediana. Sustituye {ejercicio_mayor} por {sustitucion_mayor}: ¿qué cambia y por qué? ¿La mediana estable prueba que el traslado largo no importa?<br/><font color=\"#164A72\">Respuesta en la página 3. Anota aquí tus pasos:</font>",
+      "pagina3_titulo": "Respuestas y fuentes",
+      "pagina3_subtitulo": "C07 · Consulta esta página después de resolver el ejercicio.",
+      "t175": "Respuesta del ejercicio",
+      "t176": "<b>1.</b> Suma = {ejercicio_suma_expr} = <b>{ejercicio_suma} min</b>.<br/>Media = {ejercicio_suma}/{ejercicio_n} = <b>{ejercicio_media} min</b>. Mediana = dato central = <b>{ejercicio_mediana} min</b>.",
+      "t177": "<b>2.</b> Al sustituir {ejercicio_mayor} por {sustitucion_mayor}, la suma es <b>{sustitucion_suma} min</b>.<br/>Media = {sustitucion_suma}/{sustitucion_n} = <b>{sustitucion_media} min</b>. Mediana = <b>{sustitucion_mediana} min</b>.<br/>La media baja ({ejercicio_mayor} - {sustitucion_mayor})/{ejercicio_n} = <b>{ejercicio_descenso} min</b>; la posición central no cambia.",
+      "t178": "<b>3.</b> No. La mediana no describe la magnitud del extremo ni el total. El traslado largo sí aumenta el total y la media. Su importancia práctica depende de la pregunta.",
+      "t179": "Una precisión sobre la mediana",
+      "t180": "Con datos repetidos, al menos la mitad queda en o por debajo de la mediana y al menos la mitad en o por encima. Esto se sigue de ordenar los valores. Resistir el cambio de un extremo no significa ser inmutable: al retirar {principal_mayor}, nuestra mediana pasó de {principal_mediana} a {retirado_mediana} min.",
+      "t181": "Fuente académica abierta",
+      "t182": "<b>{fuente_id}.</b> {fuente_autores}. <i>{fuente_titulo}.</i> Edición: {fuente_fecha_edicion}. Definiciones, fórmulas, regla par/impar y ejemplos 2.26-2.27.",
+      "t184": "Los tiempos de traslado de estas páginas son ejemplos hipotéticos. No son datos empíricos ni predicciones.",
+      "pregunta_final": "Una pregunta que me queda",
+      "notas": "Notas y conexiones",
+      "enlace_fuente": "<link href=\"{fuente_url}\" color=\"#164A72\"><u>Abrir la sección consultada</u></link> · Consulta: {fuente_consulta}."
+    }
+  },
+  "secciones": [
+    {
+      "id": "C01",
+      "titulo": "Dos preguntas sobre el centro",
+      "parrafos": [
+        "La media aritmética suma los valores y divide entre su cantidad. La mediana ocupa el centro de la lista ordenada; con cantidad par se promedian los dos valores centrales. [F01, §2.5, párrafos iniciales y regla posterior a la nota]",
+        "En este ejemplo, la media responde a «¿cuánto tocaría por traslado si repartiéramos el tiempo total por igual?». La mediana responde a «¿qué duración queda en el centro al ordenar?». Estas son interpretaciones didácticas de las definiciones."
+      ]
+    },
+    {
+      "id": "C02",
+      "titulo": "Media: todas las magnitudes cuentan",
+      "parrafos": [
+        "Fórmula: media = (x₁ + x₂ + ... + xₙ) / n. xᵢ representa la duración de cada traslado; n, la cantidad de traslados. La suma y el resultado se expresan en minutos; n es un conteo. [F01, §2.5, definición y fórmulas de media]",
+        "Ejemplo: ({principal_suma_expr}) / {principal_n} = {principal_suma} / {principal_n} = {principal_media} min. {media_observada} El total se recupera como {principal_n} × {principal_media} = {principal_suma} min. Cálculo propio verificado."
+      ]
+    },
+    {
+      "id": "C03",
+      "titulo": "Mediana: orden y posición",
+      "parrafos": [
+        "Primero ordena de menor a mayor. Si n es impar, toma el valor en la posición (n + 1) / 2. Si n es par, calcula (valor en posición n/2 + valor en posición n/2 + 1) / 2; el «+ 1» pertenece a la segunda posición. La posición no es la duración. [F01, §2.5, regla de la mediana y ejemplo 2.26]",
+        "Aquí ({principal_n} + 1) / 2 = {principal_posicion}: el dato central es {principal_mediana} min. Hay {principal_menores} datos menores y {principal_mayores} mayores. Con repeticiones, no exijas mitades estrictamente menores y mayores: al menos la mitad está en o por debajo de la mediana y al menos la mitad en o por encima. Esta precisión se sigue de la regla de ordenación."
+      ]
+    },
+    {
+      "id": "C04",
+      "titulo": "Qué cambia por el dato alto",
+      "parrafos": [
+        "Comparación construida con n fijo: {base_lista} suma {base_suma} min y tiene media {base_media} min y mediana {base_mediana} min. Sustituir {base_mayor} por {principal_mayor} añade {cambio_suma} min al total. La media aumenta {cambio_suma} / {principal_n} = {cambio_media} min y pasa a {principal_media}. La mediana sigue en {principal_mediana} porque el dato central no cambia. En general, con n fijo y una sola sustitución, cambio de media = cambio del dato / n. Es una consecuencia algebraica de C02.",
+        "Si {principal_mayor} pasa a {aumentado_mayor}: suma {aumentado_suma}, media {aumentado_media} y mediana {aumentado_mediana} min. La mediana es resistente a la magnitud de un extremo mientras no cambien las posiciones centrales; no es inmune a cualquier cambio. [F01, §2.5, párrafo inicial sobre extremos; aplicación calculada]",
+        "Retirar {principal_mayor} es otra comparación: cambia n. La media es {retirado_suma} / {retirado_n} = {retirado_media} min. La mediana es ({retirado_centro_expr}) / 2 = {retirado_mediana} min. No se puede aplicar sin ajuste la fórmula de cambio con n fijo. La mediana par puede no ser un dato observado."
+      ]
+    },
+    {
+      "id": "C05",
+      "titulo": "Cómo elegir y qué no dicen",
+      "parrafos": [
+        "Si interesa el reparto del tiempo total, usa la media y conserva el dato largo. Si interesa la posición central sin que domine su magnitud, la mediana es útil. Informar ambas muestra la diferencia: {principal_media} frente a {principal_mediana} min. No hay una medida universalmente superior; la elección responde a la pregunta. [F01, §2.5, definición y ejemplo 2.27; interpretación de este supuesto]",
+        "Llamamos a {principal_mayor} «dato alto»: no lo declaramos error ni valor atípico formal sin criterio y contexto. No se debe retirarlo solo porque eleva la media. Los {principal_n} valores son hipotéticos; no permiten concluir cómo se traslada una población ni predecir el siguiente viaje. Ninguna medida describe por sí sola toda la variación. Aquí conviene conservar también los datos: mínimo {principal_minimo} y máximo {principal_mayor} min, una separación de {principal_rango} min. Son límites del supuesto, no un análisis de población."
+      ]
+    },
+    {
+      "id": "C06",
+      "titulo": "Ejercicio breve",
+      "parrafos": [
+        "Otros {ejercicio_n} traslados hipotéticos duran {ejercicio_lista} min.\n1. Calcula media y mediana y muestra tus pasos.\n2. Sustituye {ejercicio_mayor} por {sustitucion_mayor}. ¿Qué cambia y por qué?\n3. ¿Que la mediana no cambie demuestra que el traslado largo no importa?\nRespuestas separadas: cuaderno, página 3. La pizarra no muestra la solución del ejercicio."
+      ]
+    },
+    {
+      "id": "C07",
+      "titulo": "Respuesta separada",
+      "parrafos": [
+        "1. Suma = {ejercicio_suma} min. Media = {ejercicio_suma} / {ejercicio_n} = {ejercicio_media} min. Mediana = dato central = {ejercicio_mediana} min.\n2. Nueva suma = {sustitucion_suma} min. Media = {sustitucion_suma} / {sustitucion_n} = {sustitucion_media} min. Mediana = {sustitucion_mediana} min. La media baja ({ejercicio_mayor} - {sustitucion_mayor}) / {ejercicio_n} = {ejercicio_descenso} min; la posición central no cambia.\n3. No. La mediana no describe la magnitud del extremo ni el total. El traslado largo sí aumenta el total y la media. Su importancia práctica depende de la pregunta."
+      ]
+    }
+  ],
+  "introduccion": "¿Cómo resumen la media y la mediana los mismos tiempos, y por qué un dato alto influye de forma distinta? Nivel introductorio. Datos hipotéticos aportados: {principal_lista} minutos. Una observación por traslado, mismo peso para cada una, n = {principal_n}. No son una encuesta ni una predicción."
+}

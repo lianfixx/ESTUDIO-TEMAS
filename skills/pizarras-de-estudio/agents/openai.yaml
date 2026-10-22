@@ -1,4 +1,15 @@
 interface:
-  display_name: "Pizarras de estudio"
-  short_description: "Apuntes rigurosos en pizarra y páginas para estudiar"
-  default_prompt: "Usa $pizarras-de-estudio para convertir estos apuntes en una pizarra grande conectada y páginas imprimibles, con fuentes verificadas y versiones en ESTUDIO-TEMAS."
+  display_name: Pizarras de estudio
+  short_description: Apuntes rigurosos en pizarra y páginas para estudiar
+  default_prompt: Usa $pizarras-de-estudio para convertir estos apuntes en una pizarra
+    grande conectada y páginas imprimibles, con fuentes verificadas y versiones en
+    ESTUDIO-TEMAS.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

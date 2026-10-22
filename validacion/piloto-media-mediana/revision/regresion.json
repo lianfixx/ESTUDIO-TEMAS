@@ -1,0 +1,18 @@
+{
+  "estado": "aprobada",
+  "pruebas": {
+    "pizarra": {
+      "paginas": 1,
+      "propagacion": "correcta"
+    },
+    "cuaderno": {
+      "paginas": 3,
+      "propagacion": "correcta"
+    }
+  },
+  "vista_derivada": "regenerada sin consumir su contenido previo",
+  "hashes_manifest": "correctos",
+  "piloto_original": "sin cambios",
+  "tipografia_alternativa": "Vera: ambos PDF generados y texto extraído sin caracteres fuera de su mapa de glyphs",
+  "determinismo": "Mismos bytes de ambos PDF con idénticas entradas y entorno; no sustituye auditoría."
+}

@@ -1,0 +1,84 @@
+{
+  "metodo": "Aritmética racional exacta con Fraction; todos los resultados se derivan de datos en contenido.json.",
+  "resultados": {
+    "base": {
+      "datos": [
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "n": 5,
+      "suma": "100",
+      "media": "20",
+      "mediana": "20"
+    },
+    "principal": {
+      "datos": [
+        10,
+        15,
+        20,
+        25,
+        80
+      ],
+      "n": 5,
+      "suma": "150",
+      "media": "30",
+      "mediana": "20"
+    },
+    "aumentado": {
+      "datos": [
+        10,
+        15,
+        20,
+        25,
+        180
+      ],
+      "n": 5,
+      "suma": "250",
+      "media": "50",
+      "mediana": "20"
+    },
+    "retirado": {
+      "datos": [
+        10,
+        15,
+        20,
+        25
+      ],
+      "n": 4,
+      "suma": "70",
+      "media": "35/2",
+      "mediana": "35/2"
+    },
+    "ejercicio": {
+      "datos": [
+        12,
+        16,
+        20,
+        24,
+        68
+      ],
+      "n": 5,
+      "suma": "140",
+      "media": "28",
+      "mediana": "20"
+    },
+    "sustitucion": {
+      "datos": [
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "n": 5,
+      "suma": "100",
+      "media": "20",
+      "mediana": "20"
+    }
+  },
+  "cambio_media": "10",
+  "cambio_media_ejercicio": "-8"
+}

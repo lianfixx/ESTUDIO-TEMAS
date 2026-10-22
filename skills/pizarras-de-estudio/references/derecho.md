@@ -15,7 +15,11 @@ actualizada ni reutilizar conclusiones históricas para un asunto actual.
    y doctrina. No intercambiar nombre, rango, función ni fuerza de cada fuente.
 5. En criterios judiciales, identificar expediente/registro, órgano, fecha,
    cuestión, hechos relevantes, razonamiento, efectos y alcance. Leer engrose y
-   votaciones cuando importen; no descansar solo en un comunicado.
+   votaciones cuando importen; no descansar solo en un comunicado. Cuando se
+   afirme autoridad o aplicabilidad actual, comprobar en fuente oficial si otra
+   decisión pertinente lo modificó, sustituyó, abandonó o dejó sin efecto, y
+   registrar la fecha real de verificación. Para estudio histórico conservar
+   el régimen del periodo analizado.
 6. Verificar por separado votación del fondo, razones y efectos. No equiparar
    mayoría para resolver con obligatoriedad, ni delegación de competencia con
    jurisprudencia. Comprobar régimen temporal, integración y reglas de publicación.

@@ -17,6 +17,11 @@ los tecnicismos sin relleno, errores inventados ni lenguaje grandilocuente.
 
 ## Decisiones acordadas
 
+Aplicar estos valores por defecto. Respetar una instrucción posterior que limite
+el alcance o pida solo una fase o salida; registrar lo que quede pendiente sin
+volver a imponer la entrega completa.
+
+
 - Producir **dos salidas complementarias** por tema: pizarra grande conectada para
   explorar y ampliar, y páginas normales para leer, imprimir y anotar.
 - Usar el mismo contenido revisado, fuentes y versión. No agrandar una página ni
@@ -36,7 +41,7 @@ Leer [estilo-y-diseno.md](references/estilo-y-diseno.md) antes de componer,
 [archivo-y-continuidad.md](references/archivo-y-continuidad.md) antes de recuperar
 o guardar y [auditoria.md](references/auditoria.md) antes de entregar.
 Usar [tema.md](assets/tema.md), [manifest.json](assets/manifest.json) y
-[mapa.json](assets/mapa.json) como contratos mínimos adaptables, no como plantilla
+[mapa.json](assets/mapa.json) y [cobertura.json](assets/cobertura.json) como contratos mínimos adaptables, no como plantilla
 que imponga secciones irrelevantes.
 
 ## 1. Recuperar y leer
@@ -74,7 +79,9 @@ Organizar según la lógica del tema. Desarrollar concepto, bases teóricas,
 funcionamiento, relaciones, fundamento, condiciones, excepciones y consecuencias
 cuando aporten. Explicar el término técnico donde aparece. Usar ejemplos y
 comparaciones breves para resolver confusiones concretas. No imponer nueve
-bloques, cuestionarios ni una cantidad artificial de páginas.
+bloques, cuestionarios ni una cantidad artificial de páginas. Conectar cada
+punto relevante de las entradas con su desarrollo mediante `cobertura.json`, o
+registrar su exclusión justificada; leer un apunte no demuestra haberlo incorporado.
 
 Dar identificadores estables a conceptos (`C01`) y fuentes (`F01`). Registrar
 relaciones y remisiones en `mapa.json`; cada flecha debe expresar una relación
@@ -83,7 +90,15 @@ repaso y respuestas separadas cuando resulten útiles.
 
 ## 4. Componer las dos salidas
 
-Crear `contenido.md` como explicación canónica y `fuentes.json` como evidencia.
+Declarar una única fuente de contenido en `manifest.contenido_canonico`: puede
+ser `contenido.md` o `contenido.json`. Si es JSON, generar `contenido.md` como
+vista de lectura y declararla en `vista_contenido`; no editarla por separado.
+Mantener `fuentes.json` como evidencia. El generador debe consumir el contenido
+canónico y las fuentes reales, sin duplicar explicaciones, datos, versión o
+referencias dentro del código. Guardar en el canónico las síntesis intencionales
+del lienzo y derivar de los datos comunes las cifras que puedan cambiar.
+Al regenerar, actualizar el registro de insumos y salidas y sus hashes e invalidar
+las revisiones afectadas. No reutilizar una aprobación de archivos anteriores.
 Conservar también diseño abierto o código que produzca cada PDF: SVG, HTML/CSS
 o script con dependencias y comando probado. Un PDF solo no es una fuente editable.
 Evitar cuentas o enlaces temporales como única vía para continuar.
@@ -103,8 +118,15 @@ y decir qué salida falta; no afirmar que los PDF existen.
 ## 5. Auditar y guardar
 
 Aplicar `auditoria.md`: revisar todas las páginas y cada zona del lienzo a escala
-de lectura. Corregir recortes, superposiciones, citas ilegibles y remisiones.
-Contrastar ambos formatos con el contenido canónico. Guardar contenido, fuentes,
+de lectura. Corregir recortes, superposiciones, citas ilegibles y remisiones. Revisar también
+que títulos y flechas enseñen la idea correcta, que el inicio sea claro y que el
+espacio para anotar esté junto a la actividad que lo necesita.
+Contrastar ambos formatos con el contenido canónico. Ejecutar
+`python3 scripts/validar_paquete.py RUTA_DEL_TEMA` desde la carpeta de esta skill.
+El [validador](scripts/validar_paquete.py) comprueba estructura e integridad;
+no certifica verdad ni calidad visual. Si el entorno no ejecuta Python, efectuar
+las comprobaciones equivalentes disponibles y registrar el límite, sin afirmar
+que se ejecutó el validador. Corregir los errores y revisar avisos antes de publicar. Guardar contenido, fuentes,
 mapa, editables, PDF, manifiesto y cambios; actualizar índice. Preservar historial
 y aportaciones ajenas. Verificar commit remoto y rutas antes de afirmar guardado.
 

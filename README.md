@@ -7,8 +7,12 @@ Cada tema nuevo tiene dos salidas complementarias:
 - **Pizarra grande conectada:** para entender el conjunto, recorrer relaciones y ampliar en Goodnotes.
 - **Páginas de estudio:** tamaño Carta, con explicación, ejemplos y espacio para imprimir y anotar.
 
-Ambas parten de un contenido editable y de las mismas fuentes verificadas. La
+Ambas parten de una fuente canónica editable y de las mismas fuentes verificadas. La
 profundidad depende del tema; no se rellena ni se comprime todo en una sola hoja.
+
+Método actual: **1.1.0**, con [auditoría profunda](AUDITORIA_2026-10-22.md),
+validador de integridad y [piloto reproducible](validacion/piloto-media-mediana/INDICE.md).
+El piloto prueba el método; se conserva separado de los apuntes del usuario.
 
 ## Empezar o continuar
 
@@ -29,7 +33,22 @@ cambios. Leer la skill no concede credenciales ni garantiza importación a Goodn
 
 Los trabajos nuevos se guardan en `temas/<tema>/`, con contenido, fuentes,
 relaciones, diseño editable, ambos PDF y un manifiesto del estado real. El historial
-de Git conserva versiones anteriores. No se reemplazan los originales.
+de Git conserva versiones anteriores. No se reemplazan los originales. El manifiesto
+identifica la fuente canónica, los archivos usados para generar y las revisiones
+que corresponden a los PDF actuales; generar un PDF no equivale a aprobarlo.
+
+Desde la raíz del repositorio se pueden ejecutar las comprobaciones:
+
+```bash
+python3 -m unittest discover -s validacion -p 'test_*.py' -v
+python3 skills/pizarras-de-estudio/scripts/validar_paquete.py validacion/piloto-media-mediana
+python3 validacion/piloto-media-mediana/editables/probar_regresion.py
+```
+
+Las dos primeras usan solo Python estándar. La regresión requiere ReportLab y
+pypdf; trabaja en una copia temporal. El [procedimiento del piloto](validacion/piloto-media-mediana/editables/README.md)
+explica la generación y revisión. La comprobación estructural no sustituye la
+lectura de fuentes ni la inspección visual.
 
 Las fuentes externas se identifican con enlaces y localizadores. El repositorio
 es público: los apuntes de estudio no deben arrastrar datos reservados de asuntos

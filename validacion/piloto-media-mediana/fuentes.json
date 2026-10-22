@@ -1,0 +1,27 @@
+[
+  {
+    "id": "F01",
+    "titulo": "Introductory Statistics 2e, §2.5: Measures of the Center of the Data",
+    "autor_institucion": "Barbara Illowsky y Susan Dean; OpenStax, Rice University",
+    "tipo": "Libro académico abierto",
+    "fecha_edicion": "2023-12-13",
+    "url_o_identificador": "https://openstax.org/books/introductory-statistics-2e/pages/2-5-measures-of-the-center-of-the-data",
+    "consulta": "2026-10-22",
+    "alcance_leido": "Página abierta: definiciones y fórmulas de media; regla de mediana impar/par; ejemplos 2.26 y 2.27; datos bibliográficos. No se leyó íntegramente el libro. Prefacio abierto para institución y acceso.",
+    "localizadores": [
+      "§2.5, párrafos iniciales",
+      "§2.5, nota y fórmulas de media",
+      "§2.5, regla par/impar anterior al ejemplo 2.26",
+      "§2.5, ejemplos 2.26 y 2.27"
+    ],
+    "afirmaciones_respaldadas": [
+      "C01: definiciones",
+      "C02: suma dividida por n",
+      "C03: orden y posiciones centrales",
+      "C04: sensibilidad de media y mediana ante extremos",
+      "C05: elección según pregunta y presencia de extremos"
+    ],
+    "estado": "consultada",
+    "limites": "Los cálculos, supuestos de traslado e inferencias didácticas son propios. La fuente no valida una población ni estos tiempos hipotéticos. Sin fuente inaccesible utilizada."
+  }
+]

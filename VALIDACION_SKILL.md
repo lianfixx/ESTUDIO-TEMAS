@@ -2,6 +2,13 @@
 
 Fecha: 22 de octubre de 2026.
 
+> Registro histórico de la primera validación. La [auditoría posterior 1.1.0](AUDITORIA_2026-10-22.md)
+> encontró que el generador del piloto comprobaba los IDs, pero no propagaba
+> cambios del contenido canónico, y que la regeneración podía dejar hashes y
+> aprobaciones obsoletos. Las comprobaciones descritas aquí no demostraban esa
+> continuidad. Los defectos están corregidos y cubiertos por las pruebas nuevas;
+> este registro se conserva para no ocultar el alcance de la validación inicial.
+
 ## Estructura y continuidad
 
 - Inicialización y validación del paquete con el validador de skills: aprobadas.

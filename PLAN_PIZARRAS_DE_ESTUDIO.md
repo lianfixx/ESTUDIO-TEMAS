@@ -1,6 +1,6 @@
 # Plan para la skill de pizarras de estudio
 
-Estado: diseño aprobado; implementación 1.0.0. Véanse [la skill](skills/pizarras-de-estudio/SKILL.md) y el [registro de validación](VALIDACION_SKILL.md).
+Estado: diseño aprobado; implementación vigente 1.1.0. Véanse [la skill](skills/pizarras-de-estudio/SKILL.md), la [auditoría profunda](AUDITORIA_2026-10-22.md) y el [registro histórico 1.0.0](VALIDACION_SKILL.md).
 Fecha: 22 de octubre de 2026.
 Repositorio: lianfixx/ESTUDIO-TEMAS.
 Nombre propuesto: pizarras-de-estudio.
@@ -126,3 +126,14 @@ La referencia aprobada puede usarse para comparar estilo. Sus afirmaciones susta
 Estas decisiones sustituyen las propuestas iniciales incompatibles. No volver a preguntar formato o archivo. El repositorio sigue siendo público; aplicar el protocolo de datos y fuentes de la skill antes de publicar originales privados.
 
 La referencia aprobada se recuperó y revisó visualmente el 22-oct-2026; se conserva sin cambios como referencia histórica de estilo. La revisión no actualiza sus afirmaciones jurídicas. Los nuevos trabajos requieren ambas salidas y editables reproducibles.
+
+## Correcciones de la auditoría 1.1.0
+
+El contrato vigente requiere una fuente canónica declarada, cobertura por punto
+relevante y registro de generación con hashes de entradas y salidas. El generador
+debe consumir realmente el contenido, los datos y las fuentes. Regenerar invalida
+las aprobaciones afectadas; un validador de estructura no sustituye las revisiones
+de contenido y diseño. Se conserva un piloto reproducible y 20 pruebas del
+validador. El informe de auditoría documenta los defectos detectados en 1.0.0 y
+su corrección, sin convertir el registro anterior en una validación más amplia
+de la que fue.

@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "tema_id": "media-mediana",
+  "version": "1.1.0",
+  "conceptos": [
+    {
+      "id": "C01",
+      "titulo": "Dos preguntas sobre el centro",
+      "apartado": "C01 · Dos preguntas sobre el centro"
+    },
+    {
+      "id": "C02",
+      "titulo": "Media: todas las magnitudes cuentan",
+      "apartado": "C02 · Media: todas las magnitudes cuentan"
+    },
+    {
+      "id": "C03",
+      "titulo": "Mediana: orden y posición",
+      "apartado": "C03 · Mediana: orden y posición"
+    },
+    {
+      "id": "C04",
+      "titulo": "Qué cambia por el dato alto",
+      "apartado": "C04 · Qué cambia por el dato alto"
+    },
+    {
+      "id": "C05",
+      "titulo": "Cómo elegir y qué no dicen",
+      "apartado": "C05 · Cómo elegir y qué no dicen"
+    },
+    {
+      "id": "C06",
+      "titulo": "Ejercicio breve",
+      "apartado": "C06 · Ejercicio breve"
+    },
+    {
+      "id": "C07",
+      "titulo": "Respuesta separada",
+      "apartado": "C07 · Respuesta separada"
+    }
+  ],
+  "relaciones": [
+    {
+      "desde": "C01",
+      "hacia": "C02",
+      "relacion": "sumar y repartir",
+      "fuentes": [
+        "F01"
+      ],
+      "justificacion": "C02: la suma de las duraciones se divide entre su cantidad; aplicación propia de la definición."
+    },
+    {
+      "desde": "C01",
+      "hacia": "C03",
+      "relacion": "ordenar y ubicar",
+      "fuentes": [
+        "F01"
+      ],
+      "justificacion": "C03: la mediana es el valor de la posición central de la lista ordenada."
+    },
+    {
+      "desde": "C01",
+      "hacia": "C04",
+      "relacion": "cambiar solo el mayor",
+      "fuentes": [],
+      "justificacion": "C04: comparación construida con n fijo; solo cambia el valor mayor; cálculo propio."
+    },
+    {
+      "desde": "C04",
+      "hacia": "C05",
+      "relacion": "se interpreta con límites",
+      "fuentes": [
+        "F01"
+      ],
+      "justificacion": "C05: distinguir total y posición central; no inferir población ni error del dato alto."
+    },
+    {
+      "desde": "C04",
+      "hacia": "C06",
+      "relacion": "practicar con otros datos",
+      "fuentes": [],
+      "justificacion": "C06: ejercicio propio que aplica la misma sustitución con n fijo."
+    },
+    {
+      "desde": "C06",
+      "hacia": "C07",
+      "relacion": "se resuelve por separado",
+      "fuentes": [],
+      "justificacion": "C07: solución propia en página 3 para no revelarla al plantear el ejercicio."
+    },
+    {
+      "desde": "C02",
+      "hacia": "C05",
+      "relacion": "elegir según la pregunta",
+      "fuentes": [
+        "F01"
+      ],
+      "justificacion": "C05: el reparto del total y la posición central responden a preguntas diferentes."
+    },
+    {
+      "desde": "C03",
+      "hacia": "C03",
+      "relacion": "si cambia la cantidad, comprobar paridad",
+      "fuentes": [
+        "F01"
+      ],
+      "justificacion": "C03: la regla de mediana depende de si n es par o impar; el caso de retirar se desarrolla en C04."
+    }
+  ],
+  "remisiones": [
+    {
+      "concepto_id": "C01",
+      "paginas_cuaderno": [
+        1
+      ],
+      "zona_pizarra": "C01 · LOS MISMOS DATOS"
+    },
+    {
+      "concepto_id": "C02",
+      "paginas_cuaderno": [
+        1
+      ],
+      "zona_pizarra": "C02 · MEDIA"
+    },
+    {
+      "concepto_id": "C03",
+      "paginas_cuaderno": [
+        1,
+        3
+      ],
+      "zona_pizarra": "C03 · MEDIANA / C03 · SI n ES PAR"
+    },
+    {
+      "concepto_id": "C04",
+      "paginas_cuaderno": [
+        2
+      ],
+      "zona_pizarra": "C04 · CAMBIA LA MAGNITUD; LA MEDIANA SE CONSERVA"
+    },
+    {
+      "concepto_id": "C05",
+      "paginas_cuaderno": [
+        2,
+        3
+      ],
+      "zona_pizarra": "C05 · ¿PARA QUÉ? / C05 · LÍMITES QUE IMPORTAN"
+    },
+    {
+      "concepto_id": "C06",
+      "paginas_cuaderno": [
+        2
+      ],
+      "zona_pizarra": "C06 · PRUEBA TÚ"
+    },
+    {
+      "concepto_id": "C07",
+      "paginas_cuaderno": [
+        3
+      ],
+      "zona_pizarra": "C06 · PRUEBA TÚ; remisión visible a respuesta separada"
+    }
+  ]
+}

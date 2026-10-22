@@ -1,0 +1,52 @@
+[
+  {
+    "entrada_id": "E01",
+    "punto": "Distinguir media y mediana con el mismo supuesto",
+    "conceptos": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollado en el contenido canónico y sus dos composiciones; C07 se remite desde el lienzo."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Explicar qué cambia con el dato alto",
+    "conceptos": [
+      "C04"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollado en el contenido canónico y sus dos composiciones; C07 se remite desde el lienzo."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Mostrar fórmulas y cálculos explicados",
+    "conceptos": [
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollado en el contenido canónico y sus dos composiciones; C07 se remite desde el lienzo."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Conservar límites, contexto y matices",
+    "conceptos": [
+      "C05"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollado en el contenido canónico y sus dos composiciones; C07 se remite desde el lienzo."
+  },
+  {
+    "entrada_id": "E01",
+    "punto": "Ejercicio con solución separada",
+    "conceptos": [
+      "C06",
+      "C07"
+    ],
+    "estado": "incluido",
+    "motivo": "Desarrollado en el contenido canónico y sus dos composiciones; C07 se remite desde el lienzo."
+  }
+]
