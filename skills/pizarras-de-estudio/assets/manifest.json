@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "id": null,
+  "titulo": null,
+  "version": "0.1.0",
+  "version_skill": "1.0.0",
+  "fecha_revision": null,
+  "estado": "borrador",
+  "alcance": null,
+  "entradas": [],
+  "archivos": [],
+  "reproduccion": {"comando": null, "dependencias": []},
+  "auditoria": {
+    "contenido": {"estado": "pendiente", "evidencia": null},
+    "visual": {"estado": "pendiente", "evidencia": null},
+    "correspondencia": {"estado": "pendiente", "evidencia": null}
+  },
+  "pendientes": [],
+  "goodnotes": {"estado": "no_importado", "evidencia": null}
+}

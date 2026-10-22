@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "id": "referencia-isai-amparo",
+  "titulo": "ISAI y aplazamiento de la resolución",
+  "version": "legado-aprobado",
+  "version_skill": "1.0.0",
+  "fecha_revision": "2026-10-22",
+  "fecha_documento": "2026-10-01",
+  "estado": "referencia_historica",
+  "alcance": "Conservación del PDF aprobado por Emi y revisión visual como referencia de estilo. No se revalida aquí su contenido jurídico.",
+  "archivos": [
+    {
+      "ruta": "Pizarra_ISAI_y_Amparo.pdf",
+      "funcion": "referencia_visual_aprobada",
+      "sha256": "cd37f532587ae8fa09e6f97f0c158b8c66f8f1e2cbd2de300c3b652fafb8141d"
+    }
+  ],
+  "auditoria": {
+    "visual": {
+      "estado": "aprobada",
+      "evidencia": "Página completa renderizada e inspeccionada como referencia; 920 x 2115 pt, una página."
+    },
+    "contenido": {
+      "estado": "pendiente",
+      "evidencia": "Texto extraído para conocer el alcance; no se volvieron a consultar las fuentes jurídicas."
+    }
+  },
+  "pendientes": [
+    "No se recuperó el código editable original.",
+    "No es una nueva entrega con pizarra conectada y cuaderno Carta.",
+    "Reverificar fuentes y vigencia antes de reutilizar afirmaciones jurídicas."
+  ],
+  "goodnotes": {
+    "estado": "no_confirmado",
+    "evidencia": "El historial no acredita importación a una cuenta."
+  }
+}

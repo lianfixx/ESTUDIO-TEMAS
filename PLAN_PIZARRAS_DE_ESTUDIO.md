@@ -1,6 +1,6 @@
 # Plan para la skill de pizarras de estudio
 
-Estado: diseño inicial; skill todavía no implementada.
+Estado: diseño aprobado; implementación 1.0.0. Véanse [la skill](skills/pizarras-de-estudio/SKILL.md) y el [registro de validación](VALIDACION_SKILL.md).
 Fecha: 22 de octubre de 2026.
 Repositorio: lianfixx/ESTUDIO-TEMAS.
 Nombre propuesto: pizarras-de-estudio.
@@ -91,7 +91,7 @@ Producir por defecto PDF importable en Goodnotes y conservar una fuente editable
 
 Guardar versiones claras sin sobrescribir originales. Registrar qué se corrigió y por qué, de manera breve.
 
-El repositorio es público. La petición actual autoriza documentar la skill; no presupone publicar todos los apuntes, imágenes o expedientes. Por defecto, conservar en GitHub el método y ejemplos sintéticos. Resolver por separado el archivo de futuras pizarras.
+El repositorio es público. La decisión posterior del 22-oct-2026 autoriza guardar también los futuros materiales de estudio y sus editables. Conservar originales publicables; excluir o anonimizar datos reservados y referenciar fuentes externas que no puedan redistribuirse.
 
 ## Componentes de la skill
 
@@ -101,7 +101,7 @@ El repositorio es público. La petición actual autoriza documentar la skill; no
 - references/derecho.md: verificaciones jurídicas.
 - references/estilo-y-diseno.md: reglas de redacción y composición basadas en la referencia aprobada.
 - references/auditoria.md: comprobaciones de contenido y presentación.
-- assets/: plantilla visual reutilizable, solo después de comprobar el ejemplo.
+- assets/: contratos reutilizables de contenido, manifiesto y mapa. El diseño adaptable se especifica en references/estilo-y-diseno.md a partir de la referencia inspeccionada.
 - scripts/: solo automatizaciones necesarias y probadas; evitar infraestructura innecesaria.
 
 Mantener la skill breve y trasladar los detalles específicos a referencias. No convertirla en una enciclopedia ni fijar normas cambiantes en sus instrucciones.
@@ -118,9 +118,11 @@ Mantener la skill breve y trasladar los detalles específicos a referencias. No 
 
 La referencia aprobada puede usarse para comparar estilo. Sus afirmaciones sustantivas no servirán por sí solas como respuestas esperadas de las pruebas.
 
-## Decisiones pendientes
+## Decisiones resueltas el 22 de octubre de 2026
 
-1. Presentación: ¿prefiere Emi una pizarra grande para ampliar en Goodnotes o páginas normales para estudiar e imprimir? Recomendación inicial: páginas normales conectadas, con una vista general cuando el tema lo amerite.
-2. Archivo futuro: ¿GitHub conservará solo el método y sus plantillas, o también las pizarras de estudio seleccionadas? Recomendación inicial: método y plantillas; añadir materiales de estudio cuando se indique, considerando que el repositorio es público.
+1. Presentación: Emi eligió ambos formatos con usos distintos: pizarra grande conectada para explorar y comprender, y páginas normales para imprimir, estudiar y anotar. Cada tema nuevo debe producir las dos salidas con contenido y fuentes comunes.
+2. Archivo: Emi autorizó conservar también los trabajos, editables y versiones en GitHub y permitir que otras IA con la skill los consulten, guarden y modifiquen con sus propias herramientas y permisos.
 
-No hace falta volver a preguntar si la skill será multidisciplinaria, si necesita investigación, si debe usar fuentes fiables o cuál debe ser el tono: esas preferencias ya están expresadas.
+Estas decisiones sustituyen las propuestas iniciales incompatibles. No volver a preguntar formato o archivo. El repositorio sigue siendo público; aplicar el protocolo de datos y fuentes de la skill antes de publicar originales privados.
+
+La referencia aprobada se recuperó y revisó visualmente el 22-oct-2026; se conserva sin cambios como referencia histórica de estilo. La revisión no actualiza sus afirmaciones jurídicas. Los nuevos trabajos requieren ambas salidas y editables reproducibles.
