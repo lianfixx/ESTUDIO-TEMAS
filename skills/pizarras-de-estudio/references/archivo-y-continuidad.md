@@ -9,9 +9,9 @@
 
 ## Destino y autorización vigente
 
-Usar `lianfixx/ESTUDIO-TEMAS` como repositorio del método y de los trabajos de estudio. El 22 de octubre de 2026 Emi autorizó guardar también las pizarras y permitir que otras IA con la skill puedan usarlas, guardarlas y modificarlas. Entregar siempre dos formatos: lienzo grande conectado y páginas normales para imprimir, estudiar y anotar. No volver a preguntar estas decisiones.
+Usar `lianfixx/ESTUDIO-TEMAS` como repositorio preferido del método y de los trabajos de estudio. El 22 de octubre de 2026 Emi eligió archivar también las pizarras y permitir continuidad con otras IA que tengan acceso. Entregar siempre dos formatos: lienzo grande conectado y páginas normales para imprimir, estudiar y anotar. No volver a preguntar estas preferencias si siguen vigentes.
 
-Esta autorización permite guardar y actualizar apuntes de estudio ordinarios. El repositorio es público: antes de subir documentos, imágenes o metadatos, comprobar su contenido real. No publicar por inadvertencia nombres de clientes, datos personales, firmas, domicilios, identificadores privados o constancias reservadas. Anonimizar las copias de estudio sin alterar los originales; conservar el material reservado en su destino privado y registrar solo una referencia no sensible. Si quitar un dato cambia el sentido, continuar con las partes independientes y consultar únicamente esa decisión. No publicar material de terceros que no se pueda redistribuir: guardar su referencia y enlace, no una copia íntegra.
+La preferencia de archivo no autoriza por sí sola cualquier publicación futura. Antes de cada push o escritura externa, comprobar que la tarea actual la autoriza. El repositorio es público: antes de subir documentos, imágenes o metadatos, comprobar su contenido real. No publicar por inadvertencia nombres de clientes, datos personales, firmas, domicilios, identificadores privados o constancias reservadas. Anonimizar las copias de estudio sin alterar los originales; conservar el material reservado en su destino privado y registrar solo una referencia no sensible. Si quitar un dato cambia el sentido, continuar con las partes independientes y consultar únicamente esa decisión. No publicar material de terceros que no se pueda redistribuir: guardar su referencia y enlace, no una copia íntegra.
 
 ## Entrada para cualquier IA
 

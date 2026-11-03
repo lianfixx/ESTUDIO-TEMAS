@@ -7,6 +7,10 @@ description: >-
   Usar al pedir pizarras de estudio, pasar apuntes a Goodnotes, desarrollar un tema
   con este método, corregir materiales o continuar ESTUDIO-TEMAS, también con
   Claude u otra IA. Mantener editables, fuentes y versiones en GitHub.
+metadata:
+  version: "1.2.0"
+  release_date: "2026-10-22"
+  language: "es-MX"
 ---
 
 # Pizarras de estudio
@@ -27,9 +31,10 @@ volver a imponer la entrega completa.
 - Usar el mismo contenido revisado, fuentes y versión. No agrandar una página ni
   recortar un lienzo para simular dos formatos. Añadir hojas o lienzos si ayudan.
 - Usar español natural, claro y humano, precisión técnica y referencias discretas.
-- Guardar la skill y los trabajos en `lianfixx/ESTUDIO-TEMAS`. Emi autorizó ambos
-  formatos y el archivo de futuros trabajos el 22 de octubre de 2026. No volver
-  a preguntar estas preferencias. Aplicar el protocolo de privacidad del archivo.
+- Usar `lianfixx/ESTUDIO-TEMAS` como destino canónico de la skill y de los trabajos.
+  Emi eligió ambos formatos y ese destino el 22 de octubre de 2026; no volver a
+  preguntar esas preferencias si siguen vigentes. Antes de publicar o hacer push,
+  comprobar la autorización de la tarea actual y aplicar el protocolo de privacidad.
 - Permitir continuidad mediante archivos abiertos. Cada IA necesita herramientas
   y permisos propios; tener la skill no concede acceso de escritura ni a Goodnotes.
 

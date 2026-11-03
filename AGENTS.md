@@ -30,6 +30,7 @@ explicación de aumento, disminución o invariancia si los datos nuevos la contr
 El manifiesto 1.2 requiere `auditoria.generacion_verificada` concordante con la
 generación efectivamente revisada; no actualizar esa evidencia sin revisar.
 
-La autorización del 22-oct-2026 abarca el método y los futuros materiales de
-estudio. No volver a preguntar formatos o archivo. Revisar datos y derechos antes
-de publicar originales privados en este repositorio público, conforme a la skill.
+La decisión del 22-oct-2026 fija el método, los dos formatos y el repositorio
+preferido para futuros materiales. No volver a preguntar esas preferencias si
+siguen vigentes. Cada publicación o push requiere autorización aplicable a la
+tarea actual y revisión previa de datos, privacidad y derechos conforme a la skill.
