@@ -8,8 +8,8 @@ description: >-
   con este método, corregir materiales o continuar ESTUDIO-TEMAS, también con
   Claude u otra IA. Mantener editables, fuentes y versiones en GitHub.
 metadata:
-  version: "1.2.0"
-  release_date: "2026-10-22"
+  version: "1.3.0"
+  release_date: "2026-11-04"
   language: "es-MX"
 ---
 
@@ -157,3 +157,21 @@ Mostrar los dos PDF y enlace verificado al tema en GitHub. Mencionar correccione
 importantes y dudas sustantivas. Separar revisión de contenido, revisión visual,
 guardado en GitHub e importación en Goodnotes; afirmar solo estados comprobados.
 No atribuir el trabajo a Emi ni garantizar instalación automática en cualquier IA.
+
+## Terminado y trabajo en Claude Code
+
+Terminado (o el alcance que Emi acote, con estado y desfase registrados):
+- `validar_paquete.py` sobre el tema sin errores y con avisos revisados.
+- Todas las páginas y cada zona del lienzo revisadas a escala de lectura.
+- `auditoria.generacion_verificada` igual a `generacion`, tras revisar esos archivos.
+- Manifiesto, cambios e índice al día; commit remoto y rutas verificados.
+- Goodnotes marcado como importado solo con evidencia del destino.
+
+Entrevista inicial solo si Emi da únicamente un título o tema sin apuntes: una
+pregunta a la vez sobre objetivo, nivel y pregunta central, solo si cambian alcance
+o significado (§1); luego el plan. No volver a preguntar formatos ni destino.
+Máxima profundidad (`ultrathink`): leer fuentes y resolver contradicciones, verificar
+vigencia con `derecho.md` y auditar la correspondencia del canónico con ambas salidas.
+
+Para frenos activos, reparto en paralelo, `/goal`, `/loop`, programación y navegador,
+leer [Claude Code](references/claude-code.md).

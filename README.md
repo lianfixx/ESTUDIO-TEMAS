@@ -10,9 +10,12 @@ Cada tema nuevo tiene dos salidas complementarias:
 Ambas parten de una fuente canónica editable y de las mismas fuentes verificadas. La
 profundidad depende del tema; no se rellena ni se comprime todo en una sola hoja.
 
-Método actual: **1.2.0**, con [correcciones de fondo](AUDITORIA_FONDO_2026-10-22.md),
+Método actual: **1.3.0** ([cambios](skills/pizarras-de-estudio/CHANGELOG.md)), con
+[correcciones de fondo](AUDITORIA_FONDO_2026-10-22.md),
 validador de integridad y [piloto reproducible](validacion/piloto-media-mediana/INDICE.md).
 El piloto prueba el método; se conserva separado de los apuntes del usuario.
+La versión del método y la del esquema del manifiesto (1.2) son independientes:
+la 1.3.0 no cambió el esquema y los temas hechos con 1.2.0 siguen válidos.
 
 ## Empezar o continuar
 

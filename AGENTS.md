@@ -20,8 +20,9 @@
    Al cambiar el generador, comprobar propagación en una copia temporal. Una
    generación nueva debe invalidar las aprobaciones afectadas.
 
-Método vigente: 1.2.0. Consultar `AUDITORIA_FONDO_2026-10-22.md` para los defectos
-corregidos y los límites de las pruebas. Los casos de `validacion/` son pruebas
+Método vigente: 1.3.0; el esquema del manifiesto sigue en 1.2. Consultar
+`AUDITORIA_FONDO_2026-10-22.md` para los defectos corregidos y los límites de
+las pruebas. Los casos de `validacion/` son pruebas
 del método y no deben registrarse como apuntes solicitados por el usuario.
 
 Una corrección sustantiva no puede quedarse solo en la vista Markdown. Comprobar
