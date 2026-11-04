@@ -1,6 +1,6 @@
 ---
 name: pizarras-de-estudio
-description: Convertir apuntes, fotos, anotaciones, documentos o temas de cualquier materia en una pizarra grande conectada y páginas imprimibles para estudiar y anotar, con redacción natural, investigación verificable y fuentes oficiales o académicas. Usar al pedir pizarras de estudio, pasar apuntes a Goodnotes, desarrollar un tema con este método, corregir materiales o continuar ESTUDIO-TEMAS, también con Claude u otra IA. Mantener editables, fuentes y versiones en GitHub.
+description: "Convertir apuntes, fotos, anotaciones, documentos o temas de cualquier materia en una pizarra grande conectada y páginas imprimibles para estudiar y anotar, con redacción natural, investigación verificable y fuentes oficiales o académicas. Usar al pedir pizarras de estudio, pasar apuntes a Goodnotes, desarrollar un tema con este método, corregir materiales o continuar ESTUDIO-TEMAS, también con Claude u otra IA. Mantener editables, fuentes y versiones en GitHub."
 ---
 
 # Entrada de pizarras-de-estudio

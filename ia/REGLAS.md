@@ -15,7 +15,7 @@ en GitHub, el workflow `registro-ia.yml` revisa cada push. Donde no hay freno au
 - Requiere confirmación expresa de Emi: Vas a publicar en GitHub. Confirma que la tarea actual autoriza este push.
 - Antes de `git commit`: `test ! -d temas/{dir} || python3 skills/pizarras-de-estudio/scripts/validar_paquete.py temas/{dir}` debe pasar. El paquete del tema no pasa el validador.
 - Prohibido: commit con secretos (claves, tokens) ni datos personales (CURP, tarjetas).
-- Antes de `git commit`: `python3 ia/check_skill.py skills/pizarras-de-estudio` debe pasar. El SKILL.md dejaría de ser compatible con claude.ai.
+- Antes de `git commit`: `python3 ia/check_skill.py skills/pizarras-de-estudio .claude/skills/pizarras-de-estudio .agents/skills/pizarras-de-estudio` debe pasar. El SKILL.md o sus puentes dejarían de ser válidos.
 - Antes de `git commit`: `python3 ia/test_guard.py` debe pasar. Las pruebas de las reglas comunes fallaron.
 - Prohibido: commit sin entrada en el registro del repositorio (ver «Registro obligatorio»).
 
