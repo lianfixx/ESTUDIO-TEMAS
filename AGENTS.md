@@ -20,7 +20,7 @@
    Al cambiar el generador, comprobar propagación en una copia temporal. Una
    generación nueva debe invalidar las aprobaciones afectadas.
 
-Método vigente: 1.3.0; el esquema del manifiesto sigue en 1.2. Consultar
+Método vigente: 1.3.1; el esquema del manifiesto sigue en 1.2. Consultar
 `AUDITORIA_FONDO_2026-10-22.md` para los defectos corregidos y los límites de
 las pruebas. Los casos de `validacion/` son pruebas
 del método y no deben registrarse como apuntes solicitados por el usuario.
@@ -35,3 +35,11 @@ La decisión del 22-oct-2026 fija el método, los dos formatos y el repositorio
 preferido para futuros materiales. No volver a preguntar esas preferencias si
 siguen vigentes. Cada publicación o push requiere autorización aplicable a la
 tarea actual y revisión previa de datos, privacidad y derechos conforme a la skill.
+
+## Trabajo entre IA (obligatorio para cualquier IA o persona)
+
+Este repositorio sigue el protocolo común de `ia/PROTOCOLO.md`; las reglas concretas están en `ia/REGLAS.md`.
+- Fuente de verdad: el repositorio remoto y su estado vigente (`INDICE.md` y el `manifest.json` y `CAMBIOS.md` de cada tema), no la memoria de una conversación.
+- Todo cambio se registra en el mismo commit, con la línea `Agente:` (protocolo, sección 3). Sin escritura, entrega un «Registro pendiente para el repositorio».
+- Lo prohibido y lo que requiere confirmación de Emi vale en Claude, ChatGPT, Codex, Gemini y cualquier otra IA. Con terminal, ejecuta `sh ia/instalar.sh` una vez por copia. GitHub revisa cada push con `registro-ia.yml`.
+- Para pasar trabajo a otra IA: `ia/plantillas/PETICION.md` y `ia/plantillas/ENTREGA.md`.

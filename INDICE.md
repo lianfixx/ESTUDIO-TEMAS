@@ -14,7 +14,7 @@
 
 ## Método
 
-- [Pizarras de estudio](skills/pizarras-de-estudio/SKILL.md), versión 1.3.0
+- [Pizarras de estudio](skills/pizarras-de-estudio/SKILL.md), versión 1.3.1
   ([cambios](skills/pizarras-de-estudio/CHANGELOG.md)). El esquema de manifiesto sigue en 1.2.
 - [Plan y decisiones acordadas](PLAN_PIZARRAS_DE_ESTUDIO.md).
 - [Correcciones de fondo y comprobaciones actuales](AUDITORIA_FONDO_2026-10-22.md).

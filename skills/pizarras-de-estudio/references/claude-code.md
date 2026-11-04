@@ -18,6 +18,8 @@ no acredita fuentes ni legibilidad, la búsqueda automática no reemplaza la rev
 de privacidad y derechos, y confirmar un push no sustituye comprobar que la tarea
 actual lo autoriza.
 
+Las mismas reglas valen fuera de Claude Code: están en `ia/REGLAS.md` (generadas de `ia/politica.json`). Con terminal, `sh ia/instalar.sh` las activa como hooks de git para cualquier IA o persona, y GitHub revisa cada push con `registro-ia.yml`. En chat sin frenos (claude.ai, ChatGPT, Gemini), la IA las cumple por sí misma y entrega el registro pendiente. Además, todo commit sin entrada de registro con `Agente:` queda bloqueado.
+
 ## Plan y entrevista
 
 Modo plan (Shift+Tab): recuperar el tema, inventariar entradas y proponer conceptos,
