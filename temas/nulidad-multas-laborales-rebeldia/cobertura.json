@@ -1,0 +1,282 @@
+[
+ {
+  "entrada_id": "E01",
+  "punto": "Resumen ejecutivo: asunto, postura y cuatro pilares",
+  "conceptos": [
+   "C01",
+   "C13"
+  ],
+  "estado": "corregido",
+  "motivo": "Se muestran dos órdenes: el de fuerza de la guía y el del memorándum final."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Partes, autoridades y expedientes",
+  "conceptos": [
+   "C01"
+  ],
+  "estado": "incluido",
+  "motivo": "Datos identificadores sólo en la edición privada, mediante variables."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Cronología completa",
+  "conceptos": [
+   "C01"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Etapa 1: inspección, Acuerdo de Calificación, emplazamiento, rebeldía y multas",
+  "conceptos": [
+   "C01",
+   "C02",
+   "C03",
+   "C05",
+   "C11"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Etapa 2: recurso, pruebas exhibidas y resolución que no las valoró",
+  "conceptos": [
+   "C08",
+   "C06"
+  ],
+  "estado": "corregido",
+  "motivo": "El acuerdo es de 5 de noviembre; el 8 es su notificación."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Etapa 3: demanda, contestaciones, ampliación y acuerdos del juicio",
+  "conceptos": [
+   "C01",
+   "C09",
+   "C10"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Qué sigue: plazo de sentencia, excitativa y medios de defensa",
+  "conceptos": [
+   "C12"
+  ],
+  "estado": "corregido",
+  "motivo": "Apelación ante el Pleno Jurisdiccional de la Sala Superior, arts. 116 y 118 LJA."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Punto 1 de la guía: competencia",
+  "conceptos": [
+   "C09"
+  ],
+  "estado": "corregido",
+  "motivo": "El cierre sobre preclusión y consentimiento pasó al punto 2, como en el memorándum final."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Punto 2 de la guía: audiencia",
+  "conceptos": [
+   "C04",
+   "C06"
+  ],
+  "estado": "corregido",
+  "motivo": "Se agrega el art. 78 LPA; la negativa a valorar pruebas pasa a C08."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Punto 3 de la guía: caducidad",
+  "conceptos": [
+   "C03",
+   "C07"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Punto 4 de la guía: multas y orden genérica",
+  "conceptos": [
+   "C02",
+   "C11"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Qué dejamos fuera, en sus dos listas",
+  "conceptos": [
+   "C13"
+  ],
+  "estado": "corregido",
+  "motivo": "Las dos listas se unificaron en seis puntos; el art. 101 dice que la Sala podrá estudiar de oficio la competencia de la autoridad."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Tabla de defensas de la Secretaría que entraron en la versión final",
+  "conceptos": [
+   "C04",
+   "C06",
+   "C08",
+   "C09",
+   "C10"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Informe de la Dirección de Inspección como apoyo del inicio del sancionador",
+  "conceptos": [
+   "C03"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Réplica sobre el art. 99 LPA",
+  "conceptos": [
+   "C02"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Puntos débiles",
+  "conceptos": [
+   "C03",
+   "C04",
+   "C06",
+   "C09",
+   "C11"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Sugerencia de pedir remisión del asunto en vez de sobreseimiento",
+  "conceptos": [
+   "C09"
+  ],
+  "estado": "corregido",
+  "motivo": "La LJACDMX no tiene regla de remisión por incompetencia; prevé el sobreseimiento, arts. 92 y 93, fr. II."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Preguntas probables del licenciado",
+  "conceptos": [
+   "C01",
+   "C09",
+   "C10",
+   "C11",
+   "C12"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Conceptos: visita, sancionador, rebeldía, recurso, demanda, jurisprudencia 2a./J. 22/2015",
+  "conceptos": [
+   "C02",
+   "C03",
+   "C05",
+   "C08",
+   "C09",
+   "C10",
+   "C12"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Transcripciones de artículos y jurisprudencias",
+  "conceptos": [
+   "C04",
+   "C07",
+   "C08",
+   "C09"
+  ],
+  "estado": "incluido",
+  "motivo": "Se agregan art. 78, fr. I, LPA; arts. 93, fr. II, 101, 116 y 118 LJA, y el texto completo de la 2a./J. 73/2013."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Faltantes y discrepancias de la carpeta",
+  "conceptos": [
+   "C04",
+   "C13"
+  ],
+  "estado": "incluido",
+  "motivo": "Se registran como pendientes no sustantivos."
+ },
+ {
+  "entrada_id": "E01",
+  "punto": "Línea de captura del pago, RFC, domicilio, nombres de personas y números de expediente",
+  "conceptos": [],
+  "estado": "fuera_de_alcance",
+  "motivo": "Datos identificadores del cliente: no se publican; la edición privada usa sólo los necesarios para estudiar."
+ },
+ {
+  "entrada_id": "E02",
+  "punto": "Antecedentes del memorándum",
+  "conceptos": [
+   "C01"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E02",
+  "punto": "Punto 1: la Sala es competente",
+  "conceptos": [
+   "C09"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E02",
+  "punto": "Punto 2: sancionada sin ser oída, con preclusión y art. 60",
+  "conceptos": [
+   "C04",
+   "C06",
+   "C10"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E02",
+  "punto": "Punto 3: caducidad",
+  "conceptos": [
+   "C03",
+   "C07",
+   "C12"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E02",
+  "punto": "Punto 4: multas ilegales, art. 123 y 2a./J. 73/2013, individualización y orden genérica",
+  "conceptos": [
+   "C02",
+   "C08",
+   "C11"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E02",
+  "punto": "Petición",
+  "conceptos": [
+   "C12"
+  ],
+  "estado": "incluido"
+ },
+ {
+  "entrada_id": "E02",
+  "punto": "Forma del memorándum: destinatario, firma, extensión y sin paréntesis",
+  "conceptos": [
+   "C13"
+  ],
+  "estado": "incluido"
+ }
+]

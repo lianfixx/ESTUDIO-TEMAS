@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.2",
+  "id": "nulidad-multas-laborales-rebeldia",
+  "titulo": "Nulidad de multas laborales impuestas en rebeldía",
+  "version": "1.0.0",
+  "version_skill": "1.3.1",
+  "fecha_revision": "2026-11-17",
+  "estado": "revisado",
+  "alcance": "Estudio de un juicio de nulidad ante el TJACDMX contra 22 multas laborales impuestas en rebeldía por la STyFE, para preparar la plática con la ponencia. Cubre competencia, improcedencia, notificaciones, caducidad, valoración de pruebas en el recurso y las multas. Refleja nuestra postura en el memorándum de 11 de noviembre de 2026; no predice el resultado ni certifica constancias que no se tuvieron a la vista.",
+  "entradas": [
+    {
+      "id": "E01",
+      "nombre": "Guía de estudio del asunto en Claude Docs, revisión 26",
+      "alcance_leido": "Texto completo, 90,458 caracteres: resumen, partes, cronología, tres etapas, postura punto por punto, lo que entró al memorándum, puntos débiles, preguntas, conceptos, transcripciones, faltantes y fuentes.",
+      "estado_lectura": "completo",
+      "dudas": [
+        "Varias partes quedaron desactualizadas frente al memorándum final; se corrigen en este tema y se registran en cobertura.json."
+      ]
+    },
+    {
+      "id": "E02",
+      "nombre": "Memorándum para la ponencia, versión final de 11-nov-2026",
+      "alcance_leido": "Dos páginas completas.",
+      "estado_lectura": "completo",
+      "dudas": []
+    }
+  ],
+  "archivos": [
+    {
+      "ruta": "AUDITORIA.md",
+      "funcion": "documentacion",
+      "sha256": "3ab24d80dcac8b9bf20e94b54e9da21fba686e7007bdeb29297c5e1d91f822bf"
+    },
+    {
+      "ruta": "CAMBIOS.md",
+      "funcion": "documentacion",
+      "sha256": "71ae87c0c915c4502fc98e07851d0701d8de5b9a4321f019ce444d7fbd833ec8"
+    },
+    {
+      "ruta": "LEEME.md",
+      "funcion": "documentacion",
+      "sha256": "ae3e4d9058c3d9ed5f5c6c38e88b3f2439c24c6606aeed7ca08eb0ac69c7b12d"
+    },
+    {
+      "ruta": "auditoria/correspondencia.json",
+      "funcion": "documentacion",
+      "sha256": "aa7e15c85c77d6aebccbeb63942a82b4f64c5ceb56b539fed22238c0b33e1b59"
+    },
+    {
+      "ruta": "auditoria/cuaderno_visual.json",
+      "funcion": "documentacion",
+      "sha256": "2850124a0cbc2b95b2681bb58277867f1dd4f24fbc0dfcbdbfc0a8f7d4fcdd32"
+    },
+    {
+      "ruta": "auditoria/pizarra_visual.json",
+      "funcion": "documentacion",
+      "sha256": "dc1a8b4e4d52100c4e017fd598625f3d749a97db8ac867524b5404feca90c6f1"
+    },
+    {
+      "ruta": "cobertura.json",
+      "funcion": "fuente_editable",
+      "sha256": "8233c755ce063b12dc95825935a70cf06b8ec798a918828d8faaa82e86a300e7"
+    },
+    {
+      "ruta": "contenido.json",
+      "funcion": "fuente_editable",
+      "sha256": "53bdfd1361fb8d4187144f7d1a8f18b3fac47520bcc4d4c4a365886303833063"
+    },
+    {
+      "ruta": "contenido.md",
+      "funcion": "salida",
+      "sha256": "e5eec56902f4849e147d399485e2bea0cd252c639d8a76a2bed159b7d64a2228"
+    },
+    {
+      "ruta": "editables/README.md",
+      "funcion": "fuente_editable",
+      "sha256": "9283f1812cfd92a4be4da23a6ea6317674d32431eb2133bdf5cfde5aa6fb09fa"
+    },
+    {
+      "ruta": "editables/generar.py",
+      "funcion": "fuente_editable",
+      "sha256": "59d91dcfcae3edab77fafe1e88e8504b0b29bdb76f3905542b16e2c2c53984a6"
+    },
+    {
+      "ruta": "fuentes.json",
+      "funcion": "fuente_editable",
+      "sha256": "2752f6ba010b90cce7f56362d9ee0e218b1bfa4da49745601eaa7c80badfe8e9"
+    },
+    {
+      "ruta": "mapa.json",
+      "funcion": "fuente_editable",
+      "sha256": "48e53aca5a7ea5504f1f5ce15cdd860e2740435171bca4cd8a54741f65ceecb2"
+    },
+    {
+      "ruta": "salidas/cuaderno.pdf",
+      "funcion": "salida",
+      "sha256": "0d297bc9b699951b5c48afdcf71efdea22772e82ff4259426ad51a5626995e4b"
+    },
+    {
+      "ruta": "salidas/pizarra.pdf",
+      "funcion": "salida",
+      "sha256": "db93878d5e7974c6400e06f36f5a99782281b8d1ccfffdf31cd644e823ef4861"
+    }
+  ],
+  "reproduccion": {
+    "comando": "python3 editables/generar.py .",
+    "dependencias": [
+      "Python >=3.9",
+      "playwright para Python con Chromium",
+      "pypdf",
+      "fontTools",
+      "Tipografías Inter 4 OpenType y Caladea TrueType instaladas en el sistema"
+    ]
+  },
+  "auditoria": {
+    "generacion_verificada": {
+      "entradas": [
+        {
+          "ruta": "contenido.json",
+          "sha256": "53bdfd1361fb8d4187144f7d1a8f18b3fac47520bcc4d4c4a365886303833063"
+        },
+        {
+          "ruta": "fuentes.json",
+          "sha256": "2752f6ba010b90cce7f56362d9ee0e218b1bfa4da49745601eaa7c80badfe8e9"
+        },
+        {
+          "ruta": "mapa.json",
+          "sha256": "48e53aca5a7ea5504f1f5ce15cdd860e2740435171bca4cd8a54741f65ceecb2"
+        },
+        {
+          "ruta": "cobertura.json",
+          "sha256": "8233c755ce063b12dc95825935a70cf06b8ec798a918828d8faaa82e86a300e7"
+        },
+        {
+          "ruta": "editables/README.md",
+          "sha256": "9283f1812cfd92a4be4da23a6ea6317674d32431eb2133bdf5cfde5aa6fb09fa"
+        },
+        {
+          "ruta": "editables/generar.py",
+          "sha256": "59d91dcfcae3edab77fafe1e88e8504b0b29bdb76f3905542b16e2c2c53984a6"
+        }
+      ],
+      "salidas": [
+        {
+          "ruta": "salidas/pizarra.pdf",
+          "sha256": "db93878d5e7974c6400e06f36f5a99782281b8d1ccfffdf31cd644e823ef4861"
+        },
+        {
+          "ruta": "salidas/cuaderno.pdf",
+          "sha256": "0d297bc9b699951b5c48afdcf71efdea22772e82ff4259426ad51a5626995e4b"
+        },
+        {
+          "ruta": "contenido.md",
+          "sha256": "e5eec56902f4849e147d399485e2bea0cd252c639d8a76a2bed159b7d64a2228"
+        }
+      ],
+      "entorno": {
+        "python": "3.13.18",
+        "playwright": "1.63.0",
+        "pypdf": "6.17.0",
+        "tipografia": "Inter 4 OpenType del sistema, convertida a TrueType con fontTools; Caladea TrueType del sistema",
+        "fonttools": "4.67.0"
+      }
+    },
+    "contenido": {
+      "estado": "aprobada",
+      "fecha": "2026-11-17",
+      "evidencia": "Guía y memorándum leídos completos; once correcciones aplicadas al canónico; fuentes F01 a F08 con localizadores; montos y plazos recalculados. Detalle en AUDITORIA.md y cobertura.json."
+    },
+    "visual": {
+      "estado": "aprobada",
+      "fecha": "2026-11-17",
+      "evidencia": "Lienzo A1 completo, seis recortes a escala de lectura y vista en grises; 35 páginas Carta abiertas. Evidencia y hashes en auditoria/pizarra_visual.json y auditoria/cuaderno_visual.json."
+    },
+    "correspondencia": {
+      "estado": "aprobada",
+      "fecha": "2026-11-17",
+      "evidencia": "Síntesis, ruta, flechas, defensas y puntos débiles hallados en el texto de la pizarra; entradillas y bloques hallados en el cuaderno; páginas de remisión comprobadas por el generador. Evidencia en auditoria/correspondencia.json."
+    }
+  },
+  "pendientes": [
+    {
+      "descripcion": "No se localizó el texto de la jurisprudencia S.S. 4/JURISDICCIONAL; sus datos y su rubro vienen de la contestación de la Secretaría.",
+      "sustantivo": false
+    },
+    {
+      "descripcion": "No se leyeron la S.S./J. 28 del antiguo Tribunal de lo Contencioso Administrativo ni la tesis (IV Región)1o.10 A (10a.), registro 2022152, que cita la Secretaría sobre la caducidad.",
+      "sustantivo": false
+    },
+    {
+      "descripcion": "Faltan en la carpeta las páginas 40 y 41 de la contestación de la Secretaría, las hojas finales de ambas resoluciones, las constancias originales de notificación y el comprobante del pago bajo protesta.",
+      "sustantivo": false
+    },
+    {
+      "descripcion": "No se verificó si la Sala dictó sentencia después del 11 de noviembre de 2026.",
+      "sustantivo": false
+    }
+  ],
+  "goodnotes": {
+    "estado": "no_importado",
+    "evidencia": "No hay integración con Goodnotes en esta sesión; PDF listos para importación manual."
+  },
+  "contenido_canonico": "contenido.json",
+  "vista_contenido": "contenido.md",
+  "generacion": {
+    "entradas": [
+      {
+        "ruta": "contenido.json",
+        "sha256": "53bdfd1361fb8d4187144f7d1a8f18b3fac47520bcc4d4c4a365886303833063"
+      },
+      {
+        "ruta": "fuentes.json",
+        "sha256": "2752f6ba010b90cce7f56362d9ee0e218b1bfa4da49745601eaa7c80badfe8e9"
+      },
+      {
+        "ruta": "mapa.json",
+        "sha256": "48e53aca5a7ea5504f1f5ce15cdd860e2740435171bca4cd8a54741f65ceecb2"
+      },
+      {
+        "ruta": "cobertura.json",
+        "sha256": "8233c755ce063b12dc95825935a70cf06b8ec798a918828d8faaa82e86a300e7"
+      },
+      {
+        "ruta": "editables/README.md",
+        "sha256": "9283f1812cfd92a4be4da23a6ea6317674d32431eb2133bdf5cfde5aa6fb09fa"
+      },
+      {
+        "ruta": "editables/generar.py",
+        "sha256": "59d91dcfcae3edab77fafe1e88e8504b0b29bdb76f3905542b16e2c2c53984a6"
+      }
+    ],
+    "salidas": [
+      {
+        "ruta": "salidas/pizarra.pdf",
+        "sha256": "db93878d5e7974c6400e06f36f5a99782281b8d1ccfffdf31cd644e823ef4861"
+      },
+      {
+        "ruta": "salidas/cuaderno.pdf",
+        "sha256": "0d297bc9b699951b5c48afdcf71efdea22772e82ff4259426ad51a5626995e4b"
+      },
+      {
+        "ruta": "contenido.md",
+        "sha256": "e5eec56902f4849e147d399485e2bea0cd252c639d8a76a2bed159b7d64a2228"
+      }
+    ],
+    "entorno": {
+      "python": "3.13.18",
+      "playwright": "1.63.0",
+      "pypdf": "6.17.0",
+      "tipografia": "Inter 4 OpenType del sistema, convertida a TrueType con fontTools; Caladea TrueType del sistema",
+      "fonttools": "4.67.0"
+    }
+  }
+}

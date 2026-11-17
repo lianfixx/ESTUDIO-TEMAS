@@ -1,0 +1,1148 @@
+{
+ "id": "nulidad-multas-laborales-rebeldia",
+ "titulo": "Nulidad de multas laborales impuestas en rebeldía",
+ "subtitulo": "Caso de estudio: juicio local contra la Secretaría de Trabajo y Fomento al Empleo de la Ciudad de México",
+ "version": "1.0.0",
+ "fecha_revision": "2026-11-17",
+ "pregunta": "¿Por qué deben anularse lisa y llanamente unas multas impuestas sin oír a la empresa, y qué tiene que resolver la Sala antes?",
+ "alcance": "Estudio de un juicio de nulidad ante el TJACDMX contra 22 multas laborales impuestas en rebeldía por la STyFE, para preparar la plática con la ponencia. Cubre competencia, improcedencia, notificaciones, caducidad, valoración de pruebas en el recurso y las multas. Refleja nuestra postura en el memorándum de 11 de noviembre de 2026; no predice el resultado ni certifica constancias que no se tuvieron a la vista.",
+ "inicio": "Empieza por la ruta del asunto. Después sigue las zonas en el orden en que estudiará la Sala: primero la puerta de entrada, luego lo que da nulidad lisa y llana.",
+ "privacidad": "La edición pública no lleva el nombre de la empresa, números de expediente, personas ni datos de pago; la edición privada se genera con un archivo de datos que no se publica.",
+ "variables": {
+  "ACTORA": "Reservado en la edición pública",
+  "EXP_JUICIO": "Reservado en la edición pública",
+  "EXP_INSP": "Reservado",
+  "EXP_PAS": "Reservado",
+  "EXP_RI": "Reservado",
+  "SALA": "Una Sala Ordinaria Jurisdiccional del TJACDMX",
+  "SECRETARIO": "El secretario de acuerdos de la ponencia",
+  "FIRMANTE": "El licenciado autorizado de la actora",
+  "APODERADA": "Reservado",
+  "RECIBE_8NOV": "Reservado",
+  "RECIBE_4DIC": "Reservado",
+  "EDICION": "Edición pública anonimizada"
+ },
+ "ficha": [
+  [
+   "Actora",
+   "{{ACTORA}}"
+  ],
+  [
+   "Juicio",
+   "{{EXP_JUICIO}}"
+  ],
+  [
+   "Inspección",
+   "{{EXP_INSP}}"
+  ],
+  [
+   "Procedimiento sancionador",
+   "{{EXP_PAS}}"
+  ],
+  [
+   "Recurso de inconformidad",
+   "{{EXP_RI}}"
+  ],
+  [
+   "Sala",
+   "{{SALA}}"
+  ],
+  [
+   "Destinatario del memorándum",
+   "{{SECRETARIO}}"
+  ],
+  [
+   "Firma el memorándum",
+   "{{FIRMANTE}}"
+  ],
+  [
+   "Apoderada que recibió la multa",
+   "{{APODERADA}}"
+  ],
+  [
+   "Recibió el 8 de noviembre de 2024",
+   "{{RECIBE_8NOV}}"
+  ],
+  [
+   "Recibió el 4 de diciembre de 2024",
+   "{{RECIBE_4DIC}}"
+  ]
+ ],
+ "como_usar": [
+  "La pizarra A1 da la vista completa: ruta, orden de estudio, defensas y riesgos.",
+  "Cada concepto tiene una página aquí, con margen derecho para anotar y una pregunta al pie.",
+  "Las referencias entre corchetes llevan a las fuentes del final; F09 y F10 son documentos privados del asunto.",
+  "Las preguntas de repaso están en una página y las respuestas en la siguiente."
+ ],
+ "orden_fuerza": [
+  "Caducidad: única que por sí sola lleva a la nulidad lisa y llana",
+  "Audiencia: la empresa nunca fue oída",
+  "Multas: sin motivación ni individualización",
+  "Competencia: hay que ganarla para que se estudie lo demás"
+ ],
+ "conceptos": [
+  {
+   "id": "C01",
+   "titulo": "La ruta del asunto",
+   "zona": "Z1",
+   "pagina": 3,
+   "entradilla": "El asunto pasó por cuatro etapas: inspección, procedimiento sancionador, recurso de inconformidad y juicio de nulidad. Las dos primeras son procedimientos distintos, uno detrás del otro, y saber dónde termina el primero y dónde empieza el segundo decide la caducidad. [F09, constancias del expediente]",
+   "bloques": [
+    {
+     "subtitulo": "Inspección",
+     "texto": "Una queja motivó la orden de visita extraordinaria de 18 de octubre de 2024. La visita fue el 22 de octubre; quien la atendió dijo ser vendedora, y se dieron cinco días hábiles para exhibir documentos, que corrieron del 23 al 29 de octubre sin que se exhibiera nada. El 5 de noviembre se dictó el Acuerdo de Calificación, que se notificó el 8 a una persona de la sucursal, sin citatorio. [F09, acta de visita y resolución sancionadora]"
+    },
+    {
+     "subtitulo": "Procedimiento sancionador",
+     "texto": "El emplazamiento se emitió el 2 de diciembre, con citatorio del día 3, y se entendió el 4 con otra persona de la sucursal. Los quince días hábiles para defenderse corrieron del 5 de diciembre al 13 de enero de 2025. El 19 de febrero se cerró en rebeldía y el 20 se impusieron veintidós multas por $206,283.00, que se notificaron a la apoderada el 25 de febrero: es la primera actuación que llegó a la representante. [F09, resolución sancionadora y constancias de notificación]"
+    },
+    {
+     "subtitulo": "Recurso de inconformidad",
+     "texto": "Se interpuso el 12 de marzo de 2025 con la documentación laboral. Tras la audiencia del 29 de abril, la Secretaría confirmó las multas el 22 de agosto sin valorar las pruebas. La resolución se conoció el 19 de septiembre, por instructivo. [F09, recurso y resolución del recurso]"
+    },
+    {
+     "subtitulo": "Juicio de nulidad",
+     "texto": "La demanda se presentó el 10 de octubre de 2025 y se admitió el 16, sin suspensión, porque las multas ya estaban pagadas bajo protesta. La Secretaría contestó con incidente de incompetencia y el 2 de diciembre se reservaron las causales para la sentencia. La ampliación se presentó el 16 de enero de 2026 y se admitió el 20. El 6 de marzo se dieron cinco días para alegatos y, vencidos, quedó cerrada la instrucción. El artículo 96 da treinta días para sentenciar; al 11 de noviembre de 2026, fecha del memorándum, la sentencia seguía pendiente. [F03, arts. 94 y 96; F09, acuerdos del juicio]"
+    }
+   ],
+   "anotar": "Marca con un color lo que pasó en la inspección y con otro lo que pasó en el sancionador.",
+   "sintesis": [],
+   "apartado": "C01 · La ruta del asunto"
+  },
+  {
+   "id": "C02",
+   "titulo": "Orden de visita genérica",
+   "zona": "Z5",
+   "pagina": 4,
+   "entradilla": "La orden de 18 de octubre de 2024 tuvo por objeto verificar «posibles violaciones a la legislación laboral vigente», sin decir cuáles. La ley local exige que la orden precise el objeto y el alcance de la visita. [F02, art. 99; F09, orden de visita]",
+   "bloques": [
+    {
+     "subtitulo": "Qué exige la norma",
+     "texto": "El artículo 99 de la LPACDMX pide una orden escrita, con firma autógrafa, que precise lugar, objeto, alcance y fundamento. El artículo 6 exige que el objeto sea determinado y preciso, fracción III, y que el acto esté fundado y motivado, fracción VIII. El Reglamento de inspección pide lo mismo para las órdenes laborales y, con su entrega, tiene por iniciado el procedimiento de inspección. [F02, arts. 6 y 99; F05, art. 29]"
+    },
+    {
+     "subtitulo": "Nuestro argumento",
+     "texto": "Una orden abierta deja todo al arbitrio del inspector. Si la orden está viciada, la visita, el acta y la sanción que derivan de ella son frutos de un acto viciado y no pueden tener valor. Es el quinto concepto de la demanda y cierra el punto 4 del memorándum. [F09, demanda, quinto concepto; F10, punto 4]"
+    },
+    {
+     "subtitulo": "Qué contesta la Secretaría",
+     "texto": "Que la orden sí precisó su alcance, los seis meses anteriores y las utilidades de 2023, y que el artículo 99 no rige las inspecciones de trabajo, porque las regulan la Ley Federal del Trabajo y su Reglamento. La réplica está en su propia contestación: admite que actuó aplicando la LPACDMX. El memorándum no entra en este debate. [F09, contestación de la Secretaría]"
+    },
+    {
+     "subtitulo": "Cuánto pesa",
+     "texto": "El acta hace fe mientras no se demuestre lo contrario, pero sólo si se levantó con apego al Reglamento y a la ley del procedimiento aplicable. Es un argumento de apoyo: no gana el juicio por sí solo. [F05, art. 17]"
+    }
+   ],
+   "anotar": "Escribe con tus palabras qué tendría que decir una orden de visita bien hecha.",
+   "sintesis": [
+    "Objeto: «posibles violaciones a la legislación laboral vigente»",
+    "LPA 99 y 6, fr. III y VIII: objeto y alcance precisos",
+    "Orden viciada: visita, acta y multas, frutos viciados"
+   ],
+   "apartado": "C02 · Orden de visita genérica"
+  },
+  {
+   "id": "C03",
+   "titulo": "Acuerdo de Calificación",
+   "zona": "Z3",
+   "pagina": 5,
+   "entradilla": "El Acuerdo de Calificación de 5 de noviembre de 2024 cerró la inspección y pidió que se iniciara el procedimiento sancionador. Si con él empezó el sancionador, el procedimiento caducó; si empezó con el emplazamiento, no. [F05, arts. 51 y 52; F09, resoluciones]",
+   "bloques": [
+    {
+     "subtitulo": "Qué dice el Reglamento",
+     "texto": "El artículo 51 regula un acuerdo de cierre de instrucción de la inspección en el que se establece de manera expresa la solicitud de que se inicie el sancionador, y ordena notificarlo personalmente al patrón o a su representante legal. Está en el capítulo «De la iniciación del procedimiento», dentro del título que regula el cierre de la inspección y el inicio del procedimiento para aplicar sanciones. [F05, título tercero y art. 51]"
+    },
+    {
+     "subtitulo": "Tres apoyos de la propia autoridad",
+     "texto": "La resolución sancionadora dice que ese acuerdo determinó que se iniciara el procedimiento. La resolución del recurso dice que con él se indicó «la conclusión de la inspección e inicio del Procedimiento Administrativo Sancionador». El informe de la Dirección de Inspección dice que se emitió «a efecto de que se inicie el procedimiento». [F09, resolución sancionadora, resolución del recurso e informe de la Dirección de Inspección]"
+    },
+    {
+     "subtitulo": "La lectura contraria",
+     "texto": "El artículo 51 lo llama acuerdo de cierre de la inspección y el 52 dice que el emplazamiento se emite «recibida la solicitud de inicio». Con eso la Secretaría sostiene que el sancionador empezó con el emplazamiento de 2 de diciembre. Es el punto débil del cómputo y hay que conocerlo. [F05, arts. 51 y 52; F09, contestación]"
+    },
+    {
+     "subtitulo": "El emplazamiento llegó tarde",
+     "texto": "El artículo 52 obligaba a emitir el emplazamiento dentro de los diez días hábiles siguientes a la notificación del acuerdo, hecha el viernes 8 de noviembre. Ese plazo venció el 22 de noviembre, o el 25 si el lunes 18 fue inhábil, y el emplazamiento se emitió hasta el 2 de diciembre. Su retraso no le amplía el plazo. [F05, art. 52; F10, punto 3]"
+    }
+   ],
+   "anotar": "Cuenta tú los diez días hábiles en un calendario de noviembre de 2024.",
+   "sintesis": [
+    "5-nov-2024: cierra la inspección y pide iniciar el sancionador, RGITAS 51",
+    "Capítulo «De la iniciación del procedimiento»",
+    "Las dos resoluciones y el informe dicen que ahí inició",
+    "RGITAS 52: emplazar en 10 días hábiles; lo emitió hasta el 2-dic"
+   ],
+   "apartado": "C03 · Acuerdo de Calificación"
+  },
+  {
+   "id": "C04",
+   "titulo": "Notificación personal y citatorio",
+   "zona": "Z4",
+   "pagina": 6,
+   "entradilla": "El Acuerdo de Calificación y el emplazamiento debían notificarse personalmente al patrón o a su representante legal. Ninguno llegó a la representante: se entendieron con personas de la sucursal que no acreditaron facultades. [F02, arts. 78 a 80; F05, art. 51]",
+   "bloques": [
+    {
+     "subtitulo": "La regla",
+     "texto": "La primera notificación en el asunto es personal, artículo 78, fracción I, inciso a). El notificador debe cerciorarse del domicilio y asentar fecha, hora, nombre, firma, media filiación y características del inmueble, artículo 79. La diligencia se entiende con el interesado, su representante o su autorizado; a falta de ellos, se deja citatorio para una hora fija del día hábil siguiente, artículo 80. Sólo si no se atiende el citatorio puede entenderse con cualquier persona, artículo 81. [F02, arts. 78 a 81]"
+    },
+    {
+     "subtitulo": "Lo que pasó",
+     "texto": "El 8 de noviembre la diligencia se practicó sin citatorio, con alguien que se ostentó como empleado sin acreditarlo, y el notificador dijo cerciorarse por «placas numéricas». El 4 de diciembre hubo citatorio del día 3, pero la diligencia se entendió con otra persona y el cercioramiento fue por el «número visible». En ninguna se identificó el notificador. [F09, demanda, primer concepto; F10, punto 2]"
+    },
+    {
+     "subtitulo": "La admisión de la Secretaría",
+     "texto": "En su contestación escribió que «no resulta necesario dejar citatorio» porque la empresa no designó representante ni autorizados. Es justo el supuesto en que el artículo 80 lo exige. Y aunque quien recibió fuera trabajador, como dijo la resolución del recurso, eso no lo facultaba para recibir en nombre de la persona moral. [F09, contestación p. 20; F02, art. 80; F10, punto 2]"
+    },
+    {
+     "subtitulo": "Quién prueba",
+     "texto": "La actora negó lisa y llanamente conocer esas notificaciones y que quien recibió la del 8 de noviembre fuera su empleado. Con esa negativa, la autoridad debe probar los hechos, artículo 79 de la LJACDMX. [F03, art. 79]"
+    },
+    {
+     "subtitulo": "Lo que no decimos",
+     "texto": "No alegamos falta de citatorio el 4 de diciembre, porque hubo citatorio el 3. No nombramos a quien recibió el 8 de noviembre, porque la demanda y la autoridad le dan apellidos distintos. [F09, constancias y demanda]"
+    }
+   ],
+   "anotar": "¿Qué cambia si la diligencia del 8 de noviembre hubiera tenido citatorio?",
+   "sintesis": [
+    "LPA 78 y 80: notificación personal; sin representante, citatorio",
+    "8-nov sin citatorio; 4-dic con persona sin facultades",
+    "Secretaría: «no resulta necesario dejar citatorio»",
+    "Negativa lisa y llana: prueba la autoridad, LJA 79"
+   ],
+   "apartado": "C04 · Notificación personal y citatorio"
+  },
+  {
+   "id": "C05",
+   "titulo": "Emplazamiento y rebeldía",
+   "zona": "Z4",
+   "pagina": 7,
+   "entradilla": "El emplazamiento llama al patrón a defenderse en el sancionador; la rebeldía es lo que pasa si, emplazado, no comparece. Sin emplazamiento válido no hay rebeldía: hay falta de audiencia. [F05, arts. 52, 53 y 58]",
+   "bloques": [
+    {
+     "subtitulo": "La regla",
+     "texto": "El emplazamiento debe dar al menos quince días hábiles para contestar y apercibir que, si no comparece, se seguirá en rebeldía y se tendrán por ciertos los hechos imputados, artículo 53, fracciones VII y IX. Después se cierra el procedimiento, artículo 58, y se resuelve dentro de diez días hábiles, artículo 59. [F05, arts. 53, 58 y 59]"
+    },
+    {
+     "subtitulo": "Lo que pasó",
+     "texto": "Los quince días corrieron del 5 de diciembre de 2024 al 13 de enero de 2025 y nadie compareció. El 19 de febrero se dictaron los acuerdos de pruebas y de cierre en rebeldía, y el 20 la «Resolución en rebeldía», que tuvo el acta por prueba plena. [F09, acuerdos de 19-feb-2025 y resolución sancionadora; F05, art. 17]"
+    },
+    {
+     "subtitulo": "Por qué es la base de todo",
+     "texto": "Todo lo que se tuvo por cierto descansa en un emplazamiento válido. Si no se notificó legalmente, la empresa nunca tuvo oportunidad de exhibir sus documentos y la sanción por no exhibirlos pierde sustento. Por eso este punto se conecta con la caducidad, C07, y con las pruebas que no se valoraron en el recurso, C08. [F07; F10, puntos 2 a 4]"
+    }
+   ],
+   "anotar": "Dibuja la línea del 5 de diciembre al 20 de febrero y marca qué día debió comparecer la empresa.",
+   "sintesis": [
+    "RGITAS 53: 15 días hábiles y apercibimiento de rebeldía",
+    "5-dic-2024 a 13-ene-2025: nadie comparece",
+    "Sin emplazamiento válido no hay rebeldía: hay falta de audiencia"
+   ],
+   "apartado": "C05 · Emplazamiento y rebeldía"
+  },
+  {
+   "id": "C06",
+   "titulo": "Audiencia previa y convalidación",
+   "zona": "Z4",
+   "pagina": 8,
+   "entradilla": "La defensa debe darse antes del acto que priva de derechos. Una notificación irregular que se conoce después de la multa no repara esa falta. [F01, art. 14; F07; F02, art. 83]",
+   "bloques": [
+    {
+     "subtitulo": "Formalidades esenciales",
+     "texto": "La jurisprudencia P./J. 47/95 las resume en cuatro: notificar el inicio del procedimiento y sus consecuencias, dar oportunidad de ofrecer y desahogar pruebas, dar oportunidad de alegar y dictar una resolución que dirima lo debatido. Si falla la primera, fallan las demás. [F07]"
+    },
+    {
+     "subtitulo": "La convalidación",
+     "texto": "La Secretaría dijo que, al interponer el recurso, la actora convalidó las notificaciones. El artículo 83 de la LPACDMX dice que la notificación irregular surte efectos desde que el interesado manifiesta conocerla o interpone el recurso. Aquí eso ocurrió con las multas ya impuestas: la notificación produce efectos desde entonces, no hacia atrás, y la audiencia previa nunca existió. [F02, art. 83; F09, contestación p. 5; F10, punto 2]"
+    },
+    {
+     "subtitulo": "Ni dolo ni consentimiento",
+     "texto": "La actora recurrió en cuanto conoció la multa y la pagó bajo protesta para evitar la ejecución. No hay consentimiento ni mala fe. [F09, demanda, hecho 6, y ampliación; F10, punto 2]"
+    },
+    {
+     "subtitulo": "Cuidado",
+     "texto": "En el recurso dijimos que la información no se mostró al inspector por confidencialidad, y en el acta quien atendió dijo que los encargados la presentarían en el plazo legal. Eso sugiere que la empresa supo de la visita. La respuesta: saber de la visita no es ser emplazado al sancionador, que es el procedimiento que priva de derechos. [F09, recurso y acta de visita; F07]"
+    }
+   ],
+   "anotar": "Escribe las cuatro formalidades sin mirar y marca cuál falló aquí.",
+   "sintesis": [
+    "P./J. 47/95: defensa previa al acto privativo",
+    "LPA 83: efectos desde que se conoce, ya con la multa",
+    "Ni dolo ni consentimiento: recurrió y pagó bajo protesta"
+   ],
+   "apartado": "C06 · Audiencia previa y convalidación"
+  },
+  {
+   "id": "C07",
+   "titulo": "Caducidad: los dos cómputos",
+   "zona": "Z3",
+   "pagina": 9,
+   "entradilla": "Un procedimiento iniciado de oficio que no se resuelve en tres meses caduca. Es el argumento que hace imposible reponer y por eso lleva a la nulidad lisa y llana. [F02, art. 32, último párrafo]",
+   "bloques": [
+    {
+     "subtitulo": "Dos normas",
+     "texto": "El último párrafo del artículo 32 de la LPACDMX produce la caducidad si en tres meses no se dicta la resolución; el texto oficial omite el verbo después de «haya». El artículo 93, fracción I, cuenta tres meses desde la última actuación. La demanda se apoyó en el 32 y la ampliación en el 93. [F02, arts. 32 y 93; F09, demanda y ampliación]"
+    },
+    {
+     "subtitulo": "Nuestro cómputo",
+     "texto": "Desde el 5 de noviembre de 2024, los tres meses vencieron el 5 de febrero de 2025; aun desde la notificación del 8 de noviembre, vencieron el 8 de febrero. La resolución se dictó el 20 de febrero y se notificó el 25: el procedimiento ya había caducado. [F10, punto 3]"
+    },
+    {
+     "subtitulo": "El cómputo de la Secretaría",
+     "texto": "Cuenta desde el emplazamiento, emitido el 2 de diciembre y notificado el 4. Así, los tres meses llegarían a principios de marzo y la resolución estaría en tiempo. También invoca el artículo 93: tres meses desde la última actuación. [F09, contestación]"
+    },
+    {
+     "subtitulo": "Nuestras respuestas",
+     "texto": "Primero, sus propias resoluciones dicen que el sancionador inició con el Acuerdo de Calificación, C03. Segundo, emitió el emplazamiento fuera del plazo del artículo 52 y su retraso no amplía el plazo. Tercero, un emplazamiento ilegalmente notificado no puede oponerse a la actora como última actuación, C04. [F05, art. 52; F10, punto 3]"
+    },
+    {
+     "subtitulo": "Lo que cita la Secretaría",
+     "texto": "La contestación invoca la jurisprudencia S.S./J. 28 del antiguo Tribunal de lo Contencioso Administrativo y la tesis (IV Región)1o.10 A (10a.), registro 2022152. No se leyeron para este estudio; está anotado en pendientes. [F09, contestación]"
+    }
+   ],
+   "anotar": "Haz los dos cómputos en una línea de tiempo y marca dónde queda el 20 de febrero.",
+   "sintesis": [
+    "LPA 32: tres meses para resolver un procedimiento de oficio",
+    "Desde 5 u 8-nov-2024: vence 5 u 8-feb-2025",
+    "Resolución 20-feb, notificada 25-feb: caducó",
+    "Secretaría: cuenta desde el emplazamiento, 2 o 4-dic",
+    "Emplazamiento tardío e ilegal: no amplía ni es última actuación"
+   ],
+   "apartado": "C07 · Caducidad: los dos cómputos"
+  },
+  {
+   "id": "C08",
+   "titulo": "Recurso y pruebas no valoradas",
+   "zona": "Z5",
+   "pagina": 10,
+   "entradilla": "En el recurso la actora reclamó las notificaciones y exhibió su documentación. La Secretaría se negó a valorarla porque debió presentarse en el sancionador, al que la actora nunca fue emplazada. [F02, arts. 108 a 128; F09, resolución del recurso]",
+   "bloques": [
+    {
+     "subtitulo": "El recurso",
+     "texto": "Es optativo frente al juicio, se interpone en quince días hábiles y lo resuelve el superior jerárquico, que puede confirmar, modificar, revocar o anular. Contra lo que resuelva procede el juicio de nulidad. [F02, arts. 108, 109, 126 y 128]"
+    },
+    {
+     "subtitulo": "Lo que exhibimos",
+     "texto": "Contratos individuales, recibos de nómina del último año, declaración del ejercicio 2023, reglamento interior, cuadro general de antigüedades, constancias del IMSS y otros documentos laborales. [F09, recurso de 12-mar-2025]"
+    },
+    {
+     "subtitulo": "La negativa",
+     "texto": "La Secretaría dijo que «a estas alturas procesales no es posible analizar» las pruebas e invocó la preclusión, el segundo párrafo del artículo 123 y la jurisprudencia 2a./J. 73/2013. Nunca valoró los documentos. [F09, resolución del recurso y contestación pp. 15 a 17]"
+    },
+    {
+     "subtitulo": "Por qué no aplica",
+     "texto": "El artículo 123 excluye lo que el recurrente, «habiendo podido aportarlos», no aportó. La 2a./J. 73/2013 interpreta la litis abierta del juicio federal y niega una nueva oportunidad de probar a quien debió hacerlo «estando en posibilidad legal de hacerlo». Ambas presuponen que se pudo aportar. La actora no pudo, porque no fue emplazada. [F02, art. 123; F08]"
+    },
+    {
+     "subtitulo": "Para la plática",
+     "texto": "La propia jurisprudencia nombra el procedimiento de origen o el recurso como los lugares para exhibir las pruebas. Aquí se exhibieron en el recurso. [F08, rubro y texto]"
+    }
+   ],
+   "anotar": "Subraya en el anexo la frase del artículo 123 que decide este punto.",
+   "sintesis": [
+    "12-mar-2025: recurso con la documentación laboral",
+    "22-ago-2025: confirma sin valorar las pruebas",
+    "LPA 123 y 2a./J. 73/2013 exigen haber podido aportar",
+    "Sin emplazamiento no pudo: debió valorarlas"
+   ],
+   "apartado": "C08 · Recurso y pruebas no valoradas"
+  },
+  {
+   "id": "C09",
+   "titulo": "Competencia de la Sala",
+   "zona": "Z2",
+   "pagina": 11,
+   "entradilla": "La Secretaría pide que la Sala se declare incompetente porque las multas sancionan infracciones a la Ley Federal del Trabajo. Respondemos que la controversia deriva de la ley local que rigió el procedimiento y el recurso. [F06; F09, contestación pp. 1 a 3]",
+   "bloques": [
+    {
+     "subtitulo": "Lo que dice la jurisprudencia",
+     "texto": "La 2a./J. 22/2015 parte de que aplicar las normas laborales corresponde a las autoridades locales, pero limita a los tribunales locales a las controversias por la aplicación de las leyes que rigen a la administración local. Una multa por infringir normas federales, aunque la imponga una autoridad local, va al Tribunal Federal. La Secretaría cita también la S.S. 4/JURISDICCIONAL de la Sala Superior del TJACDMX, de 2019, cuyo texto no se localizó. [F06; F01, art. 123, apartado A, fr. XXXI; F09, contestación p. 2]"
+    },
+    {
+     "subtitulo": "Cómo la distinguimos",
+     "texto": "La propia jurisprudencia reconoce la competencia local cuando la controversia deriva de las leyes que rigen a la administración local. Aquí se discuten notificaciones, caducidad y la resolución de un recurso, todo regido por la LPACDMX, y la Secretaría admite que actuó aplicándola. Ambas resoluciones pusieron fin a un procedimiento y a una instancia conforme a esa ley, cuyo artículo 128 prevé el juicio de nulidad: encuadran en el artículo 3, fracciones I y XIII, de la Ley Orgánica. La fracción XIV no se invoca: cubre recursos contra resoluciones que ya son competencia del Tribunal. [F04, art. 3; F02, art. 128; F10, punto 1]"
+    },
+    {
+     "subtitulo": "No actuó como autoridad federal",
+     "texto": "El artículo 123, apartado A, fracción XXXI, constitucional confía a las autoridades locales la aplicación de las leyes del trabajo, salvo las materias federales. Al resolver el recurso, la Secretaría declaró que el asunto es de jurisdicción local porque la empresa no realiza actividades federales y la inspección no versó sobre capacitación ni seguridad e higiene, y lo transcribe en su contestación. No se surte la fracción II del artículo 92. [F01, art. 123, apartado A, fr. XXXI; F03, art. 92; F09, contestación p. 15]"
+    },
+    {
+     "subtitulo": "El límite",
+     "texto": "Es distinguir una jurisprudencia obligatoria, no desconocerla, y la Secretaría ya sostuvo que aplicar la LPACDMX no cambia la naturaleza federal de la multa. Es el principal riesgo del asunto. Si la Sala se declarara incompetente, la consecuencia que prevé la LJACDMX es el sobreseimiento; no hay en esa ley una regla para remitir el asunto a otro tribunal. [F03, arts. 92 y 93; F09, contestación p. 3]"
+    }
+   ],
+   "anotar": "Resume en dos líneas por qué este asunto no es una simple multa federal.",
+   "sintesis": [
+    "Secretaría: LFT federal, 2a./J. 22/2015 y S.S. 4",
+    "La misma jurisprudencia: local si deriva de leyes locales",
+    "Se discute la LPACDMX: notificaciones, caducidad, recurso",
+    "LOT 3, fr. I y XIII · LPA 128",
+    "Al resolver el recurso declaró jurisdicción local"
+   ],
+   "apartado": "C09 · Competencia de la Sala"
+  },
+  {
+   "id": "C10",
+   "titulo": "Improcedencia y preclusión",
+   "zona": "Z2",
+   "pagina": 12,
+   "entradilla": "Antes del fondo, la Sala estudia las causales de improcedencia, que deben quedar plenamente probadas. La Secretaría opuso varias y el 2 de diciembre de 2025 se reservaron para la sentencia. [F03, art. 92, último párrafo; F09, acuerdos de 2-dic-2025]",
+   "bloques": [
+    {
+     "subtitulo": "Lo que se opuso",
+     "texto": "La Secretaría: incompetencia, actos consumados y consentidos, convalidación de las notificaciones, preclusión, y dolo y mala fe por no comparecer. La Tesorería pidió que se sobresea respecto de ella porque no emitió ni ejecutó los actos. [F09, contestaciones]"
+    },
+    {
+     "subtitulo": "No hay consentimiento",
+     "texto": "El consentimiento tácito del artículo 92, fracción VI, se da cuando no se promueve el juicio en plazo. La resolución del recurso se conoció el 19 de septiembre de 2025 y la demanda se presentó el 10 de octubre, dentro de los quince días hábiles del artículo 56. Además, el pago fue bajo protesta. [F03, arts. 56 y 92; F09, demanda]"
+    },
+    {
+     "subtitulo": "No hay preclusión",
+     "texto": "La ilegalidad de las notificaciones se planteó en el recurso, en la demanda y se reiteró en la ampliación, y rige la litis abierta del artículo 80. La Secretaría dijo que la ampliación no controvirtió las constancias y que, por el artículo 60, las notificaciones quedaron firmes. Ese artículo regula la notificación del acto impugnado, no las del procedimiento, y la ampliación sí dijo que se practicaron con empleados sin facultades. [F03, arts. 60 y 80; F09, contestación a la ampliación pp. 1 a 4; F10, punto 2]"
+    },
+    {
+     "subtitulo": "La ampliación era procedente",
+     "texto": "El artículo 60, fracción II, permite combatir en ampliación las constancias que exhibe la autoridad, y el 62, fracción IV, las cuestiones nuevas de la contestación. La Sala la admitió el 20 de enero de 2026. [F03, arts. 60 y 62; F09, acuerdo de 20-ene-2026]"
+    }
+   ],
+   "anotar": "Cuenta los quince días hábiles desde que se conoció la resolución del recurso, el 19 de septiembre de 2025, y ubica el 10 de octubre.",
+   "sintesis": [
+    "LJA 92, último párrafo: estudio preferente y prueba plena",
+    "Consentimiento: no, demanda en plazo y pago bajo protesta",
+    "Preclusión: no, planteado en recurso, demanda y ampliación",
+    "LJA 60: se refiere al acto impugnado, no al procedimiento"
+   ],
+   "apartado": "C10 · Improcedencia y preclusión"
+  },
+  {
+   "id": "C11",
+   "titulo": "Las multas en sí",
+   "zona": "Z5",
+   "pagina": 13,
+   "entradilla": "Aun sin los vicios de procedimiento, las multas no se sostienen: sancionan no exhibir documentos que la empresa sí tiene y no se individualizaron con datos de su capacidad económica. [F02, arts. 6 y 132; F05, arts. 60 y 61]",
+   "bloques": [
+    {
+     "subtitulo": "Cuánto y por qué",
+     "texto": "Veintidós multas por no acreditar once rubros de condiciones generales de trabajo: dieciocho de 50 UMA, de $5,428.50 cada una, que suman $97,713.00, y cuatro de 250 UMA, de $27,142.50 cada una, que suman $108,570.00. Total: $206,283.00, con la UMA de 2024 de $108.57. En cada caso la autoridad dijo imponer la sanción mínima, por un trabajador. [F09, resolución sancionadora]"
+    },
+    {
+     "subtitulo": "Motivación",
+     "texto": "La resolución no constató un incumplimiento: sancionó por no exhibir documentos en un procedimiento al que la empresa no fue emplazada. La empresa sí tiene la documentación y la exhibió en el recurso. Falla la motivación que exige la fracción VIII del artículo 6. [F02, art. 6; F10, punto 4]"
+    },
+    {
+     "subtitulo": "Individualización",
+     "texto": "El artículo 132 de la LPACDMX y los artículos 60 y 61 del Reglamento piden considerar daño, intención, gravedad, reincidencia y capacidad económica; el 61 dice con qué datos se mide esta última. La autoridad no tenía ninguno sobre la actora. La Secretaría responde que el mínimo no requiere mayor individualización. Es un argumento secundario, planteado ad cautelam. [F02, art. 132; F05, arts. 60 y 61; F09, contestación]"
+    },
+    {
+     "subtitulo": "Lo que no se alega",
+     "texto": "La demanda dijo que la resolución no cita las disposiciones infringidas, pero sí las cita, por ejemplo el artículo 132, fracciones I y XXIV, de la Ley Federal del Trabajo. El memorándum no repite ese argumento. [F09, resolución sancionadora]"
+    }
+   ],
+   "anotar": "Comprueba la suma de las multas con calculadora.",
+   "sintesis": [
+    "18 de 50 UMA y 4 de 250 UMA: $206,283.00",
+    "Sancionó no exhibir: falla LPA 6, fr. VIII",
+    "Sin datos de capacidad económica: LPA 132; RGITAS 60 y 61"
+   ],
+   "apartado": "C11 · Las multas en sí"
+  },
+  {
+   "id": "C12",
+   "titulo": "Lisa y llana o para efectos",
+   "zona": "Z6",
+   "pagina": 14,
+   "entradilla": "La nulidad lisa y llana deja sin efectos el acto sin posibilidad de reponerlo; la nulidad para efectos ordena reponer el procedimiento o dictar un acto nuevo. Pedimos la primera. [F03, arts. 100 y 102]",
+   "bloques": [
+    {
+     "subtitulo": "Orden de estudio",
+     "texto": "Cuando se hacen valer varias causas, la Sala debe examinar primero las que pueden llevar a la nulidad lisa y llana, artículo 100, último párrafo. Por eso el memorándum pide que la caducidad se estudie primero. [F03, art. 100; F10, punto 3]"
+    },
+    {
+     "subtitulo": "Por qué la caducidad pesa más",
+     "texto": "Si sólo prosperara la falta de audiencia, que es un vicio del procedimiento del artículo 100, fracción III, lo usual sería una nulidad para efectos: la autoridad repondría el procedimiento desde la notificación ilegal, artículo 102, fracción III y penúltimo párrafo. Con la caducidad no hay nada que reponer. [F03, arts. 100 y 102]"
+    },
+    {
+     "subtitulo": "La petición",
+     "texto": "Desestimar la incompetencia y las causales; declarar la nulidad lisa y llana de las resoluciones de 20 de febrero y 22 de agosto de 2025, artículos 100 y 102, fracción II; y ordenar devolver los $206,283.00, actualizados y con intereses. La ampliación apoyó la devolución en el artículo 22 del Código Fiscal de la Federación, como supletorio. [F10, petición; F09, ampliación]"
+    },
+    {
+     "subtitulo": "Qué sigue",
+     "texto": "La sentencia debía dictarse dentro de los treinta días siguientes al cierre de instrucción, artículo 96. Si no se dicta, procede la excitativa de justicia ante el Presidente del Tribunal, artículo 95; decidirlo toca al licenciado. Contra la sentencia procede la apelación ante el Pleno Jurisdiccional de la Sala Superior, dentro de diez días, artículos 116 y 118, y después el amparo. [F03, arts. 95, 96, 116 y 118]"
+    }
+   ],
+   "anotar": "Explica en una frase por qué a la autoridad le conviene más una nulidad para efectos.",
+   "sintesis": [
+    "LJA 100, último párrafo: primero lo que da lisa y llana",
+    "Caducidad: nada que reponer, nulidad lisa y llana",
+    "Sólo audiencia: lo usual es para efectos, LJA 102, fr. III",
+    "Petición: anular ambas resoluciones y devolver $206,283.00"
+   ],
+   "apartado": "C12 · Lisa y llana o para efectos"
+  },
+  {
+   "id": "C13",
+   "titulo": "El memorándum para la ponencia",
+   "zona": "Z7",
+   "pagina": 15,
+   "entradilla": "Es un alegato de oreja por escrito: se entrega en la ponencia para que el secretario que proyecta tenga a la mano nuestros argumentos. No se presenta en oficialía ni genera acuerdo, y sólo puede apoyarse en lo que ya consta en autos. [F10]",
+   "bloques": [
+    {
+     "subtitulo": "Forma",
+     "texto": "Dos cuartillas, sin paréntesis, con encabezado de actora y expediente; datos de PARA, DE, ASUNTO y FECHA; antecedentes, cuatro argumentos y una petición. Está fechado el 11 de noviembre de 2026 y lo firma el licenciado como autorizado en términos del artículo 15 de la LJACDMX. [F10; F03, art. 15]"
+    },
+    {
+     "subtitulo": "Orden de los puntos",
+     "texto": "Uno, competencia; dos, audiencia; tres, caducidad; cuatro, multas. La competencia va primero porque se estudia antes que todo. La audiencia va antes que la caducidad porque la caducidad la usa: un emplazamiento mal notificado no cuenta como última actuación. Aun así, el punto 3 pide que la caducidad se examine primero. [F10; F03, arts. 92 y 100]"
+    },
+    {
+     "subtitulo": "Defensas que contesta",
+     "texto": "Cinco que no estaban contestadas: la 2a./J. 73/2013 con el artículo 123, la preclusión del artículo 60, la convalidación del artículo 83, el «no resulta necesario dejar citatorio» y la incompetencia. El detalle está en la página de defensas. [F10; F09, contestaciones]"
+    },
+    {
+     "subtitulo": "Lo que deja fuera",
+     "texto": "Seis cosas, a propósito, porque no ayudan o porque el expediente las desmiente. Están en la página «Lo que el memorándum deja fuera». [F10; F09]"
+    }
+   ],
+   "anotar": "Ensaya en voz alta el punto 3 en menos de un minuto.",
+   "sintesis": [
+    "Alegato de oreja: a la ponencia, no a oficialía",
+    "2 cuartillas: antecedentes, 4 argumentos y petición",
+    "Orden: competencia, audiencia, caducidad, multas"
+   ],
+   "apartado": "C13 · El memorándum para la ponencia"
+  }
+ ],
+ "defensas": [
+  {
+   "alega": "La Sala es incompetente: multas por infringir la LFT; 2a./J. 22/2015 y S.S. 4/JURISDICCIONAL.",
+   "donde": "Contestación, pp. 1 a 3",
+   "respuesta": "La controversia deriva de la LPACDMX, que la Secretaría admite haber aplicado; LOT 3, fr. I y XIII; al resolver el recurso declaró la jurisdicción local y lo transcribe en su contestación, p. 15.",
+   "punto": "Punto 1",
+   "concepto": "C09",
+   "corta": "Incompetencia"
+  },
+  {
+   "alega": "«No resulta necesario dejar citatorio», porque no se designó representante ni autorizados.",
+   "donde": "Contestación, p. 20, cita textual",
+   "respuesta": "Es justo el supuesto en que el artículo 80 de la LPACDMX exige citatorio.",
+   "punto": "Punto 2",
+   "concepto": "C04",
+   "corta": "«No hace falta citatorio»"
+  },
+  {
+   "alega": "Al recurrir, la actora convalidó las notificaciones, artículo 83 de la LPACDMX.",
+   "donde": "Contestación, p. 5",
+   "respuesta": "La notificación irregular surte efectos desde que se conoce o se recurre; aquí, con las multas ya impuestas.",
+   "punto": "Punto 2",
+   "concepto": "C06",
+   "corta": "Convalidación, LPA 83"
+  },
+  {
+   "alega": "La ampliación no controvirtió las constancias; por el artículo 60 de la LJACDMX precluyó.",
+   "donde": "Contestación a la ampliación, pp. 1 a 4",
+   "respuesta": "Sí se controvirtieron, punto IV de la ampliación; el artículo 60 regula la notificación del acto impugnado, no las del procedimiento.",
+   "punto": "Punto 2",
+   "concepto": "C10",
+   "corta": "Preclusión, LJA 60"
+  },
+  {
+   "alega": "La litis abierta no permite pruebas nuevas, 2a./J. 73/2013; por eso no valoró los documentos en el recurso.",
+   "donde": "Contestación, pp. 15 a 17; contestación a la ampliación, p. 7",
+   "respuesta": "El artículo 123 y esa jurisprudencia sólo excluyen lo que el particular pudo aportar y no aportó; la actora no fue emplazada.",
+   "punto": "Punto 4",
+   "concepto": "C08",
+   "corta": "2a./J. 73/2013 y LPA 123"
+  },
+  {
+   "alega": "El sancionador inició con el emplazamiento; rige el artículo 93, fr. I.",
+   "donde": "Contestación",
+   "respuesta": "Sus resoluciones dicen que inició con el Acuerdo de Calificación; emplazó tarde; un emplazamiento ilegal no es última actuación.",
+   "punto": "Punto 3",
+   "concepto": "C07",
+   "corta": "Inicio en el emplazamiento"
+  },
+  {
+   "alega": "Las multas son las mínimas y no requieren individualización.",
+   "donde": "Contestación",
+   "respuesta": "No tenía ningún dato de capacidad económica; argumento secundario.",
+   "punto": "Punto 4",
+   "concepto": "C11",
+   "corta": "Multas mínimas"
+  },
+  {
+   "alega": "El artículo 99 de la LPACDMX no rige las inspecciones de trabajo.",
+   "donde": "Contestación",
+   "respuesta": "Admite que actuó aplicando la LPACDMX. No está en el memorándum.",
+   "punto": "Fuera del memorándum",
+   "concepto": "C02",
+   "corta": "LPA 99 no aplica"
+  }
+ ],
+ "debiles": [
+  {
+   "punto": "Incompetencia",
+   "por_que": "La 2a./J. 22/2015 obliga a la Sala y la S.S. 4/JURISDICCIONAL es de su propia Sala Superior; ambas mandan al Tribunal Federal las multas por infringir normas federales.",
+   "respuesta": "Se discute la aplicación de la LPACDMX y la propia autoridad declaró la jurisdicción local. La Secretaría ya se adelantó: dice que aplicar la LPACDMX no cambia la naturaleza federal de la multa.",
+   "concepto": "C09",
+   "corta": "Distinguir, no desconocer: se discute la LPACDMX. Texto de la S.S. 4 no localizado."
+  },
+  {
+   "punto": "Inicio del sancionador",
+   "por_que": "El artículo 51 llama al acuerdo de cierre de la inspección y el 52 habla de emplazar «recibida la solicitud de inicio». Contado desde el emplazamiento, no pasan tres meses.",
+   "respuesta": "Capítulo «De la iniciación del procedimiento»; las dos resoluciones y el informe dicen que ahí inició; emplazó fuera del plazo del 52.",
+   "concepto": "C03",
+   "corta": "Capítulo «De la iniciación» y sus propias resoluciones."
+  },
+  {
+   "punto": "Cercioramiento del domicilio",
+   "por_que": "El artículo 100, inciso b), de la LJACDMX dice que no circunstanciar el cercioramiento en un citatorio no afecta las defensas si la diligencia se hizo en el domicilio correcto.",
+   "respuesta": "Nuestro argumento central no es el cercioramiento, sino con quién se entendió y que el 8 de noviembre no hubo citatorio.",
+   "concepto": "C04",
+   "corta": "Lo central es con quién se entendió y que no hubo citatorio."
+  },
+  {
+   "punto": "Lo dicho en el recurso",
+   "por_que": "Dijimos que la información no se mostró por confidencialidad y en el acta se dijo que se presentaría en plazo: la empresa supo de la visita.",
+   "respuesta": "Saber de la visita no es ser emplazado al sancionador.",
+   "concepto": "C06",
+   "corta": "Saber de la visita no es ser emplazado."
+  },
+  {
+   "punto": "Multas mínimas",
+   "por_que": "Cada multa es el mínimo de su rango.",
+   "respuesta": "Es secundario y ad cautelam; lo que gana el juicio es la caducidad.",
+   "concepto": "C11",
+   "corta": "Secundario: gana la caducidad."
+  },
+  {
+   "punto": "Rama federal",
+   "por_que": "El artículo 123, apartado A, fracción XXXI, inciso a), numeral 13, hace federal la rama química, incluida la química farmacéutica y medicamentos.",
+   "respuesta": "Nadie lo ha planteado. Si surge: la empresa vende al público, no fabrica, y la autoridad determinó que no realiza actividades federales.",
+   "concepto": "C09",
+   "corta": "Vende, no fabrica; nadie lo ha planteado."
+  }
+ ],
+ "excluidos": [
+  {
+   "tema": "La confidencialidad que explicamos en el recurso",
+   "motivo": "Reconoce que la información no se mostró al inspector por decisión de la empresa."
+  },
+  {
+   "tema": "Los nombres de quienes recibieron",
+   "motivo": "La demanda y la autoridad dan apellidos distintos para quien recibió el 8 de noviembre."
+  },
+  {
+   "tema": "Falta de citatorio el 4 de diciembre",
+   "motivo": "Consta un citatorio del 3 de diciembre."
+  },
+  {
+   "tema": "Que la resolución no cita las disposiciones infringidas",
+   "motivo": "Sí las cita, por ejemplo el artículo 132, fracciones I y XXIV, de la Ley Federal del Trabajo."
+  },
+  {
+   "tema": "Falta de notificación legal de la resolución del recurso",
+   "motivo": "La Secretaría acredita citatorio del 17 de septiembre de 2025 e instructivo del 19, el mismo día en que la actora dice haberla encontrado; la demanda fue oportuna de todos modos."
+  },
+  {
+   "tema": "La petición genérica de estudiar de oficio la competencia de las autoridades",
+   "motivo": "La Sala puede hacerlo de oficio por el artículo 101 de la LJACDMX."
+  }
+ ],
+ "cronologia": [
+  [
+   "18-oct-2024",
+   "Orden de visita extraordinaria; objeto: «posibles violaciones a la legislación laboral vigente»"
+  ],
+  [
+   "22-oct-2024",
+   "Visita y acta; cinco días hábiles para exhibir documentos, del 23 al 29 de octubre"
+  ],
+  [
+   "5-nov-2024",
+   "Acuerdo de Calificación: cierra la inspección y pide iniciar el sancionador"
+  ],
+  [
+   "8-nov-2024",
+   "Notificación del Acuerdo de Calificación, sin citatorio, a una persona de la sucursal"
+  ],
+  [
+   "2-dic-2024",
+   "Se emite el emplazamiento al procedimiento sancionador"
+  ],
+  [
+   "3 y 4-dic-2024",
+   "Citatorio y notificación del emplazamiento a otra persona de la sucursal"
+  ],
+  [
+   "5-dic-2024 a 13-ene-2025",
+   "Quince días hábiles para defenderse; nadie comparece"
+  ],
+  [
+   "19-feb-2025",
+   "Acuerdos de pruebas y de cierre en rebeldía"
+  ],
+  [
+   "20-feb-2025",
+   "Resolución en rebeldía: 22 multas por $206,283.00"
+  ],
+  [
+   "25-feb-2025",
+   "Se notifica todo a la apoderada"
+  ],
+  [
+   "12-mar-2025",
+   "Recurso de inconformidad, con la documentación laboral"
+  ],
+  [
+   "29-abr-2025",
+   "Audiencia del recurso"
+  ],
+  [
+   "22-ago-2025",
+   "La Secretaría confirma sin valorar las pruebas"
+  ],
+  [
+   "19-sep-2025",
+   "Instructivo fijado: la actora conoce la resolución del recurso"
+  ],
+  [
+   "10-oct-2025",
+   "Demanda de nulidad; el 16 se admite y se niega la suspensión"
+  ],
+  [
+   "nov-2025",
+   "Contestaciones de la Secretaría, con incidente de incompetencia, y de la Tesorería"
+  ],
+  [
+   "2-dic-2025",
+   "Se tiene por contestada la demanda y se reservan las causales"
+  ],
+  [
+   "16-ene-2026",
+   "Ampliación de demanda; el 20 se admite"
+  ],
+  [
+   "23 y 24-feb-2026",
+   "Contestaciones a la ampliación"
+  ],
+  [
+   "6-mar-2026",
+   "Cinco días para alegatos; vencidos, se cierra la instrucción"
+  ],
+  [
+   "11-nov-2026",
+   "Memorándum para la ponencia; sentencia pendiente"
+  ]
+ ],
+ "ruta_lienzo": [
+  {
+   "etapa": "Inspección",
+   "lineas": [
+    "18-oct-2024 · orden genérica",
+    "22-oct · visita y acta",
+    "5-nov · Acuerdo de Calificación",
+    "8-nov · notificado sin citatorio"
+   ]
+  },
+  {
+   "etapa": "Sancionador",
+   "lineas": [
+    "2-dic · se emite el emplazamiento",
+    "4-dic · notificado a otra persona",
+    "19-feb-2025 · cierre en rebeldía",
+    "20-feb · 22 multas, $206,283.00",
+    "25-feb · llega a la apoderada"
+   ]
+  },
+  {
+   "etapa": "Recurso",
+   "lineas": [
+    "12-mar-2025 · recurso con pruebas",
+    "29-abr · audiencia",
+    "22-ago · confirma sin valorar",
+    "19-sep · instructivo"
+   ]
+  },
+  {
+   "etapa": "Juicio",
+   "lineas": [
+    "10-oct-2025 · demanda",
+    "nov · incompetencia y causales",
+    "16-ene-2026 · ampliación",
+    "6-mar · cierre de instrucción",
+    "11-nov · memorándum"
+   ]
+  }
+ ],
+ "repaso": [
+  [
+   "¿Qué pregunta decide la caducidad?",
+   "Si el sancionador inició con el Acuerdo de Calificación de 5 de noviembre de 2024 o con el emplazamiento de 2 de diciembre. C03 y C07."
+  ],
+  [
+   "¿Qué artículo exige citatorio cuando no está el representante?",
+   "El 80 de la LPACDMX. La Secretaría dijo que no hacía falta justo en ese supuesto. C04."
+  ],
+  [
+   "¿Quién debe probar que las notificaciones fueron legales?",
+   "La autoridad, porque la actora las negó lisa y llanamente, artículo 79 de la LJACDMX. C04."
+  ],
+  [
+   "¿Por qué la convalidación del artículo 83 no salva a la autoridad?",
+   "Porque la notificación irregular surte efectos desde que se conoce o se recurre, y eso pasó con las multas ya impuestas; la audiencia debía ser previa. C06."
+  ],
+  [
+   "¿Por qué la 2a./J. 73/2013 no justificaba dejar de valorar las pruebas en el recurso?",
+   "Porque, igual que el artículo 123, sólo excluye lo que se pudo aportar y no se aportó; la actora no fue emplazada. Además, nombra el recurso como lugar para exhibir pruebas. C08."
+  ],
+  [
+   "¿Cómo distinguimos la 2a./J. 22/2015?",
+   "La propia jurisprudencia admite la competencia local cuando la controversia deriva de leyes locales; aquí se discute la aplicación de la LPACDMX. C09."
+  ],
+  [
+   "¿Qué fracciones del artículo 3 de la Ley Orgánica invocamos y por qué no la XIV?",
+   "La I y la XIII. La XIV sólo cubre recursos contra resoluciones que ya son competencia del Tribunal. C09."
+  ],
+  [
+   "¿Qué pasa si la Sala se declara incompetente?",
+   "La LJACDMX lleva al sobreseimiento, artículos 92 y 93, fracción II; no prevé remitir el asunto. C09."
+  ],
+  [
+   "¿Por qué la caducidad debe estudiarse primero?",
+   "Porque lleva a la nulidad lisa y llana y el artículo 100, último párrafo, manda examinar primero esas causas. C12."
+  ],
+  [
+   "¿Qué pasa si sólo prospera la falta de audiencia?",
+   "Lo usual sería una nulidad para efectos: reponer el procedimiento desde la notificación ilegal. C12."
+  ],
+  [
+   "¿Cuándo vencieron los diez días del artículo 52 del Reglamento?",
+   "El 22 de noviembre de 2024, o el 25 si el 18 fue inhábil; el emplazamiento se emitió el 2 de diciembre. C03."
+  ],
+  [
+   "¿Qué contestas si te dicen que el artículo 60 hizo precluir el reclamo?",
+   "Que se planteó en el recurso, la demanda y la ampliación, que rige la litis abierta del artículo 80 y que el 60 se refiere a la notificación del acto impugnado. C10."
+  ],
+  [
+   "¿Cuánto suman las multas y cómo se integran?",
+   "$206,283.00: dieciocho de 50 UMA, $97,713.00, y cuatro de 250 UMA, $108,570.00, con UMA de $108.57. C11."
+  ],
+  [
+   "¿Qué se puede hacer si la sentencia sigue sin dictarse?",
+   "Excitativa de justicia ante el Presidente del Tribunal, artículo 95 de la LJACDMX; la decisión es del licenciado. C12."
+  ]
+ ],
+ "correcciones": [
+  {
+   "antes": "La guía decía que el punto 2 viola los artículos 79 y 80 de la LPACDMX.",
+   "ahora": "El memorándum final cita los artículos 78, 79 y 80: el 78, fracción I, inciso a), hace personal la primera notificación.",
+   "concepto": "C04"
+  },
+  {
+   "antes": "La guía cerraba el punto 1 con la respuesta a la preclusión y al consentimiento.",
+   "ahora": "En el memorándum final esa respuesta cierra el punto 2 e incluye la réplica al artículo 60 de la LJACDMX.",
+   "concepto": "C10"
+  },
+  {
+   "antes": "La guía contestaba la negativa a valorar pruebas dentro del punto 2.",
+   "ahora": "El memorándum la contesta en el punto 4, con el artículo 123 y la 2a./J. 73/2013.",
+   "concepto": "C08"
+  },
+  {
+   "antes": "La guía decía que el memorándum sigue el orden de estudio de la Sala.",
+   "ahora": "No exactamente: la audiencia va antes que la caducidad porque la caducidad la usa, y el punto 3 pide que se estudie primero.",
+   "concepto": "C13"
+  },
+  {
+   "antes": "La guía sugería pedir que el asunto se remitiera en vez de sobreseerse.",
+   "ahora": "Se quitó: la LJACDMX no tiene regla de remisión por incompetencia; prevé el sobreseimiento.",
+   "concepto": "C09"
+  },
+  {
+   "antes": "La guía decía que la Sala estudia de todos modos la competencia de la autoridad, artículo 101.",
+   "ahora": "El artículo 101 dice que la Sala podrá hacerla valer de oficio.",
+   "concepto": "C13"
+  },
+  {
+   "antes": "La guía tenía dos listas distintas de lo que el memorándum deja fuera.",
+   "ahora": "Una sola lista de seis puntos.",
+   "concepto": "C13"
+  },
+  {
+   "antes": "La guía hablaba del «Acuerdo de Calificación del 8 de noviembre».",
+   "ahora": "El acuerdo es de 5 de noviembre; el 8 es la fecha de su notificación.",
+   "concepto": "C03"
+  },
+  {
+   "antes": "La guía sólo tenía el rubro de la 2a./J. 73/2013.",
+   "ahora": "Se leyó el texto completo: interpreta la litis abierta del juicio federal y nombra el recurso como lugar para exhibir pruebas.",
+   "concepto": "C08"
+  },
+  {
+   "antes": "La guía decía que contra la sentencia procede un recurso ante la Sala Superior.",
+   "ahora": "Es la apelación ante el Pleno Jurisdiccional de la Sala Superior, en diez días, artículos 116 y 118 de la LJACDMX.",
+   "concepto": "C12"
+  },
+  {
+   "antes": "La guía ordenaba los pilares por fuerza, con la caducidad primero.",
+   "ahora": "Se muestran los dos órdenes: el de fuerza y el del memorándum.",
+   "concepto": "C13"
+  }
+ ],
+ "pendientes": [
+  {
+   "descripcion": "No se localizó el texto de la jurisprudencia S.S. 4/JURISDICCIONAL; sus datos y su rubro vienen de la contestación de la Secretaría.",
+   "sustantivo": false
+  },
+  {
+   "descripcion": "No se leyeron la S.S./J. 28 del antiguo Tribunal de lo Contencioso Administrativo ni la tesis (IV Región)1o.10 A (10a.), registro 2022152, que cita la Secretaría sobre la caducidad.",
+   "sustantivo": false
+  },
+  {
+   "descripcion": "Faltan en la carpeta las páginas 40 y 41 de la contestación de la Secretaría, las hojas finales de ambas resoluciones, las constancias originales de notificación y el comprobante del pago bajo protesta.",
+   "sustantivo": false
+  },
+  {
+   "descripcion": "No se verificó si la Sala dictó sentencia después del 11 de noviembre de 2026.",
+   "sustantivo": false
+  }
+ ],
+ "anexo": [
+  {
+   "grupo": "Constitución Política de los Estados Unidos Mexicanos",
+   "fuente": "F01",
+   "articulos": [
+    {
+     "titulo": "Artículo 14, segundo párrafo",
+     "texto": "Nadie podrá ser privado de la libertad o de sus propiedades, posesiones o derechos, sino mediante juicio seguido ante los tribunales previamente establecidos, en el que se cumplan las formalidades esenciales del procedimiento y conforme a las Leyes expedidas con anterioridad al hecho."
+    },
+    {
+     "titulo": "Artículo 16, primer párrafo",
+     "texto": "Nadie puede ser molestado en su persona, familia, domicilio, papeles o posesiones, sino en virtud de mandamiento escrito de la autoridad competente, que funde y motive la causa legal del procedimiento. En los juicios y procedimientos seguidos en forma de juicio en los que se establezca como regla la oralidad, bastará con que quede constancia de ellos en cualquier medio que dé certeza de su contenido y del cumplimiento de lo previsto en este párrafo."
+    },
+    {
+     "titulo": "Artículo 22, primer párrafo",
+     "texto": "Quedan prohibidas las penas de muerte, de mutilación, de infamia, la marca, los azotes, los palos, el tormento de cualquier especie, la multa excesiva, la confiscación de bienes y cualesquiera otras penas inusitadas y trascendentales. Toda pena deberá ser proporcional al delito que sancione y al bien jurídico afectado."
+    },
+    {
+     "titulo": "Artículo 123, apartado A, fracción XXXI (proemio e inciso c, numeral 5)",
+     "texto": "XXXI. La aplicación de las leyes del trabajo corresponde a las autoridades de las entidades federativas, de sus respectivas jurisdicciones, pero es de la competencia exclusiva de las autoridades federales en los asuntos relativos a: […] c) Materias: […] 5. Obligaciones de los patrones en materia de capacitación y adiestramiento de sus trabajadores, así como de seguridad e higiene en los centros de trabajo, para lo cual, las autoridades federales contarán con el auxilio de las estatales, cuando se trate de ramas o actividades de jurisdicción local, en los términos de la ley correspondiente."
+    }
+   ]
+  },
+  {
+   "grupo": "Ley de Procedimiento Administrativo de la Ciudad de México",
+   "fuente": "F02",
+   "articulos": [
+    {
+     "titulo": "Artículo 6o",
+     "texto": "Se considerarán válidos los actos administrativos que reúnan los siguientes elementos:\nI. Que sean emitidos por autoridades competentes, a través del servidor público facultado para tal efecto; tratándose de órganos colegiados, deberán ser emitidos reuniendo el quórum, habiendo cumplido el requisito de convocatoria, salvo que estuvieren presentes todos sus miembros, en los términos de las disposiciones jurídicas aplicables;\nII. Que sea expedido sin que en la manifestación de voluntad de la autoridad competente medie error de hecho o de derecho sobre el objeto o fin del acto, dolo, mala fe y/o violencia;\nIII. Que su objeto sea posible de hecho y esté previsto por el ordenamiento jurídico aplicable, determinado o determinable y preciso en cuanto a las circunstancias de tiempo y lugar;\n[…]\nVIII. Estar fundado y motivado, es decir, citar con precisión el o los preceptos legales aplicables, así como las circunstancias especiales, razones particulares o causas inmediatas que se hayan tenido en consideración para la emisión del acto, debiendo existir una adecuación entre los motivos aducidos y las normas aplicadas al caso y constar en el propio acto administrativo;\nIX. Expedirse de conformidad con el procedimiento que establecen los ordenamientos aplicables y en su defecto, por lo dispuesto en esta Ley; y\n[…]"
+    },
+    {
+     "titulo": "Artículo 32",
+     "texto": "El procedimiento administrativo podrá iniciarse de oficio o a petición del interesado.\nLas manifestaciones, informes o declaraciones rendidas por los interesados a la autoridad competente, así como los documentos aportados, se presumirán ciertos salvo prueba en contrario, y estarán sujetos en todo momento a la verificación de la autoridad. Si dichos informes, declaraciones o documentos resultan falsos, serán sujetos a las penas en que incurran aquellos que se conduzcan con falsedad de acuerdo con los ordenamientos legales aplicables. La actuación administrativa de la autoridad y la de los interesados se sujetarán al principio de buena fe.\nTratándose de procedimientos administrativos iniciados de oficio, transcurrido el plazo de tres meses sin que la administración pública de la Ciudad de México haya la resolución correspondiente se producirá la caducidad del mismo.",
+     "nota": "Así dice el texto oficial: falta un verbo después de «haya» (se entiende «emitido» o «dictado»). Este párrafo no aparece en compilaciones de 2018; sí en la vigente."
+    },
+    {
+     "titulo": "Artículo 78, fracción I",
+     "texto": "Las notificaciones, citatorios, emplazamientos, requerimientos; y la solicitud de informes o documentos deberán realizarse:\nI. Personalmente a los interesados;\na) Cuando se trate de la primera notificación en el asunto;\nb) Derogado\nc) La resolución que se dicte en el procedimiento; o\nd) Mediante comparecencia del interesado a la oficina administrativa de que se trate.\n[…]"
+    },
+    {
+     "titulo": "Artículo 79",
+     "texto": "Los notificadores tendrán fe pública únicamente en cuanto concierne a la práctica de las notificaciones a su cargo. Cuando las notificaciones personales se hagan en el domicilio señalado para tal efecto por el interesado o su representante legal, el notificador deberá cerciorarse y asentar en la cédula de notificación los elementos que dan certeza de que se trata del domicilio correspondiente, entregando copia del acto que se notifica y señalando la fecha y hora en que se efectúa la diligencia, recabando el nombre y firma de la persona con quien se entienda la notificación. Si ésta se niega a firmar, se hará constar dicha circunstancia en el acta respectiva, sin que ello afecte su validez. Debiendo describir la media filiación de la persona que lo atiende y las características del inmueble."
+    },
+    {
+     "titulo": "Artículo 80",
+     "texto": "Las notificaciones personales, se entenderán con la persona que deba ser notificada, con su representante legal, o con la persona autorizada; a falta de éstos, el notificador dejará citatorio con cualquier persona que se encuentre en el domicilio, para que el interesado le espere a una hora fija del día hábil siguiente. En el citatorio se asentaran los elementos de certeza que se trata del domicilio buscado y las características del inmueble visitado.\nSi el domicilio se encontrare cerrado; y nadie respondiera al llamado del notificador para atender la diligencia, el notificador deberá volver dentro de los siguientes tres días hábiles al domicilio, en hora diferente de la primera visita. Si en la segunda visita no se encuentra a ninguna persona, procederá a fijar en un lugar visible el citatorio."
+    },
+    {
+     "titulo": "Artículo 81",
+     "texto": "Si la persona a quien haya de notificarse no atiende el citatorio la notificación se entenderá con cualquier persona con capacidad de ejercicio, que se encuentre en el domicilio en que se realice la diligencia y, de negarse ésta a recibirla, el notificador deberá asentar la media filiación de la persona que lo atiende o en caso de encontrarse cerrado el domicilio, se realizará por instructivo que se fijará en un lugar visible del domicilio asentándose las características del inmueble. De estas diligencias, el notificador asentará en el expediente, razón por escrito."
+    },
+    {
+     "titulo": "Artículo 83",
+     "texto": "Las notificaciones irregularmente practicadas surtirán efectos a partir de la fecha en que se haga la manifestación expresa por el interesado o su representante legal de conocer su contenido o se interponga el recurso correspondiente."
+    },
+    {
+     "titulo": "Artículo 93",
+     "texto": "La caducidad del procedimiento administrativo operará de oficio en los siguientes casos:\nI. Cuando se trate de procedimientos administrativos iniciados de oficio, a los tres meses, contados a partir de la última actuación administrativa; y\nII. Cuando se trate de procedimientos administrativos iniciados a petición del interesado, procederá sólo si el impulso del particular es indispensable para la continuación del procedimiento; y operará a los tres meses contados a partir de la última gestión que se haya realizado."
+    },
+    {
+     "titulo": "Artículo 99",
+     "texto": "Los verificadores, para practicar una visita, deberán estar provistos de orden escrita con firma autógrafa expedida por la autoridad competente, en la que deberá precisarse el lugar o zona que ha de verificarse, el objeto de la visita, el alcance que deba tener y las disposiciones legales que la fundamenten.\n[…]"
+    },
+    {
+     "titulo": "Artículo 108",
+     "texto": "Los interesados afectados por los actos y resoluciones de las autoridades administrativas podrán, a su elección interponer el recurso de inconformidad previsto en esta Ley o intentar el juicio de nulidad ante el Tribunal. El recurso de inconformidad tendrá por objeto que el superior jerárquico de la autoridad emisora, confirme, modifique, revoque o anule el acto administrativo recurrido."
+    },
+    {
+     "titulo": "Artículo 109",
+     "texto": "El término para interponer el recurso de inconformidad será de quince días hábiles, contados a partir del día siguiente al en que surta sus efectos la notificación de la resolución que se recurra, o de que el recurrente tenga conocimiento de dicha resolución."
+    },
+    {
+     "titulo": "Artículo 123",
+     "texto": "La audiencia tendrá por objeto admitir y desahogar las pruebas ofrecidas, así como recibir los alegatos. Se admitirán toda clase de pruebas incluyendo las supervenientes, las que se podrán presentar hasta antes de la celebración de la audiencia, con excepción de la confesional a cargo de la autoridad y las contrarias a la moral, el derecho y las buenas costumbres.\nNo se tomarán en cuenta en la resolución del recurso, hechos, documentos o alegatos del recurrente, cuando habiendo podido aportarlos durante el procedimiento administrativo no lo haya hecho."
+    },
+    {
+     "titulo": "Artículo 126",
+     "texto": "La autoridad encargada de resolver el recurso podrá:\nI. Declararlo improcedente o sobreseerlo;\nII. Confirmar el acto impugnado;\nIII. Declarar la nulidad o anulabilidad del acto impugnado o revocarlo; o\nIV. Modificar u ordenar la modificación del acto impugnado o dictar u ordenar expedir uno nuevo que lo sustituya, cuando el recurso interpuesto sea total o parcialmente resuelto a favor del recurrente; u ordenar la reposición del procedimiento administrativo."
+    },
+    {
+     "titulo": "Artículo 128",
+     "texto": "Contra la resolución que recaiga al recurso de inconformidad procede el juicio de nulidad ante el Tribunal."
+    },
+    {
+     "titulo": "Artículo 132",
+     "texto": "La autoridad administrativa fundará y motivará su resolución, considerando para su individualización:\nI. Los daños que se hubieren producido o puedan producirse;\nII. El carácter intencional o no de la acción u omisión constitutiva de la infracción;\nIII. La gravedad de la infracción;\nIV. La reincidencia del infractor; y\nV. La capacidad económica del infractor."
+    }
+   ]
+  },
+  {
+   "grupo": "Ley de Justicia Administrativa de la Ciudad de México",
+   "fuente": "F03",
+   "articulos": [
+    {
+     "titulo": "Artículo 15",
+     "texto": "Los particulares que concurran como actores, o como terceros interesados, en el primer escrito que presenten, deberán señalar domicilio en la Ciudad de México, para que se les hagan las notificaciones personales a que se refiere esta Ley.\nAsimismo, podrán autorizar para recibir notificaciones en su nombre a cualquier persona con capacidad legal. Las personas autorizadas quedan facultadas para ampliar la demanda, interponer recursos, ofrecer y rendir pruebas, formular alegatos y pedir aclaración de sentencia.\n[…]"
+    },
+    {
+     "titulo": "Artículo 56",
+     "texto": "El plazo para la presentación de la demanda para los particulares es de quince días hábiles, contados a partir del siguiente al que surta efectos la notificación del acto que se impugne, de conformidad con la ley que lo rige, o del siguiente en que el actor hubiere tenido conocimiento, o se hubiere ostentado sabedor del mismo, o de su ejecución.\n[…]"
+    },
+    {
+     "titulo": "Artículo 60",
+     "texto": "Cuando se alegue que el acto administrativo no fue notificado o que lo fue ilegalmente, siempre que se trate de los impugnables en el juicio contencioso administrativo, se estará a las reglas siguientes:\nI. Si el particular afirma conocer el acto administrativo, la impugnación contra su notificación se hará valer en la demanda, en la que manifestará la fecha en que lo conoció.\nEn caso de que también impugne el acto administrativo, los conceptos de nulidad se expresarán en la demanda, conjuntamente con los que se formulen contra la notificación;\nII. Si el particular manifiesta que no conoce el acto administrativo que pretende impugnar, así lo expresará en su demanda, señalando la autoridad a quien atribuye el acto, su notificación o ejecución. En este caso, al contestar la demanda, la autoridad acompañará constancia del acto administrativo y de su notificación, mismos que el actor podrá combatir mediante ampliación de la demanda.\nEl Tribunal estudiará los conceptos de nulidad expresados contra la notificación, previamente al examen de la impugnación del acto administrativo.\nSi se resuelve que no hubo notificación o que fue ilegal, se considerará que el actor fue sabedor del acto administrativo desde la fecha en que se le dio a conocer en los términos de la fracción II de este artículo, quedando sin efectos todo lo actuado en base a aquélla, y procederá al estudio de la impugnación que, en su caso, se hubiere formulado contra dicho acto.\nSi se resuelve que la notificación fue legalmente practicada, y como consecuencia de ello la demanda fue presentada extemporáneamente, se sobreseerá el juicio en relación con el acto administrativo combatido."
+    },
+    {
+     "titulo": "Artículo 62",
+     "texto": "Se podrá ampliar la demanda, dentro de los quince días siguientes a aquél en que surta efectos la notificación del acuerdo que admita su contestación, en los casos siguientes:\n[…]\nII. Contra el acto principal del que derive el impugnado en la demanda, así como su notificación, cuando se den a conocer en la contestación;\n[…]\nIV. Cuando en la contestación, se introduzcan cuestiones que no sean conocidas por el actor al presentar la demanda, y\n[…]"
+    },
+    {
+     "titulo": "Artículo 79",
+     "texto": "Los actos y resoluciones de las autoridades se presumirán legales. Sin embargo, dichas autoridades deberán probar los hechos que motiven los actos o resoluciones cuando el afectado los niegue lisa y llanamente, a menos que la negativa implique la afirmación de otro hecho."
+    },
+    {
+     "titulo": "Artículo 80",
+     "texto": "En los juicios que se tramiten ante el Tribunal, regirá el principio de litis abierta; serán admisibles toda clase de pruebas, excepto la confesión mediante absolución de posiciones.\n[…]"
+    },
+    {
+     "titulo": "Artículo 92",
+     "texto": "El juicio ante el Tribunal de Justicia Administrativa de la Ciudad de México es improcedente:\nI. Contra actos o resoluciones de autoridades que no sean de la Ciudad de México;\nII. Cuando las autoridades de la Ciudad de México actúen como autoridades federales;\n[…]\nVI. Contra actos o resoluciones que no afecten los intereses legítimos del actor, que se hayan consumado de un modo irreparable o que hayan sido consentidos expresa o tácitamente, entendiéndose por estos últimos aquéllos contra los que no se promovió el juicio dentro de los plazos señalados por esta Ley;\n[…]\nXIII. En los demás casos en que la improcedencia derive de algún otro precepto de esta Ley.\nLas causas de improcedencia son de estudio preferente, deberán quedar probadas plenamente y se analizarán de oficio o a petición de parte."
+    },
+    {
+     "titulo": "Artículo 93, fracción II",
+     "texto": "Procede el sobreseimiento en el juicio cuando:\n[…]\nII. Durante el juicio apareciere o sobreviniere alguna de las causas de improcedencia a que se refiere el artículo anterior;\n[…]"
+    },
+    {
+     "titulo": "Artículo 94",
+     "texto": "El Magistrado Instructor, cinco días después de que haya concluido la sustanciación del juicio, cuando no existiere ninguna prueba pendiente por desahogar que amerite necesariamente la celebración de una audiencia, ni cuestión pendiente que impida su resolución, notificará a las partes que tienen un término de cinco días para formular alegatos por escrito.\nLos alegatos presentados en tiempo deberán ser considerados al dictar sentencia; dichos alegatos no pueden ampliar la litis fijada en los acuerdos de admisión a la demanda o de admisión a la ampliación a la demanda, en su caso.\nAl vencer el plazo de cinco días a que se refiere el párrafo anterior, con alegatos o sin ellos, quedará cerrada la instrucción del juicio, sin necesidad de una declaratoria expresa, y a partir del día siguiente empezará a computarse el plazo previsto en el artículo 96 de esta Ley."
+    },
+    {
+     "titulo": "Artículo 95",
+     "texto": "Las partes podrán formular excitativa de justicia ante el Presidente del Tribunal, en el caso en que algún Magistrado no dicte la sentencia en el asunto de que se trate dentro del plazo legal.\n[…]"
+    },
+    {
+     "titulo": "Artículo 96",
+     "texto": "[…] La sentencia se pronunciará dentro de los treinta días siguientes a aquél en el que se cierre la instrucción."
+    },
+    {
+     "titulo": "Artículo 100",
+     "texto": "Se declarará que un acto administrativo es nulo cuando se demuestre alguna de las siguientes causas:\nI. Incompetencia del funcionario que la haya dictado, ordenado o tramitado el procedimiento del que deriva dicha resolución.\nII. Omisión de los requisitos formales exigidos por las leyes, siempre que afecte las defensas del particular y trascienda al sentido de la resolución impugnada, inclusive la ausencia de fundamentación o motivación, en su caso.\nIII. Vicios del procedimiento siempre que afecten las defensas del particular y trasciendan al sentido de la resolución impugnada.\nIV. Si los hechos que la motivaron no se realizaron, fueron distintos o se apreciaron en forma equivocada, o bien si se dictó en contravención de las disposiciones aplicadas o dejó de aplicar las debidas, en cuanto al fondo del asunto.\nV. Cuando la resolución administrativa dictada en ejercicio de facultades discrecionales no corresponda a los fines para los cuales la ley confiera dichas facultades.\nVI. Arbitrariedad, desproporción, desigualdad, injusticia manifiesta o cualquiera otra causa similar.\nPara los efectos de lo dispuesto por las fracciones II y III del presente artículo, se considera que no afectan las defensas del particular ni trascienden al sentido de la resolución impugnada, entre otros, los vicios siguientes:\na) Cuando en un citatorio no se haga mención que es para recibir una orden de visita domiciliaria, siempre que ésta se inicie con el destinatario de la orden.\nb) Cuando en un citatorio no se haga constar en forma circunstanciada la forma en que el notificador se cercioró que se encontraba en el domicilio correcto, siempre que la diligencia se haya efectuado en el domicilio indicado en el documento que deba notificarse.\nc) Cuando en la entrega del citatorio se hayan cometido vicios de procedimiento, siempre que la diligencia prevista en dicho citatorio se haya entendido directamente con el interesado o con su representante legal.\nd) Cuando existan irregularidades en los citatorios, en las notificaciones de requerimientos de solicitudes de datos, informes o documentos, o en los propios requerimientos, siempre y cuando el particular desahogue los mismos, exhibiendo oportunamente la información y documentación solicitadas.\ne) Cuando no se dé a conocer al contribuyente visitado el resultado de una compulsa a terceros, si la resolución impugnada no se sustenta en dichos resultados.\nf) Cuando no se valore alguna prueba para acreditar los hechos asentados en el acta de visita o en la última acta parcial, siempre que dicha prueba no sea idónea para dichos efectos.\nCuando se hagan valer diversas causales de ilegalidad, la Sala al emitir su sentencia, deberá examinar primero aquéllas que puedan llevar a declarar la nulidad lisa y llana de la resolución o acto administrativo impugnado."
+    },
+    {
+     "titulo": "Artículo 102",
+     "texto": "La sentencia definitiva podrá:\nI. Reconocer la validez del acto impugnado;\nII. Declarar la nulidad lisa y llana del acto impugnado;\nIII. Declarar la nulidad del acto impugnado para determinados efectos, debiendo precisar con claridad la forma y términos en que la autoridad debe cumplirla, salvo que se trate de facultades discrecionales;\n[…]\nVII. Sobreseer en el juicio en los términos de Ley.\n[…]\nSiempre que se esté en el supuesto previsto en la fracción III de este artículo, el Tribunal declarará la nulidad para el efecto de que se reponga el procedimiento, o para se emita un nuevo acto; en los demás casos, también podrá indicar los términos conforme a los cuales debe dictar su resolución la autoridad administrativa, salvo que se trate de facultades discrecionales.\n[…]"
+    },
+    {
+     "titulo": "Artículo 101, primer párrafo",
+     "texto": "La Sala correspondiente podrá hacer valer de oficio, por ser de orden público, la incompetencia de la autoridad para dictar la resolución impugnada, o para ordenar o tramitar el procedimiento del que derive, así como la ausencia total de fundamentación o motivación en dicha resolución.\n[…]"
+    },
+    {
+     "titulo": "Artículos 116 y 118",
+     "texto": "Artículo 116. Contra las resoluciones de las Salas Ordinarias Jurisdiccionales que decreten o nieguen sobreseimiento, las que resuelvan el juicio o la cuestión planteada en el fondo, y las que pongan fin al procedimiento serán apelables por cualquiera de las partes ante el Pleno Jurisdiccional de la Sala Superior.\n[…]\nArtículo 118. El recurso de apelación se interpondrá por escrito con expresión de agravios ante el Magistrado Instructor del juicio, dentro de los diez días siguientes al en que surta efectos la notificación de la resolución que se impugna."
+    }
+   ]
+  },
+  {
+   "grupo": "Ley Orgánica del Tribunal de Justicia Administrativa de la Ciudad de México",
+   "fuente": "F04",
+   "articulos": [
+    {
+     "titulo": "Artículo 3",
+     "texto": "El Tribunal conocerá de los juicios que se promuevan contra las resoluciones definitivas, actos administrativos y procedimientos que se indican a continuación:\nI. De los juicios en contra de actos administrativos que las autoridades de la Administración Pública de la Ciudad de México, las alcaldías dicten, ordenen, ejecuten o traten de ejecutar, en agravio de personas físicas o morales;\n[…]\nVII. Las que impongan multas por infracción a las normas administrativas locales;\n[…]\nXIII. Las dictadas por las autoridades administrativas que pongan fin a un procedimiento administrativo, a una instancia o resuelvan un expediente, en los términos de la Ley de Procedimiento Administrativo del Distrito Federal;\nXIV. Las que resuelvan los recursos administrativos en contra de las resoluciones que se indican en las demás fracciones de este artículo;\n[…]"
+    }
+   ]
+  },
+  {
+   "grupo": "Reglamento General de Inspección del Trabajo y Aplicación de Sanciones",
+   "fuente": "F05",
+   "articulos": [
+    {
+     "titulo": "ARTÍCULO 17",
+     "texto": "Los hechos certificados por los Inspectores del Trabajo en las actas que levanten en ejercicio de sus funciones, se tendrán por ciertos mientras no se demuestre lo contrario, siempre que dichas actas se hubiesen levantado con apego a las disposiciones de este Reglamento y de la ley que regule el procedimiento administrativo que resulte aplicable en forma supletoria."
+    },
+    {
+     "titulo": "ARTÍCULO 29",
+     "texto": "[…]\nLas Inspecciones extraordinarias serán practicadas por los Inspectores del Trabajo sin que medie citatorio previo, a fin de satisfacer su objetivo primordial de detectar en forma inmediata la situación que prevalece en el Centro de Trabajo inspeccionado.\nAl inicio de las Inspecciones ordinarias o extraordinarias, el Inspector del Trabajo deberá entregar al patrón o a su representante o a la persona con quien se entienda la diligencia, el original de la orden escrita respectiva, con firma autógrafa de la persona servidora pública facultada para ello, así como una guía que contenga los principales derechos y obligaciones de la persona inspeccionada. Dichas órdenes de Inspección deberán precisar el Centro de Trabajo a inspeccionar, su ubicación, el objeto y alcance de la diligencia, su fundamento legal, así como los números telefónicos a los que el patrón podrá comunicarse para constatar los datos de la orden correspondiente, con lo cual, se considerará legalmente iniciado el procedimiento administrativo de Inspección.\n[…]"
+    },
+    {
+     "titulo": "Rubro del título tercero, capítulo primero, en el que están los artículos 51 a 53",
+     "texto": "TÍTULO TERCERO. DEL CIERRE DEL PROCEDIMIENTO ADMINISTRATIVO DE INSPECCIÓN Y DEL INICIO DEL PROCEDIMIENTO ADMINISTRATIVO PARA LA APLICACIÓN DE SANCIONES. CAPÍTULO PRIMERO. DE LA INICIACIÓN DEL PROCEDIMIENTO."
+    },
+    {
+     "titulo": "ARTÍCULO 51",
+     "texto": "Si derivado de la sustanciación del procedimiento administrativo de Inspección y como resultado de la valoración de las actas, expedientes o documentación ofrecida por cualquier autoridad, o del acta de Inspección y de las pruebas presentadas por el patrón o su representante no se desvirtúa el incumplimiento de las disposiciones laborales, el área de Inspección emitirá un acuerdo de cierre de instrucción del procedimiento administrativo de Inspección, en el cual se establecerá de manera expresa la solicitud al área competente de las Autoridades del Trabajo, se inicie el procedimiento administrativo sancionador.\nDicho acuerdo deberá ser notificado de manera personal al patrón o representante legal, para los efectos legales a que haya lugar.\nCuando no se haya permitido la Inspección a la Autoridad del Trabajo, de acuerdo con lo establecido en el artículo 1004-A de la Ley, emitirá el acuerdo de cierre de instrucción a que se refiere el párrafo primero de este artículo, por los incumplimientos a la normatividad laboral y por la negativa al desahogo de la Inspección.\nPara los casos en los que como resultado de la valoración de las actas, expedientes o documentación ofrecida por cualquier autoridad, o del acta de Inspección y de las pruebas presentadas por el patrón o su representante acredita, durante los plazos establecidos en los artículos 35 o 36, párrafo primero, del presente ordenamiento, haber dado cumplimiento a la normatividad y a los requerimientos administrativos solicitados por la Autoridad del Trabajo, se emitirá el acuerdo de archivo correspondiente."
+    },
+    {
+     "titulo": "ARTÍCULO 52",
+     "texto": "Recibida la solicitud de inicio del procedimiento administrativo sancionador, el área competente de las Autoridades del Trabajo emplazará al patrón o a la persona que se le impute para que manifieste lo que a su derecho convenga, oponga defensas, excepciones y ofrezca pruebas, mediante escrito libre, en su caso. Dicho emplazamiento deberá emitirse dentro de los diez días hábiles siguientes a aquél en que se haya notificado la solicitud de inicio del procedimiento administrativo para la aplicación de sanciones."
+    },
+    {
+     "titulo": "ARTÍCULO 53",
+     "texto": "El emplazamiento para comparecer al procedimiento deberá contener:\nI. Lugar y fecha de su emisión;\nII. Nombre, razón o denominación social del presunto infractor;\nIII. Domicilio del Centro de Trabajo;\nIV. Fecha del acta de Inspección;\nV. Fundamento legal de la competencia de la autoridad que emite el emplazamiento;\nVI. Circunstancias o hechos que consten en el acta, que se estimen violatorios de la legislación laboral, así como las disposiciones jurídicas que se consideren transgredidas;\nVII. Fecha, hora y lugar de celebración de la audiencia o, en su caso, el término concedido para contestar por escrito el emplazamiento. Dicho término en ningún momento podrá ser inferior a quince días hábiles;\nVIII. En caso de que el presunto infractor hubiere formulado observaciones u ofrecido pruebas en relación con los hechos asentados en el acta de Inspección, se deberán señalar los razonamientos específicos para hacer constar que las mismas fueron analizadas y valoradas, y\nIX. Apercibimiento de que si el presunto infractor no comparece a la audiencia o no ejercita sus derechos en el término concedido, según sea el caso, se seguirá el procedimiento en rebeldía, teniéndose por ciertos los hechos que se le imputan."
+    },
+    {
+     "titulo": "ARTÍCULO 58",
+     "texto": "Una vez oído al emplazado y desahogadas las pruebas admitidas, se dictará el acuerdo de cierre del procedimiento turnándose los autos para dictar resolución.\nDel auto en que conste esta diligencia, se entregará copia al compareciente o, en su caso, se notificará al interesado."
+    },
+    {
+     "titulo": "ARTÍCULO 59",
+     "texto": "Las resoluciones que emitan las Autoridades del Trabajo en las que se impongan sanciones por violaciones a la legislación laboral, contendrán:\nI. Lugar y fecha de su emisión;\nII. Autoridad que la dicte;\nIII. Nombre, razón o denominación social del infractor;\nIV. Domicilio del Centro de Trabajo;\nV. Registro Federal de Contribuyentes del infractor, cuando conste en el expediente;\nVI. Relación de las actuaciones que obren en autos, incluyendo las pruebas admitidas y desahogadas;\nVII. Disposiciones legales en que se funde la competencia de la autoridad que la emite, así como la fundamentación legal y motivación de la resolución;\nVIII. Puntos resolutivos;\nIX. En su caso, las medidas correspondientes de Seguridad y Salud en el Trabajo que los Centros de Trabajo deberán implementar para salvaguardar la vida, la integridad física o la salud de los trabajadores. Lo anterior, sin perjuicio de la imposición de sanciones a que se refiere el presente Capítulo;\nX. Mención del derecho que tiene el infractor para promover los medios de defensa correspondientes, y\nXI. Nombre y firma del servidor público que la dicte.\nLas resoluciones se deberán dictar dentro de los diez días hábiles siguientes a aquél en que se haya cerrado la instrucción del procedimiento."
+    },
+    {
+     "titulo": "ARTÍCULO 60",
+     "texto": "Para la cuantificación de las sanciones, las Autoridades del Trabajo, en el ámbito de sus respectivas jurisdicciones, se sujetarán a las disposiciones de la ley que regule el procedimiento administrativo aplicable y, cuando resulte procedente, a las del Reglamento Federal de Seguridad y Salud en el Trabajo, a la Ley de Infraestructura de la Calidad, o bien, a las disposiciones de los Mecanismos Alternos a la Inspección, y considerarán lo siguiente:\nI. El carácter intencional o no de la acción u omisión constitutiva de la infracción;\nII. La gravedad de la infracción;\nIII. Los daños que se hubieren producido o puedan producirse;\nIV. La capacidad económica del infractor, y\nV. La reincidencia del infractor."
+    },
+    {
+     "titulo": "ARTÍCULO 61",
+     "texto": "Para los efectos del artículo anterior, las Autoridades del Trabajo deberán tomar en cuenta lo siguiente:\nI. Se presumirá que las conductas desplegadas por el patrón no son intencionales, salvo que del desahogo de las inspecciones y de las constancias que obren en el expediente, se detecten omisiones, hechos, circunstancias o evidencias que sustenten que el incumplimiento se ejecutó voluntariamente con el fin de evadir sus responsabilidades, previo conocimiento de sus obligaciones en la materia, ocasionando un menoscabo en los derechos de los trabajadores;\nII. La gravedad de las infracciones será proporcional al daño que se haya o pueda producirse con la conducta del patrón;\nIII. El daño será la afectación que provoque directa o indirectamente la conducta del patrón, a los trabajadores que presten sus servicios en los Centros de Trabajo inspeccionados.\nProcederá la imposición de sanciones por cada uno de los trabajadores afectados, cuando como consecuencia del incumplimiento de las obligaciones patronales, se cause al trabajador un daño personal, real, cierto y evaluable en dinero;\nIV. La capacidad económica de los infractores, podrá ser valorada, tomando en cuenta los elementos que reflejen de mejor manera la situación económica del patrón, entre los que se podrán incluir los siguientes: la información relacionada con las cantidades que el patrón haya otorgado a sus trabajadores por concepto de participación de utilidades; el capital contable de las empresas en el último balance; el importe de la nómina correspondiente, o bien, cualquier otra información a través de la cual se infiera el estado que guardan los negocios del patrón, y\nV. Se considerará como reincidencia cada una de las subsecuentes infracciones al mismo precepto legal, cometidas dentro de los dos años siguientes a la fecha del acta en que se hizo constar la infracción precedente, siempre que ésta no hubiese sido desvirtuada.\nLas sanciones se impondrán sin perjuicio de las penas que correspondan a los delitos en que puedan incurrir los infractores."
+    }
+   ]
+  },
+  {
+   "grupo": "Jurisprudencias",
+   "fuente": null,
+   "articulos": [
+    {
+     "titulo": "2a./J. 22/2015 (10a.)",
+     "fuente": "F06",
+     "texto": "Registro digital: 2009023. Segunda Sala. Décima Época. Gaceta del Semanario Judicial de la Federación, Libro 18, mayo de 2015, Tomo II, página 1545. Jurisprudencia (Administrativa).\nMULTA POR INFRACCIONES A DISPOSICIONES ADMINISTRATIVAS FEDERALES. EN SU CONTRA PROCEDE EL JUICIO CONTENCIOSO ADMINISTRATIVO ANTE EL TRIBUNAL FEDERAL DE JUSTICIA FISCAL Y ADMINISTRATIVA, INCLUSO SI SE CONTIENE EN ORDENAMIENTOS LABORALES Y LA IMPONE UNA AUTORIDAD LOCAL.\nDe los artículos 123, apartado A, fracción XXXI y 116, fracción V, de la Constitución Política de los Estados Unidos Mexicanos, deriva que la aplicación de normas laborales corresponde a las autoridades de las entidades federativas, así como que la competencia de los Tribunales de lo Contencioso-Administrativo para dirimir controversias se acota a las suscitadas entre los gobernados y la administración pública estatal, con motivo de la aplicación de las leyes que rijan la actuación de sus dependencias; hipótesis que no se surte respecto de multas materialmente administrativas impuestas por autoridades locales con motivo de infracciones a normas federales, en tanto que, respecto de ellas, existe disposición expresa en los artículos 14, fracción III, de la Ley Orgánica del Tribunal Federal de Justicia Fiscal y Administrativa, y 58-2 de la Ley Federal de Procedimiento Contencioso Administrativo, que reservan a ese órgano la competencia para conocer de estos asuntos. De esta manera, si la multa no se origina con motivo de una controversia entre la administración pública local y el gobernado, sino por infracción a disposiciones administrativas federales, procede el juicio contencioso administrativo ante el Tribunal Federal de Justicia Fiscal y Administrativa, aun cuando se contenga en ordenamientos laborales y la imponga una autoridad local.\nContradicción de tesis 387/2014. Entre las sustentadas por el Tribunal Colegiado en Materia Civil del Décimo Segundo Circuito y el Primer Tribunal Colegiado en Materia Administrativa del Primer Circuito. 18 de febrero de 2015. Cuatro votos de los Ministros Juan N. Silva Meza, José Fernando Franco González Salas, Margarita Beatriz Luna Ramos y Alberto Pérez Dayán. Ponente: José Fernando Franco González Salas. Secretaria: Maura Angélica Sanabria Martínez. Se publicó el 8 de mayo de 2015 y es obligatoria desde el 11 de mayo de 2015."
+    },
+    {
+     "titulo": "P./J. 47/95",
+     "fuente": "F07",
+     "texto": "Registro digital: 200234. Pleno. Novena Época. Semanario Judicial de la Federación y su Gaceta, Tomo II, diciembre de 1995, página 133. Jurisprudencia (Constitucional, Común).\nFORMALIDADES ESENCIALES DEL PROCEDIMIENTO. SON LAS QUE GARANTIZAN UNA ADECUADA Y OPORTUNA DEFENSA PREVIA AL ACTO PRIVATIVO.\nLa garantía de audiencia establecida por el artículo 14 constitucional consiste en otorgar al gobernado la oportunidad de defensa previamente al acto privativo de la vida, libertad, propiedad, posesiones o derechos, y su debido respeto impone a las autoridades, entre otras obligaciones, la de que en el juicio que se siga \"se cumplan las formalidades esenciales del procedimiento\". Estas son las que resultan necesarias para garantizar la defensa adecuada antes del acto de privación y que, de manera genérica, se traducen en los siguientes requisitos: 1) La notificación del inicio del procedimiento y sus consecuencias; 2) La oportunidad de ofrecer y desahogar las pruebas en que se finque la defensa; 3) La oportunidad de alegar; y 4) El dictado de una resolución que dirima las cuestiones debatidas. De no respetarse estos requisitos, se dejaría de cumplir con el fin de la garantía de audiencia, que es evitar la indefensión del afectado."
+    },
+    {
+     "titulo": "2a./J. 73/2013 (10a.)",
+     "fuente": "F08",
+     "texto": "Registro digital: 2004012. Segunda Sala. Décima Época. Semanario Judicial de la Federación y su Gaceta, Libro XXII, julio de 2013, Tomo 1, página 917. Jurisprudencia (Administrativa).\nJUICIO CONTENCIOSO ADMINISTRATIVO. EL PRINCIPIO DE LITIS ABIERTA QUE LO RIGE, NO IMPLICA PARA EL ACTOR UNA NUEVA OPORTUNIDAD DE OFRECER LAS PRUEBAS QUE, CONFORME A LA LEY, DEBIÓ EXHIBIR EN EL PROCEDIMIENTO DE ORIGEN O EN EL RECURSO ADMINISTRATIVO PROCEDENTE, ESTANDO EN POSIBILIDAD LEGAL DE HACERLO [MODIFICACIÓN DE LA JURISPRUDENCIA 2a./J. 69/2001].\nEsta Segunda Sala de la Suprema Corte de Justicia de la Nación modifica la jurisprudencia referida, al considerar que el principio de litis abierta derivado del artículo 1o. de la Ley Federal de Procedimiento Contencioso Administrativo cobra aplicación únicamente cuando la resolución dictada en un procedimiento administrativo se impugna a través del recurso administrativo procedente, antes de acudir ante el Tribunal Federal de Justicia Fiscal y Administrativa, y se traduce en la posibilidad para el actor de formular conceptos de impugnación no expresados en el recurso, pero tal prerrogativa no implica la oportunidad de exhibir en juicio los medios de prueba que, conforme a la ley, debió presentar en el procedimiento administrativo de origen o en el recurso administrativo respectivo para desvirtuar los hechos u omisiones advertidos por la autoridad administrativa, estando en posibilidad legal de hacerlo. De haber sido esa la intención del legislador, así lo habría señalado expresamente, como lo hizo tratándose del recurso de revocación previsto en el Código Fiscal de la Federación en el que, por excepción, se concede al contribuyente el derecho de ofrecer las pruebas que por cualquier motivo no exhibió ante la autoridad fiscalizadora, para procurar la solución de las controversias fiscales en sede administrativa con la mayor celeridad posible y evitar su impugnación en sede jurisdiccional, esto porque la autoridad administrativa puede ejercer cualquiera de las acciones inherentes a sus facultades de comprobación y supervisión, como lo es, entre otras, solicitar información a terceros para compulsarla con la proporcionada por el recurrente o revisar los dictámenes emitidos por los contadores públicos autorizados, lo que supone contar con la competencia legal necesaria y los elementos humanos y materiales que son propios de la administración pública. Por tanto, tal prerrogativa no puede entenderse extendida al juicio contencioso administrativo, pues no sería jurídicamente válido declarar la nulidad de la resolución impugnada con base en el análisis de pruebas que el particular no presentó en el procedimiento de origen o en el recurso administrativo, estando obligado a ello y en posibilidad legal de hacerlo, como lo prescribe el artículo 16 de la Constitución Política de los Estados Unidos Mexicanos, al indicar que los gobernados deben conservar la documentación indispensable para demostrar el cumplimiento de las disposiciones fiscales y exhibirla cuando sea requerida por la autoridad administrativa en ejercicio de sus facultades de comprobación. Estimar lo contrario significaría sostener que el Tribunal Federal de Justicia Fiscal y Administrativa puede sustituirse en las facultades propias de la autoridad fiscal y declarar la nulidad de sus actos por causas atribuibles al particular.\nContradicción de tesis 528/2012. 13 de marzo de 2013. Mayoría de tres votos."
+    },
+    {
+     "titulo": "S.S. 4/JURISDICCIONAL, Sala Superior del TJACDMX",
+     "fuente": null,
+     "texto": "No se publica en el Semanario Judicial de la Federación y no se localizó su texto en una fuente oficial en línea. Sus datos vienen de la contestación de la Secretaría, página 2: Sexta Época, Pleno General de la Sala Superior, aprobada el 21 de agosto de 2019 y publicada el 1 de octubre de 2019; cita como precedentes los juicios I-2501/2016, III-55708/2016 y IV-3111/2015. Su rubro, según la contestación: «MULTAS POR INFRACCIONES A DISPOSICIONES ADMINISTRATIVAS FEDERALES, EN MATERIA LABORAL. EL TRIBUNAL DE JUSTICIA ADMINISTRATIVA DE LA CIUDAD DE MÉXICO, ES INCOMPETENTE PARA CONOCER DE LAS»."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "fecha": "2026-11-17",
+ "estado": "aprobada",
+ "generacion": {
+  "entradas": [
+   {
+    "ruta": "contenido.json",
+    "sha256": "53bdfd1361fb8d4187144f7d1a8f18b3fac47520bcc4d4c4a365886303833063"
+   },
+   {
+    "ruta": "fuentes.json",
+    "sha256": "2752f6ba010b90cce7f56362d9ee0e218b1bfa4da49745601eaa7c80badfe8e9"
+   },
+   {
+    "ruta": "mapa.json",
+    "sha256": "48e53aca5a7ea5504f1f5ce15cdd860e2740435171bca4cd8a54741f65ceecb2"
+   },
+   {
+    "ruta": "cobertura.json",
+    "sha256": "8233c755ce063b12dc95825935a70cf06b8ec798a918828d8faaa82e86a300e7"
+   },
+   {
+    "ruta": "editables/README.md",
+    "sha256": "9283f1812cfd92a4be4da23a6ea6317674d32431eb2133bdf5cfde5aa6fb09fa"
+   },
+   {
+    "ruta": "editables/generar.py",
+    "sha256": "59d91dcfcae3edab77fafe1e88e8504b0b29bdb76f3905542b16e2c2c53984a6"
+   }
+  ],
+  "salidas": [
+   {
+    "ruta": "salidas/pizarra.pdf",
+    "sha256": "db93878d5e7974c6400e06f36f5a99782281b8d1ccfffdf31cd644e823ef4861"
+   },
+   {
+    "ruta": "salidas/cuaderno.pdf",
+    "sha256": "0d297bc9b699951b5c48afdcf71efdea22772e82ff4259426ad51a5626995e4b"
+   },
+   {
+    "ruta": "contenido.md",
+    "sha256": "e5eec56902f4849e147d399485e2bea0cd252c639d8a76a2bed159b7d64a2228"
+   }
+  ],
+  "entorno": {
+   "python": "3.13.18",
+   "playwright": "1.63.0",
+   "pypdf": "6.17.0",
+   "tipografia": "Inter 4 OpenType del sistema, convertida a TrueType con fontTools; Caladea TrueType del sistema",
+   "fonttools": "4.67.0"
+  }
+ },
+ "revision": "Comprobación automática sobre el texto extraído de ambos PDF: las 45 líneas de síntesis, las 18 líneas de la ruta, las 6 etiquetas de flecha, las 7 defensas del memorándum y los 6 puntos débiles están en la pizarra; las 13 entradillas y los 54 bloques de los trece conceptos están en el cuaderno. Revisión manual de que cada síntesis conserva su condición: caducidad contada desde el Acuerdo de Calificación, nulidad para efectos como lo usual y no como regla, y el límite de la competencia. Regenerado tras renombrar una variable del generador que el freno de secretos confundía con una clave: texto extraído idéntico y render página por página idéntico píxel a píxel al revisado.",
+ "privacidad": "Búsqueda de nombre de la empresa, RFC, domicilio, números de expediente, nombres de personas y línea de captura en todos los archivos del tema: sin coincidencias. La edición privada se genera fuera del repositorio."
+}

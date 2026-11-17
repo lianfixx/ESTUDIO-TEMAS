@@ -1,0 +1,234 @@
+[
+ {
+  "id": "F01",
+  "titulo": "Constitución Política de los Estados Unidos Mexicanos",
+  "autor_institucion": "Cámara de Diputados del H. Congreso de la Unión",
+  "tipo": "norma",
+  "fecha_edicion": "Texto vigente, última reforma DOF 07-10-2026",
+  "url_o_identificador": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+  "consulta": "2026-11-11",
+  "alcance_leido": "Artículos 14, 16, 22 y 123, apartado A, fracción XXXI, completos en lo citado.",
+  "localizadores": [
+   "art. 14, segundo párrafo",
+   "art. 16, primer párrafo",
+   "art. 123, apartado A, fr. XXXI"
+  ],
+  "afirmaciones_respaldadas": [
+   "La audiencia debe ser previa al acto privativo.",
+   "La aplicación de las leyes del trabajo corresponde a las autoridades locales, salvo las materias federales."
+  ],
+  "estado": "consultada",
+  "limites": "Se transcriben sólo los párrafos citados."
+ },
+ {
+  "id": "F02",
+  "titulo": "Ley de Procedimiento Administrativo de la Ciudad de México",
+  "autor_institucion": "Procuraduría Ambiental y del Ordenamiento Territorial, compilación; cotejo con la Consejería Jurídica y de Servicios Legales",
+  "tipo": "norma",
+  "fecha_edicion": "Última reforma publicada en la Gaceta Oficial el 12-06-2019, según la compilación",
+  "url_o_identificador": "https://paot.org.mx/centro/leyes-normas-htmls/ley-de-procedimiento-471.html; cotejo: https://data.consejeria.cdmx.gob.mx//images/leyes/leyes/LEY_DE_PROCEDIMIENTO_ADMINISTRATIVO_DE_LA_CDMX.pdf",
+  "consulta": "2026-11-11; artículo 78 releído el 2026-11-17",
+  "alcance_leido": "Texto completo descargado; artículos citados cotejados.",
+  "localizadores": [
+   "art. 6, fr. III y VIII",
+   "art. 32, último párrafo",
+   "arts. 78 a 81",
+   "art. 83",
+   "art. 93, fr. I",
+   "art. 99",
+   "arts. 108, 109, 123, 126 y 128",
+   "art. 132"
+  ],
+  "afirmaciones_respaldadas": [
+   "Caducidad a los tres meses de procedimientos iniciados de oficio.",
+   "Primera notificación personal y citatorio a falta del interesado o su representante.",
+   "Efectos de la notificación irregular desde que se conoce o se recurre.",
+   "En el recurso no se toma en cuenta lo que, habiendo podido aportarse, no se aportó.",
+   "Elementos para individualizar la sanción."
+  ],
+  "estado": "consultada",
+  "limites": "Compilación no oficial cotejada con la versión de la Consejería; el párrafo final del artículo 32 omite un verbo en el texto oficial."
+ },
+ {
+  "id": "F03",
+  "titulo": "Ley de Justicia Administrativa de la Ciudad de México",
+  "autor_institucion": "Procuraduría Ambiental y del Ordenamiento Territorial, compilación",
+  "tipo": "norma",
+  "fecha_edicion": "Última reforma 23-12-2019, según la compilación",
+  "url_o_identificador": "https://paot.org.mx/centro/leyes-normas-htmls/ley-de-justicia-1937.html",
+  "consulta": "2026-11-11; artículos 93, 96, 101, 116 y 118 releídos el 2026-11-17",
+  "alcance_leido": "Texto completo descargado; artículos citados leídos íntegros.",
+  "localizadores": [
+   "art. 15",
+   "art. 56",
+   "art. 60",
+   "art. 62",
+   "art. 79",
+   "art. 80",
+   "art. 92, fr. I, II, VI y último párrafo",
+   "art. 93, fr. II",
+   "arts. 94 a 96",
+   "arts. 100 a 102",
+   "arts. 116 y 118"
+  ],
+  "afirmaciones_respaldadas": [
+   "Carga de la prueba ante la negativa lisa y llana.",
+   "Litis abierta.",
+   "Estudio preferente de la improcedencia y sobreseimiento.",
+   "Orden de estudio de las causas de nulidad y sentidos de la sentencia.",
+   "Excitativa de justicia y apelación."
+  ],
+  "estado": "consultada",
+  "limites": "Compilación no oficial; no se buscó una reforma posterior a la fecha de la compilación en esta revisión."
+ },
+ {
+  "id": "F04",
+  "titulo": "Ley Orgánica del Tribunal de Justicia Administrativa de la Ciudad de México",
+  "autor_institucion": "Procuraduría Ambiental y del Ordenamiento Territorial, compilación",
+  "tipo": "norma",
+  "fecha_edicion": "Compilación vigente consultada en su índice de leyes",
+  "url_o_identificador": "https://paot.org.mx/centro/leyes-normas-htmls/",
+  "consulta": "2026-11-11",
+  "alcance_leido": "Artículos 3 y 31.",
+  "localizadores": [
+   "art. 3, fr. I, VII, XIII y XIV"
+  ],
+  "afirmaciones_respaldadas": [
+   "Competencia del Tribunal contra actos de la administración local y resoluciones que ponen fin a un procedimiento o instancia conforme a la LPA."
+  ],
+  "estado": "consultada",
+  "limites": "Compilación no oficial."
+ },
+ {
+  "id": "F05",
+  "titulo": "Reglamento General de Inspección del Trabajo y Aplicación de Sanciones",
+  "autor_institucion": "Orden Jurídico Nacional, Secretaría de Gobernación",
+  "tipo": "norma",
+  "fecha_edicion": "Última reforma DOF 23-08-2022",
+  "url_o_identificador": "http://www.ordenjuridico.gob.mx, Reglamento General de Inspección del Trabajo y Aplicación de Sanciones",
+  "consulta": "2026-11-11",
+  "alcance_leido": "Texto completo descargado; artículos citados y rubro del título tercero leídos.",
+  "localizadores": [
+   "art. 17",
+   "art. 29",
+   "título tercero, capítulo primero, rubro",
+   "arts. 51, 52 y 53",
+   "arts. 58 y 59",
+   "arts. 60 y 61"
+  ],
+  "afirmaciones_respaldadas": [
+   "El acuerdo del artículo 51 solicita el inicio del sancionador y se notifica personalmente.",
+   "El emplazamiento se emite dentro de diez días hábiles.",
+   "Apercibimiento de rebeldía y plazo mínimo de quince días.",
+   "Elementos de cuantificación de las sanciones."
+  ],
+  "estado": "consultada",
+  "limites": "Se citan los artículos aplicados al caso."
+ },
+ {
+  "id": "F06",
+  "titulo": "Jurisprudencia 2a./J. 22/2015 (10a.), registro digital 2009023",
+  "autor_institucion": "Segunda Sala de la Suprema Corte de Justicia de la Nación, Semanario Judicial de la Federación",
+  "tipo": "jurisprudencia",
+  "fecha_edicion": "Gaceta del SJF, Libro 18, mayo de 2015, Tomo II, p. 1545",
+  "url_o_identificador": "https://sjf2.scjn.gob.mx/detalle/tesis/2009023",
+  "consulta": "2026-11-11",
+  "alcance_leido": "Rubro, texto y precedente completos.",
+  "localizadores": [
+   "rubro y texto"
+  ],
+  "afirmaciones_respaldadas": [
+   "Competencia federal para multas por infracciones a normas federales impuestas por autoridad local.",
+   "Competencia local para controversias por la aplicación de leyes que rigen a la administración local."
+  ],
+  "estado": "consultada",
+  "limites": "Obligatoria; el estudio la distingue, no la desconoce."
+ },
+ {
+  "id": "F07",
+  "titulo": "Jurisprudencia P./J. 47/95, registro digital 200234",
+  "autor_institucion": "Pleno de la Suprema Corte de Justicia de la Nación, Semanario Judicial de la Federación",
+  "tipo": "jurisprudencia",
+  "fecha_edicion": "SJF y su Gaceta, Tomo II, diciembre de 1995, p. 133",
+  "url_o_identificador": "https://sjf2.scjn.gob.mx/detalle/tesis/200234",
+  "consulta": "2026-11-11",
+  "alcance_leido": "Rubro y texto completos.",
+  "localizadores": [
+   "rubro y texto"
+  ],
+  "afirmaciones_respaldadas": [
+   "Las cuatro formalidades esenciales del procedimiento."
+  ],
+  "estado": "consultada",
+  "limites": "Ninguno relevante."
+ },
+ {
+  "id": "F08",
+  "titulo": "Jurisprudencia 2a./J. 73/2013 (10a.), registro digital 2004012",
+  "autor_institucion": "Segunda Sala de la Suprema Corte de Justicia de la Nación, Semanario Judicial de la Federación",
+  "tipo": "jurisprudencia",
+  "fecha_edicion": "SJF y su Gaceta, Libro XXII, julio de 2013, Tomo 1, p. 917",
+  "url_o_identificador": "https://sjf2.scjn.gob.mx/detalle/tesis/2004012",
+  "consulta": "2026-11-17",
+  "alcance_leido": "Rubro, texto y precedente completos.",
+  "localizadores": [
+   "rubro",
+   "texto"
+  ],
+  "afirmaciones_respaldadas": [
+   "La litis abierta no da nueva oportunidad de ofrecer pruebas que se debieron exhibir en el procedimiento de origen o en el recurso, estando en posibilidad legal de hacerlo."
+  ],
+  "estado": "consultada",
+  "limites": "Interpreta la Ley Federal de Procedimiento Contencioso Administrativo; la Secretaría la invoca para el juicio local."
+ },
+ {
+  "id": "F09",
+  "titulo": "Constancias del juicio y de los procedimientos administrativos del asunto",
+  "autor_institucion": "Expediente del juicio y expedientes administrativos; carpeta privada del despacho",
+  "tipo": "documento_privado",
+  "fecha_edicion": "Actuaciones de octubre de 2024 a marzo de 2026",
+  "url_o_identificador": "Carpeta privada del despacho, archivos 01 a 22; no se publica",
+  "consulta": "2026-11-09 a 2026-11-11",
+  "alcance_leido": "Lectura completa de las imágenes con OCR y cotejo visual en sesiones previas; esta edición toma los datos de la guía de estudio y del memorándum, sin reabrir las imágenes.",
+  "localizadores": [
+   "acta de visita",
+   "resolución sancionadora de 20-feb-2025",
+   "recurso de 12-mar-2025",
+   "resolución del recurso de 22-ago-2025",
+   "informe de la Dirección de Inspección",
+   "demanda",
+   "contestación de la Secretaría",
+   "ampliación",
+   "contestación a la ampliación",
+   "acuerdos del juicio"
+  ],
+  "afirmaciones_respaldadas": [
+   "Fechas, actuaciones, montos y lo que alegó cada parte."
+  ],
+  "estado": "consultada",
+  "limites": "Faltan páginas 40 y 41 de la contestación, hojas finales de ambas resoluciones, constancias originales de notificación y comprobante de pago. Datos identificadores omitidos en la edición pública."
+ },
+ {
+  "id": "F10",
+  "titulo": "Memorándum para la ponencia de 11 de noviembre de 2026, versión final",
+  "autor_institucion": "Despacho de la actora; documento privado",
+  "tipo": "documento_privado",
+  "fecha_edicion": "11-nov-2026",
+  "url_o_identificador": "Archivo privado del despacho; no se publica",
+  "consulta": "2026-11-17",
+  "alcance_leido": "Dos páginas completas.",
+  "localizadores": [
+   "antecedentes",
+   "punto 1",
+   "punto 2",
+   "punto 3",
+   "punto 4",
+   "petición"
+  ],
+  "afirmaciones_respaldadas": [
+   "Nuestra postura y el orden de los argumentos."
+  ],
+  "estado": "consultada",
+  "limites": "Refleja nuestra postura; no es una fuente imparcial."
+ }
+]

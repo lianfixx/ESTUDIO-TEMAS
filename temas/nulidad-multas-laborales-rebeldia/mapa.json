@@ -1,0 +1,303 @@
+{
+ "schema_version": "1.0",
+ "tema_id": "nulidad-multas-laborales-rebeldia",
+ "version": "1.0.0",
+ "conceptos": [
+  {
+   "id": "C01",
+   "titulo": "La ruta del asunto",
+   "apartado": "C01 · La ruta del asunto"
+  },
+  {
+   "id": "C02",
+   "titulo": "Orden de visita genérica",
+   "apartado": "C02 · Orden de visita genérica"
+  },
+  {
+   "id": "C03",
+   "titulo": "Acuerdo de Calificación",
+   "apartado": "C03 · Acuerdo de Calificación"
+  },
+  {
+   "id": "C04",
+   "titulo": "Notificación personal y citatorio",
+   "apartado": "C04 · Notificación personal y citatorio"
+  },
+  {
+   "id": "C05",
+   "titulo": "Emplazamiento y rebeldía",
+   "apartado": "C05 · Emplazamiento y rebeldía"
+  },
+  {
+   "id": "C06",
+   "titulo": "Audiencia previa y convalidación",
+   "apartado": "C06 · Audiencia previa y convalidación"
+  },
+  {
+   "id": "C07",
+   "titulo": "Caducidad: los dos cómputos",
+   "apartado": "C07 · Caducidad: los dos cómputos"
+  },
+  {
+   "id": "C08",
+   "titulo": "Recurso y pruebas no valoradas",
+   "apartado": "C08 · Recurso y pruebas no valoradas"
+  },
+  {
+   "id": "C09",
+   "titulo": "Competencia de la Sala",
+   "apartado": "C09 · Competencia de la Sala"
+  },
+  {
+   "id": "C10",
+   "titulo": "Improcedencia y preclusión",
+   "apartado": "C10 · Improcedencia y preclusión"
+  },
+  {
+   "id": "C11",
+   "titulo": "Las multas en sí",
+   "apartado": "C11 · Las multas en sí"
+  },
+  {
+   "id": "C12",
+   "titulo": "Lisa y llana o para efectos",
+   "apartado": "C12 · Lisa y llana o para efectos"
+  },
+  {
+   "id": "C13",
+   "titulo": "El memorándum para la ponencia",
+   "apartado": "C13 · El memorándum para la ponencia"
+  }
+ ],
+ "relaciones": [
+  {
+   "desde": "C01",
+   "hacia": "C09",
+   "relacion": "La Sala empieza por la competencia",
+   "etiqueta": "la Sala empieza aquí",
+   "lienzo": true,
+   "fuentes": [
+    "F03"
+   ],
+   "justificacion": "Las causales de improcedencia, incluida la incompetencia, son de estudio preferente, LJA art. 92, último párrafo."
+  },
+  {
+   "desde": "C09",
+   "hacia": "C07",
+   "relacion": "Si la Sala es competente, examina primero lo que lleva a la nulidad lisa y llana",
+   "etiqueta": "después: lo que da lisa y llana",
+   "lienzo": true,
+   "fuentes": [
+    "F03"
+   ],
+   "justificacion": "LJA art. 100, último párrafo."
+  },
+  {
+   "desde": "C03",
+   "hacia": "C07",
+   "relacion": "El Acuerdo de Calificación fija el día desde el que se cuentan los tres meses",
+   "etiqueta": "fija el inicio del cómputo",
+   "lienzo": false,
+   "fuentes": [
+    "F05",
+    "F09"
+   ],
+   "justificacion": "RGITAS art. 51 y las resoluciones de la autoridad dicen que con él inició el sancionador."
+  },
+  {
+   "desde": "C04",
+   "hacia": "C07",
+   "relacion": "Un emplazamiento ilegalmente notificado no puede oponerse como última actuación",
+   "etiqueta": "si no se notificó, no cuenta",
+   "lienzo": true,
+   "fuentes": [
+    "F02",
+    "F10"
+   ],
+   "justificacion": "Respuesta del memorándum, punto 3, a la lectura de la Secretaría con el art. 93, fr. I, LPA."
+  },
+  {
+   "desde": "C04",
+   "hacia": "C05",
+   "relacion": "Sin notificación legal no hay rebeldía válida",
+   "etiqueta": "sin notificación no hay rebeldía",
+   "lienzo": false,
+   "fuentes": [
+    "F05"
+   ],
+   "justificacion": "El apercibimiento de rebeldía del RGITAS art. 53, fr. IX, presupone emplazamiento."
+  },
+  {
+   "desde": "C05",
+   "hacia": "C08",
+   "relacion": "Sin emplazamiento la actora no pudo aportar pruebas, y por eso el art. 123 no le aplica",
+   "etiqueta": "sin emplazar no pudo probar",
+   "lienzo": true,
+   "fuentes": [
+    "F02",
+    "F08"
+   ],
+   "justificacion": "LPA art. 123 y 2a./J. 73/2013 presuponen haber podido aportar."
+  },
+  {
+   "desde": "C07",
+   "hacia": "C12",
+   "relacion": "La caducidad impide reponer y lleva a la nulidad lisa y llana",
+   "etiqueta": "caducidad: nulidad lisa y llana",
+   "lienzo": true,
+   "fuentes": [
+    "F03",
+    "F10"
+   ],
+   "justificacion": "LJA arts. 100 y 102, fr. II; memorándum, punto 3."
+  },
+  {
+   "desde": "C06",
+   "hacia": "C12",
+   "relacion": "Si sólo prospera la falta de audiencia, lo usual es la nulidad para efectos",
+   "etiqueta": "sólo audiencia: para efectos",
+   "lienzo": true,
+   "fuentes": [
+    "F03"
+   ],
+   "justificacion": "LJA art. 100, fr. III, y art. 102, fr. III y penúltimo párrafo."
+  },
+  {
+   "desde": "C10",
+   "hacia": "C04",
+   "relacion": "La preclusión del art. 60 no alcanza a las notificaciones del procedimiento",
+   "etiqueta": "el art. 60 no cierra el reclamo",
+   "lienzo": false,
+   "fuentes": [
+    "F03",
+    "F10"
+   ],
+   "justificacion": "Memorándum, punto 2; LJA arts. 60 y 80."
+  },
+  {
+   "desde": "C02",
+   "hacia": "C11",
+   "relacion": "Las multas derivan de una orden genérica y son frutos de un acto viciado",
+   "etiqueta": "frutos de un acto viciado",
+   "lienzo": false,
+   "fuentes": [
+    "F02",
+    "F10"
+   ],
+   "justificacion": "LPA arts. 6 y 99; memorándum, punto 4."
+  },
+  {
+   "desde": "C13",
+   "hacia": "C12",
+   "relacion": "El memorándum termina con la petición de nulidad lisa y llana y devolución",
+   "etiqueta": "petición",
+   "lienzo": false,
+   "fuentes": [
+    "F10"
+   ],
+   "justificacion": "Memorándum, petición."
+  }
+ ],
+ "remisiones": [
+  {
+   "concepto_id": "C01",
+   "paginas_cuaderno": [
+    3
+   ],
+   "zona_pizarra": "Z1 · Empieza aquí: la ruta"
+  },
+  {
+   "concepto_id": "C02",
+   "paginas_cuaderno": [
+    4
+   ],
+   "zona_pizarra": "Z5 · Las multas"
+  },
+  {
+   "concepto_id": "C03",
+   "paginas_cuaderno": [
+    5
+   ],
+   "zona_pizarra": "Z3 · Caducidad"
+  },
+  {
+   "concepto_id": "C04",
+   "paginas_cuaderno": [
+    6
+   ],
+   "zona_pizarra": "Z4 · Audiencia"
+  },
+  {
+   "concepto_id": "C05",
+   "paginas_cuaderno": [
+    7
+   ],
+   "zona_pizarra": "Z4 · Audiencia"
+  },
+  {
+   "concepto_id": "C06",
+   "paginas_cuaderno": [
+    8
+   ],
+   "zona_pizarra": "Z4 · Audiencia"
+  },
+  {
+   "concepto_id": "C07",
+   "paginas_cuaderno": [
+    9
+   ],
+   "zona_pizarra": "Z3 · Caducidad"
+  },
+  {
+   "concepto_id": "C08",
+   "paginas_cuaderno": [
+    10
+   ],
+   "zona_pizarra": "Z5 · Las multas"
+  },
+  {
+   "concepto_id": "C09",
+   "paginas_cuaderno": [
+    11
+   ],
+   "zona_pizarra": "Z2 · Puerta de entrada"
+  },
+  {
+   "concepto_id": "C10",
+   "paginas_cuaderno": [
+    12
+   ],
+   "zona_pizarra": "Z2 · Puerta de entrada"
+  },
+  {
+   "concepto_id": "C11",
+   "paginas_cuaderno": [
+    13
+   ],
+   "zona_pizarra": "Z5 · Las multas"
+  },
+  {
+   "concepto_id": "C12",
+   "paginas_cuaderno": [
+    14
+   ],
+   "zona_pizarra": "Z6 · Qué pedimos y qué sigue"
+  },
+  {
+   "concepto_id": "C13",
+   "paginas_cuaderno": [
+    15
+   ],
+   "zona_pizarra": "Z7 · El memorándum"
+  }
+ ],
+ "zonas": {
+  "Z1": "Z1 · Empieza aquí: la ruta",
+  "Z2": "Z2 · Puerta de entrada",
+  "Z3": "Z3 · Caducidad",
+  "Z4": "Z4 · Audiencia",
+  "Z5": "Z5 · Las multas",
+  "Z6": "Z6 · Qué pedimos y qué sigue",
+  "Z7": "Z7 · El memorándum"
+ }
+}

@@ -4,6 +4,7 @@
 
 | Tema | Salidas | Versión | Revisión | Estado |
 | --- | --- | --- | --- | --- |
+| [Nulidad de multas laborales impuestas en rebeldía](temas/nulidad-multas-laborales-rebeldia/) | [Pizarra A1](temas/nulidad-multas-laborales-rebeldia/salidas/pizarra.pdf) · [Cuaderno Carta](temas/nulidad-multas-laborales-rebeldia/salidas/cuaderno.pdf) | 1.0.0 | 2026-11-17 | Revisado para estudio; caso real anonimizado; límites en su auditoría |
 | [Demanda de nulidad por negativa ficta](temas/demanda-nulidad-negativa-ficta/) | [Pizarra A1](temas/demanda-nulidad-negativa-ficta/salidas/pizarra.pdf) · [Cuaderno Carta](temas/demanda-nulidad-negativa-ficta/salidas/cuaderno.pdf) | 1.0.0 | 2026-10-22 | Revisado para estudio; alcance y límites en su auditoría |
 
 ## Referencias anteriores

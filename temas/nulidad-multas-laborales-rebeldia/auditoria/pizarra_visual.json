@@ -1,0 +1,12 @@
+{
+ "fecha": "2026-11-17",
+ "ruta": "salidas/pizarra.pdf",
+ "sha256": "db93878d5e7974c6400e06f36f5a99782281b8d1ccfffdf31cd644e823ef4861",
+ "estado": "aprobada",
+ "revision": "Lienzo A1 completo renderizado y revisado en seis recortes a escala de lectura y en grises. Z1 a Z8, trece conceptos, seis flechas rotuladas, remisiones a páginas del cuaderno, fuentes, notas y versión comprobados. El generador no encontró texto desbordado ni rótulos encimados. Fuentes del PDF: TrueType, sin Type 3. Regenerado tras renombrar una variable del generador que el freno de secretos confundía con una clave: texto extraído idéntico y render página por página idéntico píxel a píxel al revisado.",
+ "lienzos": 1,
+ "dimensiones_mm": [
+  841,
+  594
+ ]
+}

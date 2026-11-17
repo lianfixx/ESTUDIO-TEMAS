@@ -1,0 +1,8 @@
+{
+ "fecha": "2026-11-17",
+ "ruta": "salidas/cuaderno.pdf",
+ "sha256": "0d297bc9b699951b5c48afdcf71efdea22772e82ff4259426ad51a5626995e4b",
+ "estado": "aprobada",
+ "revision": "Las 35 páginas Carta abiertas a 80 ppp: portada, cronología, trece conceptos con margen derecho y zona de anotación, defensas, puntos débiles, decisiones del memorándum, repaso, respuestas, correcciones, anexo legal, fuentes y pendientes. Sin recortes ni superposiciones; la URL larga de F02 se parte dentro del texto. Cada concepto está en la página que declara contenido.json, comprobado por el generador. Regenerado tras renombrar una variable del generador que el freno de secretos confundía con una clave: texto extraído idéntico y render página por página idéntico píxel a píxel al revisado.",
+ "paginas": 35
+}
